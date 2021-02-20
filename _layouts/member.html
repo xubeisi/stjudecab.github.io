@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<style>
+.custom-table th, .custom-table td {
+    padding: 3px;
+</style>
+
 {% assign member = page %}
 
 <div class="row">
@@ -26,7 +31,7 @@ layout: default
 
 		{% if member.stjude %}
 		<div class="smallhead">
-			UCSF Profile
+			St. Jude Profile
 		</div>
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
@@ -92,13 +97,13 @@ layout: default
 		<div class="pad-left note">
 			<div class="smallspacer"></div>
 			<i class="fa fa-inbox fa-fw"></i>
-			{{ emailarray.first }}<span style="display:none">obfuscate</span>@{{ emailarray.last }}
+			{{ emailarray.first }}<span style="display:none">obfuscate</span>#{{ emailarray.last }}
 		</div>
 		<div class="bigspacer"></div>
 		{% endif %}
 
 	</div>
-	<div class="col-sm-6" style="text-align:justify">
+	<div class="col-sm-9" style="text-align:justify">
 		<i class="content" style="margin:auto">{{ content }}</i>
 
 	</div>

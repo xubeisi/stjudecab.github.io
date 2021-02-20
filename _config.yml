@@ -6,11 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: The Sanders Lab
-email: your-email@domain.com
+title: St. Jude CAB
+email: xubeisi#gmail.com
 description: 
 baseurl: ""
 url: ""
+
+plugins:
+  - jekyll-spaceship
+
+jekyll-spaceship:
+  processors:
+    - table-processor
 
 include:
   - .htaccess

@@ -1,7 +1,7 @@
 ---
-title: "Sanders Lab - Publications"
+title: "SJCAB Epigenetics - Publications"
 layout: gridlay
-excerpt: "Sanders Lab -- Publications."
+excerpt: "SJCAB Epigenetics -- Publications."
 sitemap: false
 permalink: /publications/
 ---

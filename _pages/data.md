@@ -1,7 +1,7 @@
 ---
-title: "Sanders Lab - Data"
+title: "SJCAB Epigenetics - Data"
 layout: textlay
-excerpt: "Sanders Lab -- Data."
+excerpt: "SJCAB Epigenetics -- Data."
 sitemap: false
 permalink: /data/
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Sanders Lab - Contact"
+title: "SJCAB Epigenetics - Contact"
 layout: textlay
 excerpt: "Contact."
 sitemap: false
@@ -10,7 +10,7 @@ permalink: /contact/
 
 ## Lab Location
 
-Sanders Lab is in Rock Hall of the UCSF Mission Bay Campus ([Google Map](https://goo.gl/maps/wLQbKoAUSTS2)):
+SJCAB Epigenetics is in Rock Hall of the UCSF Mission Bay Campus ([Google Map](https://goo.gl/maps/wLQbKoAUSTS2)):
 
 Room 448, Floor 4, Rock Hall
 1550 4th Street

@@ -1,7 +1,7 @@
 ---
-title: "Sanders Lab - News"
+title: "SJCAB Epigenetics - News"
 layout: textlay
-excerpt: "Sanders Lab at UCSF."
+excerpt: "SJCAB Epigenetics St. Jude."
 sitemap: false
 permalink: /allnews.html
 ---

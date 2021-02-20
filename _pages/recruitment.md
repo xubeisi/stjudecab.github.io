@@ -1,5 +1,5 @@
 ---
-title: "Sanders Lab - Recruitment"
+title: "SJCAB Epigenetics - Recruitment"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
@@ -8,11 +8,11 @@ permalink: /recruitment/
 
 # Open positions
 
-Thank you for your interest in joining the Sanders Lab.
+Thank you for your interest in joining the SJCAB Epigenetics.
 
 ## Graduate students
 
-Dr. Sanders is a member of the [Neuroscience graduate program (part of PIBS)](https://neurograd.ucsf.edu/about-neuroscience-graduate-program) and the [Pharmaceutical Sciences and Pharmacogenomics (PSPG) graduate program](https://pspg.ucsf.edu), which is part of the [Quantitative Biosciences Consortium (QBC)](https://qbc.ucsf.edu). If you are interested in a rotation in the Sanders Lab, please contact Dr. Sanders directly using the details on his [USCF profile page](https://profiles.ucsf.edu/stephan.sanders). We are primarily a computational lab working on the genetics of neurodevelopmental disorders, so a background in coding and/or genetics helps students make the most of their rotation.
+Dr. Sanders is a member of the [Neuroscience graduate program (part of PIBS)](https://neurograd.ucsf.edu/about-neuroscience-graduate-program) and the [Pharmaceutical Sciences and Pharmacogenomics (PSPG) graduate program](https://pspg.ucsf.edu), which is part of the [Quantitative Biosciences Consortium (QBC)](https://qbc.ucsf.edu). If you are interested in a rotation in the SJCAB Epigenetics, please contact Dr. Sanders directly using the details on his [USCF profile page](https://profiles.ucsf.edu/stephan.sanders). We are primarily a computational lab working on the genetics of neurodevelopmental disorders, so a background in coding and/or genetics helps students make the most of their rotation.
 
 If you are interested, please contact Dr. Sanders directly using the details on his [USCF profile page](https://profiles.ucsf.edu/stephan.sanders).
 

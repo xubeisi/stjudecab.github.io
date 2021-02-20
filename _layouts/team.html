@@ -1,8 +1,20 @@
 ---
 layout: default
+datatable: true
 ---
 
 <div id="team" class="col-sm-12">
   {{ content }}
 </div>
 
+<script>
+    $(document).ready(function(){
+
+        $('table.display').DataTable( {
+            paging: true,
+            stateSave: true,
+            searching: true
+        }
+        );
+    });
+</script>
