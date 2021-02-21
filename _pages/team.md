@@ -1,7 +1,7 @@
 ---
-title: "{{ site.title }} - Team"
+title: "Team"
 layout: gridlay
-excerpt: "{{ site.titleshort }} -- Team members"
+excerpt: "- Team members"
 sitemap: false
 permalink: /team/
 ---

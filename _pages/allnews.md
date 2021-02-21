@@ -1,7 +1,7 @@
 ---
-title: "{{ site.title }} - News"
+title: "News"
 layout: textlay
-excerpt: "{{ site.title }} -- News"
+excerpt: "- News"
 sitemap: false
 permalink: /allnews.html
 ---

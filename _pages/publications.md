@@ -1,7 +1,7 @@
 ---
-title: "{{ site.title }} - Publications"
+title: "Publications"
 layout: gridlay
-excerpt: "{{ site.titleshort }} -- Publications"
+excerpt: "- Publications"
 sitemap: false
 permalink: /publications/
 ---

@@ -1,7 +1,7 @@
 ---
-title: "{{ site.title }} - Research"
+title: "Research"
 layout: textlay
-excerpt: "{{ site.titleshort }} -- Research"
+excerpt: "- Research"
 sitemap: false
 permalink: /research/
 ---

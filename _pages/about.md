@@ -1,7 +1,7 @@
 ---
-title: "{{ site.title }} - About"
+title: "About"
 layout: textlay
-excerpt: "{{ site.titleshort }} -- About"
+excerpt: "- About"
 sitemap: false
 permalink: /about/
 ---

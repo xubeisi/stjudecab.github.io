@@ -1,5 +1,5 @@
 ---
-title: "SJCAB Epigenetics - Contact"
+title: "Contact"
 layout: textlay
 excerpt: "Contact."
 sitemap: false

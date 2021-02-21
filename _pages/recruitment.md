@@ -1,7 +1,7 @@
 ---
-title: "{{ site.title }} - Recruitment"
+title: "Recruitment"
 layout: textlay
-excerpt: "{{ site.titleshort }} -- Openings"
+excerpt: "- Openings"
 sitemap: false
 permalink: /recruitment/
 ---

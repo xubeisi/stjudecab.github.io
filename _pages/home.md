@@ -1,7 +1,7 @@
 ---
-title: "{{ site.title }} - Home"
+title: "Home"
 layout: homelay
-excerpt: "{{ site.titleshort }} at St. Jude."
+excerpt: "at St. Jude."
 sitemap: false
 permalink: /
 ---

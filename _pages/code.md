@@ -1,7 +1,7 @@
 ---
-title: "{{ site.title }} - Code"
+title: "Code"
 layout: textlay
-excerpt: "{{ site.titleshort }} -- Code."
+excerpt: "- Code."
 sitemap: false
 permalink: /code/
 ---
