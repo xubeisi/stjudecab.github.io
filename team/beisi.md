@@ -37,7 +37,7 @@ NGS Data Beisi knows how to analyze:
 Time        | Position                   | PI               | Institution                                   |
 ----------- | :-----------               | -----------      | -----------                                   |
 2019-       | Goup Lead-Epigenetics      | Gang Wu          | St. Jude Children's Research Hospital         |
-2017-2019   | Sr. Bioinformatics         | Jinghui Zhang    | St. Jude \
+2017-2019   | Sr. Bioinformatics         | Jinghui Zhang    | St. Jude                                      |
             | Research Scientist         |                  |                                               |
 2014-2017   | Bioinformatics             | Jinghui Zhang    | St. Jude                                      |
             | Research Scientist         |                  |                                               |

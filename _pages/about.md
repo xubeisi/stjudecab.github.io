@@ -19,13 +19,13 @@ If you use conda, these will help you start build for your own
 - Step2: on you forked git, click setting and get your own repository name
 - Step3: Under linux
 ```
-git clone https://github.com/stjudecab/stjudecab.github.io
+git clone https://github.com/**yourid**/stjudecab.github.io
 conda create -n iobuild python=3.8 ruby=2.6.3
 conda activate iobuild
 gem install bundle
 bundle install
 #local debug, would rebuild automatically everytime you changed a file
-bundle exec jekyll serve --host $yourip --port 5050 --livereload
+bundle exec jekyll serve --host **$yourip** --port 5050 --livereload
 #after confirmation of the changes you want
 bundle exec jekyll build
 git commit "update" && git push
