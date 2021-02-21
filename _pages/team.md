@@ -1,7 +1,7 @@
 ---
-title: "SJCAB Epigenetics - Team"
+title: "{{ site.title }} - Team"
 layout: gridlay
-excerpt: "SJCAB Epigenetics: Team members"
+excerpt: "{{ site.titleshort }} -- Team members"
 sitemap: false
 permalink: /team/
 ---

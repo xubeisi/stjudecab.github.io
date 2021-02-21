@@ -1,7 +1,7 @@
 ---
-title: "SJCAB Epigenetics - Recruitment"
+title: "{{ site.title }} - Recruitment"
 layout: textlay
-excerpt: "Openings"
+excerpt: "{{ site.titleshort }} -- Openings"
 sitemap: false
 permalink: /recruitment/
 ---

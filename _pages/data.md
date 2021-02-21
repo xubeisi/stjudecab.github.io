@@ -1,7 +1,7 @@
 ---
-title: "SJCAB Epigenetics - Data"
+title: "{{ site.title }} - Data"
 layout: textlay
-excerpt: "SJCAB Epigenetics -- Data."
+excerpt: "{{ site.titleshort }} -- Data."
 sitemap: false
 permalink: /data/
 ---

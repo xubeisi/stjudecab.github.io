@@ -1,7 +1,7 @@
 ---
-title: "SJCAB Epigenetics - Publications"
+title: "{{ site.title }} - Publications"
 layout: gridlay
-excerpt: "SJCAB Epigenetics -- Publications."
+excerpt: "{{ site.titleshort }} -- Publications"
 sitemap: false
 permalink: /publications/
 ---

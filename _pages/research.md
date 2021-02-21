@@ -1,7 +1,7 @@
 ---
-title: "SJCAB Epigenetics - Research"
+title: "{{ site.title }} - Research"
 layout: textlay
-excerpt: "SJCAB Epigenetics -- Research"
+excerpt: "{{ site.titleshort }} -- Research"
 sitemap: false
 permalink: /research/
 ---

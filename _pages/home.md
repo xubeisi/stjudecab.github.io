@@ -1,7 +1,7 @@
 ---
-title: "SJCAB Epigenetics - Home"
+title: "{{ site.title }} - Home"
 layout: homelay
-excerpt: "SJCAB Epigenetics St. Jude."
+excerpt: "{{ site.titleshort }} at St. Jude."
 sitemap: false
 permalink: /
 ---

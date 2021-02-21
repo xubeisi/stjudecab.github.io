@@ -1,7 +1,7 @@
 ---
-title: "SJCAB Epigenetics - News"
+title: "{{ site.title }} - News"
 layout: textlay
-excerpt: "SJCAB Epigenetics St. Jude."
+excerpt: "{{ site.title }} -- News"
 sitemap: false
 permalink: /allnews.html
 ---
