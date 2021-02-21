@@ -21,10 +21,11 @@ conda create -n iobuild python=3.8 ruby=2.6.3
 conda activate iobuild
 gem install jekyll bundle jekyll-spaceship
 bundle install
-bundle exec jekyll build
-git commit "update" && git push
 #local debug, would rebuild automatically everytime you changed a file
 bundle exec jekyll serve --host $yourip --port 5050 --livereload
+#after satisfy with changes
+bundle exec jekyll build
+git commit "update" && git push
 ```
 
 The website is deployed using [GitHub Pages](https://stjudecab.github.io) and the source code is available on [GitHub](https://github.com/stjudecab/stjudecab.github.io). Please feel free to reuse this code (making sure to cite the Sanders, Bedford and Drummond lab as the original sources of the lab website template).

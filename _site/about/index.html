@@ -68,10 +68,11 @@ conda create -n iobuild python=3.8 ruby=2.6.3
 conda activate iobuild
 gem install jekyll bundle jekyll-spaceship
 bundle install
-bundle exec jekyll build
-git commit "update" &amp;&amp; git push
 #local debug, would rebuild automatically everytime you changed a file
 bundle exec jekyll serve --host $yourip --port 5050 --livereload
+#after satisfy with changes
+bundle exec jekyll build
+git commit "update" &amp;&amp; git push
 </code></pre></div>    </div>
   </li>
 </ul>
