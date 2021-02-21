@@ -7,7 +7,7 @@ permalink: /about/
 ---
 
 
-{% include_relative ../README.md %}
+
 
 Our website is based on the open source templates forked from [Dr. Stephan Sanders](https://github.com/sanderslab/sanderslab.github.io), designed and shared by the labs of [D. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](http://bedford.io/misc/about/). We downloaded source codes from their repository and modified our contents based on shared templates. We greatly thank for Stephan, Allan and Trevor for allowing reuse of their codebase.
 
