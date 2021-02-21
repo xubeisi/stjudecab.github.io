@@ -1,0 +1,14 @@
+- link: /
+  name: Home
+- link: /team/
+  name: Team
+- link: /research/
+  name: Research
+- link: /publications/
+  name: Publications
+- link: /code/
+  name: Code
+- link: /covidexpress/
+  name: CovidExpress
+- link: /contact/
+  name: Contact
