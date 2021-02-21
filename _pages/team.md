@@ -1,5 +1,5 @@
 ---
-title: "SJCAB - Team"
+title: "SJCAB Epigenetics - Team"
 layout: gridlay
 excerpt: "SJCAB Epigenetics: Team members"
 sitemap: false
