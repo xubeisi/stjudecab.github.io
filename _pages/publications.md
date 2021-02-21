@@ -9,7 +9,9 @@ permalink: /publications/
 
 # Publications
 
----
+## Group highlights
+
+(For a full list see [below](#full-list) or go to [Google Scholar](https://scholar.google.com/citations?user=PIPGxWoAAAAJ), [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/1zofdYmKS0FQg/bibliography/public/)
 
 ## Featured
 
@@ -24,10 +26,14 @@ permalink: /publications/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
- <div class="row">
- 	<img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="25%" style="float: right" />
-  <p><a class="pub1" href="{{ publi.link.url }}">{{ publi.title }}</a></p>
-  <a class="pub2"> {{ publi.link.display }} </a>
+ <div class="well">
+  <a href="{{ publi.link.url }}"><pubtit>{{ publi.title }}</pubtit></a>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
+  <p>{{ publi.description }}</p>
+  <p><em>{{ publi.authors }}</em></p>
+  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
+  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
+  <p> {{ publi.news2 }}</p>
  </div>
 </div>
 
@@ -47,13 +53,12 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
----
 
-<div>
 ## Full List
 
-For a full list, please go to <a class="regtext" href="https://scholar.google.com/citations?user=O1EuSPYAAAAJ">Google Scholar</a> or <a class="regtext" href="https://www.ncbi.nlm.nih.gov/pubmed?term=Sanders%20SJ%5BAuthor%5D">Pubmed</a>.
-<br><br><br>
+{% for publi in site.data.publist %}
 
-</div>
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
+{% endfor %}

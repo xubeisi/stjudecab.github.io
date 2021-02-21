@@ -9,40 +9,39 @@ permalink: /
 # Welcome to SJCAB Epigenetics St. Jude
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/Lab_Logo_v6c.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_epi_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 
-The SJCAB Epigenetics aims to identify the etiology of developmental disorders through the discovery of genetic risk factors. Over the past few years there has been rapid progress in identifying the genes that play a role in autism spectrum disorder (ASD). We aim to continue this progress, leverage these findings to build a more complete understanding of ASD, and to extend this approach to other human disorders, including congenital malformations.
+The SJCAB Epigenetics Group focuses on helping researchers answer biological questions related to regulation through epigenetic mechanisms using the best available tools. We are also interested in establishing new analytic pipelines to enhance researching practices of St. Jude investigators. We mainly expereinced on areas:
+- Cancer Biology
+- Developmental Biology
+- Innate Immunology
 
-
-There are five main areas of research:
-
-1. **Gene discovery**: Genomic analysis of DNA using high-throughput sequencing to identify genes associated with human disorders
-2. **Understanding the noncoding genome**: Using whole-genome sequencing to identify the elements of the noncoding genome that contribute to ASD
-3. **The role of SCN2A in human disorders**: SCN2A mutations are one of the most common causes of ASD; we aim to understand how this risk is mediated with the view to developing therapeutics
-4. **Understanding neurodevelopment**: Leveraging functional genomic data to understand physiological brain development and the pathology associated with neuropsychiatric disorders
-5. **Sex bias in ASD**: Identifying genes and gene networks that lead to the preponderance of males diagnosed with ASD
+We categorized Epigenetics Analyses briefly into three major topics:
+1. **Regulation discovery**: Discover and predict regulation relationship using NGS data such as ChIP-Seq and intergrative with other data.
+2. **Chromatin state**: Chromatin accessibility can be measure by method such as ATAC-seq, DNase-seq. Together with motif database, transcription factors (TFs) likely to associated with differential accessible regions can be identified.
+3. **3D Genome**: Thanks to [Chromosome conformation capture](https://en.wikipedia.org/wiki/Chromosome_conformation_capture)(3C) technologies or 3C-based methods, people are able to study the 3D structure of chromatin. [Topological association domains (TADs)](https://en.wikipedia.org/wiki/Topologically_associating_domain), [Compartments](https://en.wikipedia.org/wiki/Nuclear_organization#A/B_compartments), [Chromatin loops](https://en.wikipedia.org/wiki/Nuclear_organization#DNA_looping) were all found could regulated gene's functions.
 
 ### Technologies and methods
-The SJCAB Epigenetics is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including: whole-exome sequencing, whole-genome sequencing, de novo mutation detection, RNA-Seq, and ChIP-Seq.
+The SJCAB Epigenetics is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including:
+- ChIP-Seq
+- ATAC-Seq/scATAC
+- RNA-Seq/SLAM-Seq/scRNA
+- HiC/HiCHIP/PLAC-Seq/CaptureC
 
 ### Collaborators
-We work with closely with numerous collaborators, including the [State Lab](https://www.mstatelab.com/) and [Bender Lab](https://benderlab.ucsf.edu/lab-members) St. Jude, the [Devlin Lab](http://www.psychiatry.pitt.edu/person/bernard-j-devlin-phd) at UPMC, the [Roeder Lab](http://www.stat.cmu.edu/~roeder/) at Carnegie Mellon, the [Sestan Lab](http://medicine.yale.edu/lab/sestan/index.aspx), and the [Talkowski lab](http://talkowski.mgh.harvard.edu/) at Harvard.
+We work with closely with numerous collaborators, mostly from St. Jude, including:
+- the [Dyer Lab](https://www.stjude.org/directory/d/michael-dyer.html) at St. Jude
+- the [Peng Lab](https://www.stjude.org/directory/p/jamy-peng.html) at St. Jude
+- the [Li Lab](https://www.stjude.org/directory/l/chunliang-li.html) at St. Jude
+- the [Feng Lab](https://www.stjude.org/directory/f/yongqiang-feng.html) at St. Jude
 
-### Joining SJCAB Epigenetics
+### Joining St. Jude
 If you are interested in joining please go to the [recruitment](recruitment) page.
 
 ### Funding
-We are grateful for funding from the [National Institute of Mental Health](https://www.nimh.nih.gov/) and the [The Simons Foundation Autism Research Initiative](https://www.sfari.org/), the [Autism Science Foundation](https://autismsciencefoundation.org/), and the [Brain & Behavior Research Foundation](https://www.bbrfoundation.org/).
+We are grateful for funding from the [National Cancer Institute at National Institute of Health](https://www.cancer.gov/)
 
 <figure class="third">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NIMH.png" style="width: 200px">	<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_SFARI.png" style="width: 200px">
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ASF.jpeg" style="width: 200px"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_BBRF.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.png" style="width: 200px">
 </figure>
-
-
-
-
-
-

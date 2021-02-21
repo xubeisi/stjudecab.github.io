@@ -10,33 +10,34 @@ permalink: /research/
 
 ---
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/genediscovery.png){: style="width: 300px; float: left;margin-right: 30px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/retina.neuron.2017.png){: style="width: 250px; float: left;margin-left: 30px; margin-right: 30px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/retinaipsc.cellrep.2018.png){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/retina3.neuron.2019.png){: style="width: 250px; float: center;margin-left: 30px; margin-right: 30px; border: 10px"}
 
-## Gene discovery in autism spectrum disorder and other developmental disorders
+## Retina Epigenetic Landscape
 <div style="text-align: justify">
-Exome sequencing has revolutionized our ability to find the genes associated with autism spectrum disorder (ASD) and other severe developmental disorders. Four papers, published concurrently in 2012, showed an excess of de novo mutations that disrupt genes in cases compared to controls and Dr. Sanders, working in Dr. State's lab at Yale, was the first author of one of these ([Sanders et al. Nature 2012](https://www.ncbi.nlm.nih.gov/pubmed/22495306)). This paper also demonstrated that observing disruptive de novo mutations in the same gene across multiple cases could be used to establish genome-wide association with ASD, and this method was used to identify the voltage-gated sodium channel SCN2A as one of the most frequent causes of ASD. As a member of the [Autism Sequencing Consortium](https://genome.emory.edu/ASC/), the SJCAB Epigenetics continues to play an active role in advancing gene discovery in ASD. The initial observation of an excess of disruptive de novo mutations in cases has been replicated in larger cohorts (e.g. [De Rubeis et al. Nature 2014](https://www.ncbi.nlm.nih.gov/pubmed/25363760), [Iossifov et al. Nature 2014](https://www.ncbi.nlm.nih.gov/pubmed/25363768), [Dong et al. 2014](https://www.ncbi.nlm.nih.gov/pubmed/25284784)). These two cohorts were combined and integrated with copy number variant (CNV) data to identify 65 genes associated with ASD ([Sanders et al. Neuron 2015](https://www.ncbi.nlm.nih.gov/pubmed/26402605)). This approach to gene discovery has been successful in several other developmental disorders, including severe developmental delay, epileptic encephalopathy, and congenital heart disease. 
+In the developing retina, multipotent neural progenitors undergo unidirectional differentiation in a precise spatiotemporal order. Here we profile the epigenetic and transcriptional changes that occur during retinogenesis in mice and humans. Although some progenitor genes and cell cycle genes were epigenetically silenced during retinogenesis, the most dramatic change was derepression of cell-type-specific differentiation programs. We identified developmental-stage-specific super-enhancers and showed that most epigenetic changes are conserved in humans and mice. To determine how the epigenome changes during tumorigenesis and reprogramming, we performed integrated epigenetic analysis of murine and human retinoblastomas and induced pluripotent stem cells (iPSCs) derived from murine rod photoreceptors. The retinoblastoma epigenome mapped to the developmental stage when retinal progenitors switch from neurogenic to terminal patterns of cell division. The epigenome of retinoblastomas was more similar to that of the normal retina than that of retina-derived iPSCs, and we identified retina-specific epigenetic memory.
+- We first profiled the epigentics landscape for 8 mice, 4 human development stages and 1 mouse, 1 human retinoblastoma cell line. [Neuron, 2017](https://doi.org/10.1016/j.neuron.2017.04.022)
+- Then we systematically profiles epigentics landscape for iPSC and find the key epigenetical factors prevent iPSC successful developed into retina. [Cell Stem Cell, 2015](https://doi.org/10.1016/j.stem.2015.05.015), [Cell Report, 2018](https://doi.org/10.1016/j.celrep.2018.01.075)
+- Recently, we also intergrated 3D Genome profiles and validated a Vsx2 Super-Enhancer could affect the bipolar cell [Neuron, 2019](https://doi.org/10.1016/j.neuron.2019.08.002)
+
+Their profiles could be access online at 
+- [Mouse Browser](https://pecan.stjude.cloud/proteinpaint/study/retina_hic_2018)
+- [Human Browser](https://viz.stjude.cloud/stjude/visualization/human-retina-wgbs-chipseq-chromhmmgene-fpkm-hg19)
 </div>
 ---- 
 
+![]({{ site.url }}{{ site.baseurl }}/images/respic/53bp1.natneuron.2019.png){: style="width: 300px; float: left;margin-left: 30px; margin-right: 30px; border: 10px"}
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/scn2aMut.png){: style="width: 300px; float: left;margin-right: 30px; border: 10px"}
-
-## Understanding the role of ASD genes
+## Epigenetics Regulators
 <div style="text-align: justify">
-The genes discovered through exome sequencing provide an entree into the biology of ASD, hopefully as a foundation for developing theraputics. The SJCAB Epigenetics takes two research approaches: 1) To consider ASD-associated genes en masse to look for patterns of convergence [State MW, Šestan N Science 2012](https://www.ncbi.nlm.nih.gov/pubmed/22984058); 2) To investigate the genes with the strongest evidence of ASD association, such as SCN2A in depth.
+#### UTX/KDM6A is a chromatin modifier required for development and neural lineage specification, but how it controls these biological processes is unclear. To determine the molecular mechanisms of UTX:
 
-Through the first approach, the SJCAB Epigenetics has helped delineate two major functional roles of ASD-associated genes: 1) gene expression regulators (GER), i.e. genes that influence the expression of other genes such as CHD8 and ARID1B; and 2) neuronal communication, such as SCN2A and NRXN1, see [De Rubeis et al. Nature 2014](https://www.ncbi.nlm.nih.gov/pubmed/25363760) and [Sanders et al. Neuron 2015](https://www.ncbi.nlm.nih.gov/pubmed/26402605). Co-expression analysis showed convergence across multiple ASD-associated genes during mid-fetal development in the prefrontal cortex and this result was driven by layer 5/6 glutamatergic neurons ([Willsey et al. Cell 2015](https://www.ncbi.nlm.nih.gov/pubmed/24267886)). Similar patterns have been identified through other systems-based approaches, reviewed in [Sanders Curr Opin Genet Dev 2015](https://www.ncbi.nlm.nih.gov/pubmed/26547130).
+- We first found UTX and 53BP1 directly interact and co-occupy promoters in human embryonic stem cells and differentiating neural progenitor cells. Human 53BP1 contains a UTX-binding site that diverges from its mouse homolog by 41%, and disruption of the 53BP1–UTX interaction abrogated human, but not mouse, neurogenesis in vitro. The 53BP1–UTX interaction is required to upregulate key neurodevelopmental genes during the differentiation of human embryonic stem cells into neurons or into cortical organoids. [Nature Neuroscience, 2019](https://doi.org/10.1038/s41593-018-0328-5)
+- Next we found UTX suppresses AP-1 and a gliogenesis program during neural differentiation of human pluripotent stem cells using ChIP-Seq and ATAC-Seq. [Epigenetics & Chromatin, 2020](https://doi.org/10.1186/s13072-020-00359-3)
 
-The second approach has focused mainly on the gene SCN2A and is performed in collaboration with the [Bender lab St. Jude](https://benderlab.ucsf.edu/research-projects), the [SCN2A family group](http://www.scn2a.org), and [Simons VIP](https://simonsvipconnect.org). By integrating genetic data across multiple cases and cohorts with structural data on the NaV1.2 protein encoded by SCN2A and electrophysiology, we demonstrated that loss-of-function mutations of SCN2A lead to ASD and developmental delay, while gain-of-function mutations lead to epileptic encephalopathy ([Ben-Shalom et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/28256214)). 
+#### Polycomb repressive complex 2 (PRC2) is another crucial chromatin modifier in executing neurodevelopmental programs:
 
+- We found a novel player Ybx1 that could fine-tunes PRC2 activities to control embryonic brain development. [Nature Communication, 2020](https://doi.org/10.1038/s41467-020-17878-y)
 </div>
-
-![]({{ site.url }}{{ site.baseurl }}/images/respic/asdcnv.png){: style="width: 300px; float: left;margin-right: 30px; border: 10px"}
-
-## Copy number variants (CNVs) in autism spectrum 
-<div style="text-align: justify">
-My early publications describe the development of a novel approach to detecting de novo CNVs in Illumina SNP genotyping data and applying this to Autism Spectrum Disorder (ASD) families from the Simons Simplex Collection (SSC). While de novo CNVs had previously been associated with ASD (Sebat et al. 2007), our analysis of this cohort of 1,124 families, including unaffected siblings, allowed us to clarify the genomic architecture. In turn, this allowed us to develop a statistical approach to evaluating whether specific genomic loci are associated with ASD; four de novo duplications at 7q11.23 met these criteria for ASD association with reduced sociability and, notably, deletions at the same locus are associated with increased social behavior in William’s Syndrome. We have recently (2015) published a CNV analysis of all 2,591 families in the SSC. By integrating CNV and exome data we showed that small de novo deletions contain one critical ASD gene, while large de novo CNVs contain multiple ASD risk genes. We use this finding to identify six ASD risk CNV loci and 65 ASD risk genes. I led the analysis and write up of both projects including the development of novel approaches to CNV detection. Autism Speaks cited our 2011 CNV analysis as one of the top Ten Autism Research Achievements. 
-</div>
----
-
-
+---- 
