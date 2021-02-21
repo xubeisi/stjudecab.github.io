@@ -6,6 +6,9 @@ It's based on [jekyll](https://jekyllrb.com).
 We added plugin [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) to improve table shown by markdown.
 
 If you use conda, these will help you start build for your own
+- Step1: Fork [https://github.com/stjudecab/stjudecab.github.io](https://github.com/stjudecab/stjudecab.github.io)
+- Step2: on you forked git, click setting and get your own repository name
+- Under linux
 ```
 git clone https://github.com/stjudecab/stjudecab.github.io
 conda create -n iobuild python=3.8 ruby=2.6.3
