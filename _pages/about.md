@@ -12,7 +12,6 @@ Our website is based on [jekyll](https://jekyllrb.com)
 - designed and shared by the labs of [D. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](http://bedford.io/misc/about/)
 - We greatful thank them for sharing code and knowledge.
 - We added plugin [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) to improve table shown by markdown.
-- We added plugin [flatify](http://acegik.net/blog/ruby/jekyll/plugins/howto-nest-liquid-template-variables-inside-yaml-front-matter-block.html) so new lab doesn't need change title for each .md file
 
 
 If you use conda, these will help you start build for your own
