@@ -53,13 +53,14 @@ google_analytics: G-1H31G58P5J
 
 scholar:
   last_name: Xu
-  first_name: Beisi
+  first_name: Beisi # bold for Group Lead
+  first_names_team: Beisi;Wojciech;Nadhir # match team member for publications
   style: apa
   locale: en
-  sort_by: year
-  order: descending
+  sort_by: year,month
+  order: descending,descending
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: papers.clean.bib
   bibliography_template: bib
   reference_tagname: div
 
