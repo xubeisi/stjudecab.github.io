@@ -4,11 +4,9 @@
 <div class="row">
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+    <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-    {% endif %}
+    <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">{{entry.journal}}</a></abbr>
   {% endif %}
   </div>
 
