@@ -1,4 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'jekyll-spaceship'
+group :jekyll_plugins do
+    gem 'jekyll'
+    gem 'jekyll-scholar'
+    gem 'jemoji'
+    gem 'unicode_utils'
+	gem 'jekyll-spaceship'
+end

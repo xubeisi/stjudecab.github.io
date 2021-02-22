@@ -15,6 +15,8 @@ url: ""
 
 plugins:
   - jekyll-spaceship
+  - jekyll-scholar
+  - jemoji
 
 jekyll-spaceship:
   processors:
@@ -46,3 +48,35 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
+google_analytics: G-1H31G58P5J
+
+
+scholar:
+
+  last_name: Xu
+  first_name: Beisi
+
+  style: apa
+  locale: en
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics:    true
+enable_tooltips:            true
+
+max_width: 1200px

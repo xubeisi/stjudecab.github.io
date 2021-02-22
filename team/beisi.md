@@ -9,6 +9,8 @@ github: stjudecab
 scholar: PIPGxWoAAAAJ
 photo: tm_beisi.png
 stjude: beisi-xu
+orcid: 0000-0003-0099-858X
+linkedin: beisixu
 ---
 
 ### Overview

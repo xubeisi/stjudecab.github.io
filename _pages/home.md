@@ -6,8 +6,6 @@ sitemap: false
 permalink: /
 ---
 
-TETS
-
 # Welcome to SJCAB Epigenetics St. Jude
 
 

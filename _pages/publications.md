@@ -4,6 +4,8 @@ layout: gridlay
 excerpt: "- Publications"
 sitemap: false
 permalink: /publications/
+nav: true
+years: [1956, 1950, 1935, 1905]
 ---
 
 
@@ -56,9 +58,11 @@ permalink: /publications/
 
 ## Full List
 
-{% for publi in site.data.publist %}
+<div class="publications">
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
+{% for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
+
+</div>
