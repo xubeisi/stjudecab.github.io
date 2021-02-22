@@ -4,9 +4,9 @@
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
-  color: var(--global-text-color);
-}
+//p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+//  color: var(--global-text-color);
+//}
 
 a, table.table a {
   color: var(--global-theme-color);
@@ -264,7 +264,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // Distill
 
 .distill {
@@ -274,25 +273,27 @@ footer.sticky-bottom {
   }
 }
 
+/* COLORS  */
+$red:           #FF3636;
+$orange:        #F29105;
+$blue:          #2698BA;
+$green:         #11D68B;
+$lime_green:    #B7D12A;
+$purple:        #B509AC;
+$brown_orange:  #C68646;
+$web_green:     #7cb342;
 
-// Projects
 
-.projects {
-  .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
-    a {
-      color: black;
-      text-decoration: none;
-      &:hover {
-        color: var(--global-theme-color);
-      }
-    }
-  }
-  .card img {
-    width: 100%;
-  }
-}
+$grey-color-dark:   #333;  /* footer */
+$grey-color-light:  #ddd;  /* navigation bar border */
+$text-color:        rgb(60, 72, 88); /* #666; */
+
+/* Set theme color *************************/
+$theme-color: $web_green; /* #b71c1c; */
+$background-color: #fdfdfd;
+
+/************************************************************/
+
 
 
 // Publications
@@ -339,6 +340,7 @@ footer.sticky-bottom {
             color: white;
             &:hover {
               text-decoration: none;
+              background: #ff4444 !important;
             }
           }
         }
@@ -374,6 +376,7 @@ footer.sticky-bottom {
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
+            margin-top: 0px;
           }
         }
       }
@@ -416,15 +419,51 @@ footer.sticky-bottom {
   }
 }
 
-// Rouge Color Customization
-code {
-  color: var(--global-theme-color);
+
+// Co-First-Author
+
+nobr > em {
+    font-weight: bold;
+    font-style: normal;
+    color: $theme-color;
 }
-// Transitioning Themes
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
+
+// Progress Bar
+
+progress {
+    /* Reset the appearance */
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  
+    /* Get rid of the default border in Firefox/Opera. */
+    border: none;
+  
+    /* Progress bar container for Firefox/IE10+ */
+    background-color: transparent;
+  
+    /* Progress bar value for IE10+ */
+    color: $theme-color;
 }
+
+progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+  
+progress::-webkit-progress-value {
+    background-color: $theme-color;
+}
+  
+progress::-moz-progress-bar {
+    background-color: $theme-color;
+}
+
+.progress-container {
+    background-color: transparent;
+}
+
+.progress-bar {
+    background-color: $theme-color;
+}
+
+

@@ -4,12 +4,24 @@ layout: gridlay
 excerpt: "- Publications"
 sitemap: false
 permalink: /publications/
-nav: true
-years: [1956, 1950, 1935, 1905]
+years: [2020, 2019, 2017, 2015]
 ---
 
 
 # Publications
+
+## Full List
+
+<nobr><em>*</em></nobr>denotes equal contribution and joint lead authorship.
+
+<div class="publications">
+
+{% for y in page.years %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
+
+</div>
 
 ## Group highlights
 
@@ -56,13 +68,4 @@ years: [1956, 1950, 1935, 1905]
 <p> &nbsp; </p>
 
 
-## Full List
 
-<div class="publications">
-
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>

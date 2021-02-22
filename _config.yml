@@ -52,16 +52,16 @@ google_analytics: G-1H31G58P5J
 
 
 scholar:
-
   last_name: Xu
   first_name: Beisi
-
   style: apa
   locale: en
-
+  sort_by: year
+  order: descending
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+  reference_tagname: div
 
   replace_strings: true
   join_strings: true
