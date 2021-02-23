@@ -8,7 +8,7 @@ twitter:
 github: stjudecab
 googlescholar: M2b_x_8AAAAJ
 photo: tm_nadhir.png
-stjude: nadhir-djekidel
+stjude: d/nadhir-djekidel
 orcid: 0000-0001-5361-1858
 linkedin: djeknad
 ---
