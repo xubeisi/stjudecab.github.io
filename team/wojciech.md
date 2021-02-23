@@ -6,10 +6,10 @@ handle: wojciech
 email: wojciech.rosikiewicz@stjude.org
 twitter:
 github: stjudecab
-googlescholar: HuAS1EAAAAJ
+googlescholar: -HuAS1EAAAAJ
 photo: tm_wojciech.png
 stjude: r/wojciech-rosikiewicz
-orcidid: 0000-0001-7031-3430
+orcid: 0000-0001-7031-3430
 linkedin: rosikiewicz
 ---
 
