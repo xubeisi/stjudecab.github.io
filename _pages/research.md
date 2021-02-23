@@ -6,7 +6,7 @@ sitemap: false
 permalink: /research/
 ---
 
-# Research Highlights
+## Research Highlights
 
 ---
 
@@ -14,7 +14,7 @@ permalink: /research/
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/retinaipsc.cellrep.2018.png){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/retina3.neuron.2019.png){: style="width: 250px; float: center;margin-left: 30px; margin-right: 30px; border: 10px"}
 
-## Retina Epigenetic Landscape
+### Retina Epigenetic Landscape
 <div style="text-align: justify">
 In the developing retina, multipotent neural progenitors undergo unidirectional differentiation in a precise spatiotemporal order. Here we profile the epigenetic and transcriptional changes that occur during retinogenesis in mice and humans. Although some progenitor genes and cell cycle genes were epigenetically silenced during retinogenesis, the most dramatic change was derepression of cell-type-specific differentiation programs. We identified developmental-stage-specific super-enhancers and showed that most epigenetic changes are conserved in humans and mice. To determine how the epigenome changes during tumorigenesis and reprogramming, we performed integrated epigenetic analysis of murine and human retinoblastomas and induced pluripotent stem cells (iPSCs) derived from murine rod photoreceptors. The retinoblastoma epigenome mapped to the developmental stage when retinal progenitors switch from neurogenic to terminal patterns of cell division. The epigenome of retinoblastomas was more similar to that of the normal retina than that of retina-derived iPSCs, and we identified retina-specific epigenetic memory.
 - We first profiled the epigentics landscape for 8 mice, 4 human development stages and 1 mouse, 1 human retinoblastoma cell line. [Neuron, 2017](https://doi.org/10.1016/j.neuron.2017.04.022)
@@ -29,7 +29,7 @@ Their profiles could be access online at
 
 ![]({{ site.url }}{{ site.baseurl }}/images/respic/53bp1.natneuron.2019.png){: style="width: 300px; float: left;margin-left: 30px; margin-right: 30px; border: 10px"}
 
-## Epigenetics Regulators
+### Epigenetics Regulators
 <div style="text-align: justify">
 #### UTX/KDM6A is a chromatin modifier required for development and neural lineage specification, but how it controls these biological processes is unclear. To determine the molecular mechanisms of UTX:
 

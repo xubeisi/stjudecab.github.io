@@ -6,11 +6,11 @@ sitemap: false
 permalink: /data/
 ---
 
-# Data
+## Data
 
 ---
 
-## Automated 3D Refinement of the Allen Developing Mouse Brain Atlas
+### Automated 3D Refinement of the Allen Developing Mouse Brain Atlas
 
 <div class="youtube center"><h4>Original</h4>
 </div>
@@ -20,7 +20,7 @@ permalink: /data/
 
 <div class="clear"></div>
 
-### P56 Atlas
+#### P56 Atlas
 
 <div class="youtube">
 <iframe width="450" height="523" src="https://player.vimeo.com/video/402063338?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -32,7 +32,7 @@ permalink: /data/
 
 <div class="clear"></div>
 
-### P28 Atlas
+#### P28 Atlas
 
 <div class="youtube">
 <iframe width="450" height="626" src="https://player.vimeo.com/video/402063281?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -44,7 +44,7 @@ permalink: /data/
 
 <div class="clear"></div>
 
-### P14 Atlas
+#### P14 Atlas
 
 <div class="youtube">
 <iframe width="450" height="615" src="https://player.vimeo.com/video/402063218?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -56,7 +56,7 @@ permalink: /data/
 
 <div class="clear"></div>
 
-### P4 Atlas
+#### P4 Atlas
 
 <div class="youtube">
 <iframe width="450" height="688" src="https://player.vimeo.com/video/402063157?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ permalink: /data/
 
 <div class="clear"></div>
 
-### E18.5 Atlas
+#### E18.5 Atlas
 
 <div class="youtube">
 <iframe width="430" height="721" src="https://player.vimeo.com/video/402063101?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -80,7 +80,7 @@ permalink: /data/
 
 <div class="clear"></div>
 
-### E15.5 Atlas
+#### E15.5 Atlas
 
 <!-- start later since the body is cropped in the refined atlas -->
 <div class="youtube">
@@ -93,7 +93,7 @@ permalink: /data/
 
 <div class="clear"></div>
 
-### E13.5 Atlas
+#### E13.5 Atlas
 
 <div class="youtube">
 <iframe width="450" height="586" src="https://player.vimeo.com/video/402062200?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
@@ -105,7 +105,7 @@ permalink: /data/
 
 <div class="clear"></div>
 
-### E11.5 Atlas
+#### E11.5 Atlas
 
 <div class="youtube">
 <iframe width="450" height="790" src="https://player.vimeo.com/video/402038477?autoplay=1&muted=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

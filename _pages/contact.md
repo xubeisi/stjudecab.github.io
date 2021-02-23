@@ -6,9 +6,9 @@ sitemap: false
 permalink: /contact/
 ---
 
-# Contact
+## Contact
 
-## Lab Location
+### Lab Location
 
 SJCAB Epigenetics is in St. Jude Children's Research Hosipital ([Google Map](https://goo.gl/maps/M9rXDvoqqMUS3Jiy5)):
 

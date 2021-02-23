@@ -5,7 +5,7 @@ excerpt: "- About"
 sitemap: false
 permalink: /about/
 ---
-# St. Jude Center for Applied Bioinformatics(CAB)
+### St. Jude Center for Applied Bioinformatics(CAB)
 
 Our website is based on [jekyll](https://jekyllrb.com)
 - The open source templates were forked from [Dr. Stephan Sanders](https://github.com/sanderslab/sanderslab.github.io),

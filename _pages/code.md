@@ -7,13 +7,13 @@ permalink: /code/
 ---
 
 
-# Code
+## Code
 
 ---
 
 <div class="row">
 <div class="col-sm-6">
-## [cellxgene_gsea](https://github.com/stjudecab/cellxgene_gsea)
+### [cellxgene_gsea](https://github.com/stjudecab/cellxgene_gsea)
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.png" style="height: 300px"> 
@@ -25,7 +25,7 @@ This containerized pipeline was developed for high-throughput parallel processin
 
 </div>
 <div class="col-sm-6">
-## [my-bedtools2](https://my-bedtools2.readthedocs.io/en/latest)
+### [my-bedtools2](https://my-bedtools2.readthedocs.io/en/latest)
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/codepic/my-bedtools2.png" style="height: 300px"> 

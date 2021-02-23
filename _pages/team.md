@@ -6,13 +6,13 @@ sitemap: false
 permalink: /team/
 ---
 
-# Team Members
+## Team Members
 (Please click the name below for the lab memeber's profile)
 
 
 ---
 
-## Group Lead
+### Group Lead
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -45,7 +45,7 @@ permalink: /team/
 
 ---
 
-## Scientist
+### Scientist
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
@@ -78,7 +78,7 @@ permalink: /team/
 
 ---
 
-## Contact
+### Contact
 Please contact our group lead, <a href="mailto:beisi.xu#stjude.org">Beisi Xu</a>.
 
 
