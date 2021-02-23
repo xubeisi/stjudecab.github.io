@@ -125,8 +125,13 @@
 
     <div class="links">
     {% if entry.abstract %}
-    <a class="abstract btn btn-sm z-depth-0" data-toggle="collapse" href="#{{entry_id}}-abstract" role="button" aria-expanded="false" aria-controls="{{entry_id}}-abstract">Abstract</a>
+    <span data-toggle="tooltip" title="Click to Show or Hide" >
+    <a class="abstract btn btn-sm z-depth-0" data-toggle="collapse" href="#{{entry_id}}-abstract" role="button" aria-expanded="false" aria-controls="{{entry_id}}-abstract">
+        Abstract
+    </a>
+    </span>
     {% endif %}
+    <span data-toggle="tooltip" title="Open new Window">
     {% if entry.doi %}
       <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button" target="_blank">DOI</a>
     {% endif %}
@@ -134,7 +139,7 @@
       <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ entry.pmcid }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PMC</a>
     {% endif %}
     {% if entry.pmid %}
-      <a href="https://pubmed.ncbi.nlm.nih.gov/{{ entry.pmcid }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PMID</a>
+      <a href="https://pubmed.ncbi.nlm.nih.gov/{{ entry.pmid }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PMID</a>
     {% endif %}
     {% if entry.browser %}
         {% assign ids = entry.browser | split: ";" %}
@@ -160,8 +165,6 @@
             <a href="{{ vals[0] }}" class="btn btn-sm z-depth-0" role="button" target="_blank">More:{{ linkname }}</a>
         {% endfor %}
     {% endif %}
-
-
     {% if entry.geoid %}
         {% assign ids = entry.geoid | split: ";" %}
         {% for id in ids %}
@@ -198,6 +201,7 @@
             <a href="https://www.ebi.ac.uk/ega/studies/{{ vals[0] }}" class="btn btn-sm z-depth-0" role="button" target="_blank">EGA:{{ linkname }}</a>
         {% endfor %}
     {% endif %}
+    </span>
 
     {% if entry.arxiv %}
       <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">arXiv</a>
