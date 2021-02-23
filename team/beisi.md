@@ -23,11 +23,11 @@ NGS Data Beisi knows how to analyze:
 - CHIP-Seq
 - ATAC-Seq
 - RNA-Seq
-- Hi-C([Juicer](https://github.com/aidenlab/juicer))
-- HiCHIP/PLAC-seq/Capture-C([HiC-Pro](https://github.com/nservant/HiC-Pro))
-- scRNA-Seq([Seurat](https://satijalab.org/seurat/v3.0/immune_alignment.html)/[Pagoda](http://hms-dbmi.github.io/scde/pagoda.html))
+- Hi-C([Juicer](https://github.com/aidenlab/juicer){:target="_blank"})
+- HiCHIP/PLAC-seq/Capture-C([HiC-Pro](https://github.com/nservant/HiC-Pro){:target="_blank"})
+- scRNA-Seq([Seurat](https://satijalab.org/seurat/v3.0/immune_alignment.html){:target="_blank"}/[Pagoda](http://hms-dbmi.github.io/scde/pagoda.html){:target="_blank"})
 - scATAC-Seq
-- SLAM-Seq([SlamDunk](https://t-neumann.github.io/slamdunk/docs.html#docstart))
+- SLAM-Seq([SlamDunk](https://t-neumann.github.io/slamdunk/docs.html#docstart){:target="_blank"})
 - DNase-Seq, FAIRE-Seq, MNase-Seq
 - WGBS/TEBS
 
