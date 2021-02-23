@@ -5,15 +5,15 @@ excerpt: "- About"
 sitemap: false
 permalink: /about/
 ---
-### St. Jude Center for Applied Bioinformatics(CAB)
+# St. Jude Center for Applied Bioinformatics(CAB)
 
 Our website is based on [jekyll](https://jekyllrb.com)
 - The open source templates were forked from [Dr. Stephan Sanders](https://github.com/sanderslab/sanderslab.github.io),
-- Earlier version designed and shared by the labs of [D. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](http://bedford.io/misc/about/)
-- [Full Publication list](https://alshedivat.github.io/al-folio/publications/) adapt from [Maruan Al-Shedivat](https://github.com/alshedivat/al-folio)
+- Earlier version designed and shared by the labs of [Dr. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](http://bedford.io/misc/about/)
+- [Full Publication list](https://alshedivat.github.io/al-folio/publications/) using al-folio adapt from [Maruan Al-Shedivat](https://github.com/alshedivat/al-folio)
 - We greatful thank them for sharing code and knowledge.
 - We added plugin [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) to improve table shown by markdown.
-- Check **[script/README.md](script/)** for more customization
+- Check **[script/README.md](https://github.com/stjudecab/stjudecab.github.io/tree/master/script)** for more customization
 
 
 If you use conda, these will help you start build for your own
@@ -34,6 +34,7 @@ bundle exec jekyll serve --host **$yourip** --port 5050 --livereload
 bundle exec jekyll build
 git commit "update" && git push
 sh script/deploy
+#Note it might take a few minutes for github.io to update, be patient
 ```
 
 

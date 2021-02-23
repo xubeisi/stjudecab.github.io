@@ -21,13 +21,13 @@ optional arguments:
 
 1. Step1: Collect Manuscript using [Zotero](https://www.zotero.org/download/) along with [Chrome Extension](https://chrome.google.com/webstore/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=en)
 - Option1: [Zotero Plugin PMCID Fetcher](https://github.com/retorquere/zotero-pmcid-fetcher) could help you get PMCID quickly.
-- Option2: Manual fill in *Extra* region of Zotero
+- Option2: Manual fill in **Extra** region of Zotero
   such as
   ```
   PMCID: PMC6842117
   PMID: 31493975
   ```
-- Option3: Other Tags(*Extra* region of Zotero) could be converted to links
+- Option3: Other Tags(**Extra** region of Zotero) could be converted to links
   + 'tex.' prefix were only needed in Zotero for export using [Zotero Plugin](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v5.2.121) [zotero-better-bibtex](https://retorque.re/zotero-better-bibtex) (case insensitive). If you manually change .bib file, then no need 'tex.' (lowercase)
   + Most support multiple links seperated by ';'
   + 'LinkID,Name' will show 'Name' as text of link, 'LinkID' will show default as text of links (usually 'LinkID')
@@ -52,7 +52,7 @@ optional arguments:
     tex.highlight: none
   ```
 
-2. Step2: In Zotero, Select Entries Export bibtex as .bib file
+2. Step2: In Zotero, Select Entries Export better-bibtex (or bibtex) as .bib file
 
 3. Step3:
 ```bash
