@@ -6,7 +6,7 @@ handle: brookesheppard
 email: 
 twitter:
 github:
-scholar: d3w5qCkAAAAJ
+googlescholar: d3w5qCkAAAAJ
 photo: brookesheppard.jpg
 ucsf: brooke.sheppard
 ---

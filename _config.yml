@@ -50,6 +50,7 @@ kramdown:
 
 google_analytics: G-1H31G58P5J
 
+excerpt_separator: "<!--more-->"
 
 scholar:
   last_name: Xu
