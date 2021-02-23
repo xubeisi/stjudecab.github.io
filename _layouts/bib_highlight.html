@@ -1,0 +1,108 @@
+---
+---
+
+<div class="col-sm-6">
+  <div class="well">
+    <a href="https://doi.org/{{ entry.doi }}" target="_blank"><pubtit>{{ entry.title }}</pubtit></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ entry.fig1 }}" target="_blank"><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ entry.fig1 }}" class="img-responsive" width="33%" style="float: left" /></a>
+    <div class="bib_highlight_intro">
+    <p>
+    {% if entry.highlight == "none" %}
+      {% assign texts = entry.abstract | split: "." %}
+      {% assign txt_array = "" | split: ',' %}
+      {% assign txt_array = txt_array | push: texts[0] | push: texts[1] %}
+      {% assign last2 = texts.size | minus: 2 %}
+      {% for tmp in texts %}
+        {% if forloop.index > last2 %}
+          {% assign txt_array = txt_array | push: tmp %}
+        {% endif %}
+      {% endfor %}
+      {{ txt_array | join: ". " }}
+    {% else %}
+      {{ entry.highlight }}
+    {% endif %}
+    </p>
+    </div>
+    <div class="bib_highlight_author">
+      {% assign authors_team = site.scholar.first_names_team | split: ";" %}
+      {% if entry.cofirst %}
+        {% assign tmp = entry.cofirst | split: ";" %}
+          {% if tmp.size == 2 %}
+            {% assign corresponding = tmp[1] %}
+          {% endif %}
+          {% assign cofirst = tmp[0] %}
+        {% assign tmp = cofirst | split: "," %}
+          {% assign cofirst_array = "" | split: ',' %}
+          {% if tmp.size > 1 %}
+            {% for one in tmp %}
+              {% assign cofirst_array = cofirst_array | push: one %}
+            {% endfor %}
+          {% else %}
+            {% for one in (1..tmp[0]) %}
+              {% capture onetmp %}{{one}}{% endcapture %}
+              {% assign cofirst_array = cofirst_array | push: onetmp %}
+            {% endfor %}
+          {% endif %}
+      {% else %}
+        {% assign cofirst_array = "" | split: ',' %}
+      {% endif %}
+      {% for author in entry.author_array %}
+        {% assign author_is_self = false %}
+        {% if author.last == site.scholar.last_name%}
+          {% if site.scholar.first_name contains author.first%}
+            {% assign author_is_self = true %}
+          {% endif %}
+        {% endif %}
+        {% assign author_is_team = false %}
+        {% for author_team in authors_team %}
+          {% if authors_team contains author.first %}
+            {% assign author_is_team = true %}
+          {% endif %}
+        {% endfor %}
+        {% assign coauthor_url = nil %}
+        {% if site.data.coauthors[author.first] %}
+          {% assign coauthor_url = site.data.coauthors[author.first].url %}
+        {% else %}
+          {% for coauthor in site.data.coauthors %}
+            {% if coauthor contains author.first %}
+              {% assign coauthor_url = coauthor.url %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        
+        {% assign styleauthor = {{author.last}} | append: ' ' | append: {{author.first}} %}
+        {% if author_is_self %}
+            {% assign styleauthor = {{styleauthor}} | prepend: '<strong>' | append: '</strong>' %}
+        {% endif %}
+        {% if author_is_team %}
+            {% assign styleauthor = {{styleauthor}} | prepend: '<em>' | append: '</em>' %}
+        {% endif %}
+        {% if coauthor_url %}
+            {% assign styleauthor = {{styleauthor}} | prepend: '<a href="{{coauthor_url}}" target="_blank">' | append: '</a>' %}
+        {% endif %}
+        {% capture authorindex_str %}{{forloop.index}}{% endcapture %}
+        {% if cofirst_array contains authorindex_str %}
+           {% assign styleauthor = {{styleauthor}} | append: '<nobr><em>*</em></nobr>' %}
+        {% endif %}
+        {% if forloop.last == false %}
+           {% assign styleauthor = {{styleauthor}} | append: ',' %}
+        {% endif %}
+        {{ styleauthor }}
+      {% endfor %}
+    </div>
+  <div>
+      <strong>
+          {% if entry.doi %}
+              <a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.journal }} ({{entry.year}})</a>
+          {% endif %}
+          |
+          {% if entry.pmcid %}
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/{{ entry.pmcid }}" target="_blank">{{entry.pmcid}}</a>
+          {% endif %}
+      </strong>
+  </div>
+    <p class="text-danger"><strong> {{ entry.news1 }}</strong></p>
+    <p> {{ entry.news2 }}</p>
+  </div>
+</div>
