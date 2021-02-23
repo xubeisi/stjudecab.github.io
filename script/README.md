@@ -38,7 +38,7 @@ optional arguments:
     - 2;-2,-1 means first 2 authors equally contributed, last 2 authors corresponding
     - negative corresponding max support to -5, not sure how to implement variable in jekyll liquid plus.
   + tex.highlight:
-    - You could write short summary of paper you'd like higtlight.
+    - You could write short summary of paper you'd like highlight.
     - Only entries with 'highlight' in .bib will be highlighted with Figure.
     - If use 'none', will use first 2 and last 2 sentences of abstract.
   + Examples
