@@ -60,7 +60,7 @@ conda env create -f .condaenv.xml
 conda activate iobuild
 cd _bibliography
 python ../script/bibtex_organizer.py -f papers.bib -m abbr,fig
-mv *.png *.jpg *.git ../images/pubpic/
+mv *.png *.jpg *.gif ../images/pubpic/
 ```
 
 Details:
