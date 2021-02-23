@@ -112,6 +112,7 @@ layout: default
   		<i class="content" style="margin:auto">{{ contentArray.first }}</i>
   	</div>
   </div>
-
-  {{ contentArray.last }}
+  {% if contentArray.size > 1 %}
+    {{ contentArray.last }}
+  {% endif %}
 </div>

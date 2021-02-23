@@ -27,6 +27,7 @@ bundle exec jekyll serve --host **$yourip** --port 5050 --livereload
 bundle exec jekyll build
 git commit "update" && git push
 sh script/deploy
+#Note it might take a few minutes for github.io to update, be patient
 ```
 
 
