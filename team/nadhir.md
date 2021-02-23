@@ -1,20 +1,34 @@
 ---
 layout: member
-title: Brooke Sheppard
-position: Postdoctoral Scholar
-handle: brookesheppard
-email: 
+title: Nadhir Djekidel
+position: Bioinformatics Research Scientist 
+handle: mnd
+email: nadhir.djekidel@stjude.org
 twitter:
-github:
-scholar: d3w5qCkAAAAJ
-photo: brookesheppard.jpg
-ucsf: brooke.sheppard
+github: stjudecab
+scholar: M2b_x_8AAAAJ
+photo: tm_nadhir.png
+stjude: nadhir-djekidel
+orcid: 0000-0001-5361-1858
+linkedin: djeknad
 ---
 
 ### Overview
-Brooke is an epidemiologist whose research focuses on identifying and characterizing the role of genetics in neurodevelopmental disorders.  Her graduate work involved investigating common variants associated with phenotypic heterogeneity and patterns of comorbidity in autism spectrum disorder (ASD) and attention-deficit/hyperactivity disorder (ADHD).  As a postdoctoral researcher St. Jude, she is contributing to ASD gene discovery efforts with the use of rare inherited and de novo variants identified from genomic sequencing data.  
+ I am a highly motivated, detail-oriented computational biologist, I enjoy challenging problems and like to develop new and effective approaches  to deal with them. I have experience in working  with different next generation sequencing data ranging from transcriptome (RNA-Seq), epigenome (ChIP-Seq, ATAC-Seq, CUT&RUN, WGBS, RRBS), chromatin structure (Hi-C, ChIA-PET) and single-cell sequencing data. He has also developed several computational methods and visualization tools such as:  
+   - **R3CPET**: A method to predict the proteins that can contributed to chromatin interactions.
+   - **FIND**: A method to detect differential chromatin interactions in Hi-C data.
+   - **HiC-Viewer**: A web-based tool to  visualize and predict the 3D structure of chromatin.
+   - **PFC-explorer**: A web-interface to visualize the prefrontal cortex single-cell RNA-Seq data.
 
 ### Education
- - PhD, Epidemiology,  Johns Hopkins University
- - ScM, Epidemiology, Johns Hopkins University
- - BA, Psychology, San Francisco State University
+ - PhD, Bioinformatics, Tsinghua university, China (2016)
+ - MSc, Computer Science/Bioinformatics , Central South University, China (2012)
+ - Chinese language , Central South University, China (2009)
+ - BEng, Computing Systems, Ecole National Supérieur d’informatique, Algeria (2008)
+
+### Professional Experience
+
+Time           | Position                           | PI                                    | Institution                               |
+-----------    | :----------------------            | ---------------------------------     | ---------------------------------         |
+2020-          | Bioinformatics Research Scientist  | Beisi Xu                              | St. Jude Children's Research Hospital     |
+2016-2020      | Postdoctoral Fellow                | Yi Zhang                              | Harvard Medical School/BCH, USA           |
