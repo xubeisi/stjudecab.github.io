@@ -10,7 +10,7 @@ years: [2021, 2020, 2019, 2018, 2017, 2016, 2015]
 
 ## Publications
 
-For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list), also [Google Scholar](https://scholar.google.com/citations?user=PIPGxWoAAAAJ), [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/1zofdYmKS0FQg/bibliography/public/)
+For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list), also [Google Scholar](https://scholar.google.com/citations?user=PIPGxWoAAAAJ){:target="_blank"}, [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/1zofdYmKS0FQg/bibliography/public/){:target="_blank"}
 
 <div class="row">
 ### Featured
@@ -29,7 +29,7 @@ For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list), also [Google 
 <div class="publications">
 
 {% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
+  <h2 class="year">{{y}}:{% bibliography_count -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}</h2>
   {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
 {% endfor %}
 

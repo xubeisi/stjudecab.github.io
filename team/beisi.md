@@ -74,7 +74,7 @@ For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list), also [Google 
 <div class="publications">
 
 {% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
+  <h2 class="year">{{y}}:{% bibliography_count -f {{ page.bibfile }} -q @*[year={{y}}]* %}</h2>
   {% bibliography -f {{ page.bibfile }} -q @*[year={{y}}]* %}
 {% endfor %}
 
