@@ -1,6 +1,5 @@
 ---
 ---
-
 <div class="row">
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
@@ -19,6 +18,27 @@
       <div class="title">{{entry.title}}</div>
       <div class="author">
         {% assign authors_team = site.scholar.first_names_team | split: ";" %}
+        {% if entry.cofirst %}
+          {% assign tmp = entry.cofirst | split: ";" %}
+            {% if tmp.size == 2 %}
+              {% assign corresponding = tmp[1] %}
+            {% endif %}
+            {% assign cofirst = tmp[0] %}
+          {% assign tmp = cofirst | split: "," %}
+            {% assign cofirst_array = "" | split: ',' %}
+            {% if tmp.size > 1 %}
+              {% for one in tmp %}
+                {% assign cofirst_array = cofirst_array | push: one %}
+              {% endfor %}
+            {% else %}
+              {% for one in (1..tmp[0]) %}
+                {% capture onetmp %}{{one}}{% endcapture %}
+                {% assign cofirst_array = cofirst_array | push: onetmp %}
+              {% endfor %}
+            {% endif %}
+        {% else %}
+          {% assign cofirst_array = "" | split: ',' %}
+        {% endif %}
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
           {% if author.last == site.scholar.last_name%}
@@ -65,7 +85,11 @@
               {% if coauthor_url %}
                 {% assign styleauthor = {{styleauthor}} | prepend: '<a href="{{coauthor_url}}" target="_blank">' | append: '</a>' %}
               {% endif %}
-              {{ styleauthor | append: ','}}
+              {% capture authorindex_str %}{{forloop.index}}{% endcapture %}
+              {% if cofirst_array contains authorindex_str %}
+                {% assign styleauthor = {{styleauthor}} | append: '<nobr><em>*</em></nobr>' %}
+              {% endif %}
+              {{ styleauthor | append: ',' }}
             {% endunless %}
           {% endif %}
         {% endfor %}

@@ -30,4 +30,4 @@ sh script/deploy
 ```
 
 
-The website is deployed using [GitHub Pages](https://stjudecab.github.io) and the source code is available on [GitHub](https://github.com/stjudecab/stjudecab.github.io). Please feel free to reuse this code (making sure to cite the Sanders, Bedford and Drummond lab as the original sources of the lab website template).
+The website is deployed using [GitHub Pages](https://stjudecab.github.io) and the source code is available on [GitHub](https://github.com/stjudecab/stjudecab.github.io). Please feel free to reuse this code (making sure to cite the Maruan, Sanders, Bedford and Drummond lab as the original sources of the lab website template).
