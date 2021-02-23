@@ -22,9 +22,32 @@
           {% assign tmp = entry.cofirst | split: ";" %}
             {% if tmp.size == 2 %}
               {% assign corresponding = tmp[1] %}
+              {% assign tmp2 = corresponding | split: "," %}
+              {% assign corresponding_array = "" | split: ',' %}
+              {% for one in tmp2 %}
+                {% capture onetmp2 %}{{one}}{% endcapture %}
+                {% if one == "-1" %}
+                  {% capture onetmp2 %}{{entry.author_array.size }}{% endcapture %}
+                {% endif %}
+                {% if one == "-2" %}
+                  {% capture onetmp2 %}{{entry.author_array.size | minus: 1}}{% endcapture %}
+                {% endif %}
+                {% if one == "-3" %}
+                  {% capture onetmp2 %}{{entry.author_array.size | minus: 2}}{% endcapture %}
+                {% endif %}
+                {% if one == "-4" %}
+                  {% capture onetmp2 %}{{entry.author_array.size | minus: 3}}{% endcapture %}
+                {% endif %}
+                {% if one == "-5" %}
+                  {% capture onetmp2 %}{{entry.author_array.size | minus: 4}}{% endcapture %}
+                {% endif %}
+                {% assign corresponding_array = corresponding_array | push: onetmp2 %}
+              {% endfor %}
+            {% else %}
+              {% assign corresponding_array = "" | split: ',' %}
             {% endif %}
             {% assign cofirst = tmp[0] %}
-          {% assign tmp = cofirst | split: "," %}
+            {% assign tmp = cofirst | split: "," %}
             {% assign cofirst_array = "" | split: ',' %}
             {% if tmp.size > 1 %}
               {% for one in tmp %}
@@ -63,38 +86,30 @@
               {% endif %}
             {% endfor %}
           {% endif %}
-          
-          {% if forloop.length == 1 %}
-            {% assign styleauthor = {{author.last}} | append: ' ' | append: {{author.first}} %}
-            {% if author_is_team %}
-              {% assign styleauthor = {{styleauthor}} | prepend: '<em>' | append: '</em>' %}
-            {% endif %}
-            {% if author_is_self %}
-              {% assign styleauthor = {{styleauthor}} | prepend: '<strong>' | append: '</strong>' %}
-            {% endif %}
-            {{ styleauthor }}
-          {% else %}
-            {% unless forloop.last %}
-              {% assign styleauthor = {{author.last}} | append: ' ' | append: {{author.first}} %}
-              {% if author_is_self %}
-                {% assign styleauthor = {{styleauthor}} | prepend: '<strong>' | append: '</strong>' %}
-              {% endif %}
-              {% if author_is_team %}
-                {% assign styleauthor = {{styleauthor}} | prepend: '<em>' | append: '</em>' %}
-              {% endif %}
-              {% if coauthor_url %}
-                {% assign styleauthor = {{styleauthor}} | prepend: '<a href="{{coauthor_url}}" target="_blank">' | append: '</a>' %}
-              {% endif %}
-              {% capture authorindex_str %}{{forloop.index}}{% endcapture %}
-              {% if cofirst_array contains authorindex_str %}
-                {% assign styleauthor = {{styleauthor}} | append: '<nobr><em>*</em></nobr>' %}
-              {% endif %}
-              {{ styleauthor | append: ',' }}
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      </div>
 
+          {% assign styleauthor = {{author.last}} | append: ' ' | append: {{author.first}} %}
+          {% if author_is_self %}
+              {% assign styleauthor = {{styleauthor}} | prepend: '<strong>' | append: '</strong>' %}
+          {% endif %}
+          {% if author_is_team %}
+              {% assign styleauthor = {{styleauthor}} | prepend: '<em>' | append: '</em>' %}
+          {% endif %}
+          {% if coauthor_url %}
+              {% assign styleauthor = {{styleauthor}} | prepend: '<a href="{{coauthor_url}}" target="_blank">' | append: '</a>' %}
+          {% endif %}
+          {% capture authorindex_str %}{{forloop.index}}{% endcapture %}
+          {% if cofirst_array contains authorindex_str %}
+             {% assign styleauthor = {{styleauthor}} | append: '<nobr><em>*</em></nobr>' %}
+          {% endif %}
+          {% if corresponding_array contains authorindex_str %}
+             {% assign styleauthor = {{styleauthor}} | append: '<nobr><em>#</em></nobr>' %}
+          {% endif %}
+          {% if forloop.last == false %}
+             {% assign styleauthor = {{styleauthor}} | append: ',' %}
+          {% endif %}
+          {{ styleauthor }}
+          {% endfor %}
+      </div>
       <div class="periodical">
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>

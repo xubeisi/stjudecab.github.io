@@ -1,6 +1,6 @@
 ### bibtex_organizer.py
 
-Script to Clean .bib from Zotero(bibtex)
+Script to format .bib from Zotero(bibtex)
 
 ```
 usage: bibtex_organizer.py [-h] [-f <file>] [-o <string>] [-m <string>]
@@ -27,14 +27,21 @@ optional arguments:
   PMCID: PMC6842117
   PMID: 31493975
   ```
-- Option3: Other Tags would be automatically converted to links
-  + Multiple Link Seperated by ';'
-  + 'LINKID,Name' will show 'Name' as text of link, 'LINKID' will show defailt as text of linke (usually 'LINKID')
+- Option3: Other Tags(*Extra* region of Zotero) could be converted to links
+  + 'tex.' prefix were only needed in Zotero for export using [Zotero Plugin](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v5.2.121) [zotero-better-bibtex](https://retorque.re/zotero-better-bibtex) (case insensitive). If you manually change .bib file, then no need 'tex.' (lowercase)
+  + Most support multiple links seperated by ';'
+  + 'LinkID,Name' will show 'Name' as text of link, 'LinkID' will show default as text of links (usually 'LinkID')
   + tex.cofirst:
     - 2 means first 2 authors equally contributed
     - 2,3 means 2nd and 3rd author equally contributed
-    - 2;-1 means first 2 authors equally contributed, last author corresponding
+    - 2;1,-1 means first 2 authors equally contributed, last author and 1st author corresponding
     - 2;-2,-1 means first 2 authors equally contributed, last 2 authors corresponding
+    - negative corresponding max support to -5, not sure how to implement variable in jekyll liquid plus.
+  + tex.highlight:
+    - You could write short summary of paper you'd like higtlight.
+    - Only entries with 'highlight' in .bib will be highlighted with Figure.
+    - If use 'none', will use first 2 and last 2 sentences of abstract.
+  + Examples
   ```
     tex.GEOID: GSE87064,Mouse;GSE87065,CHIP
     tex.SRAID: PRJNA473990,Human;PRJNA473991,Mouse
@@ -42,9 +49,10 @@ optional arguments:
     tex.Browser: https://pecan.stjude.cloud/proteinpaint/study/retina_hic_2018,Mouse_mm9;https://viz.stjude.cloud/stjude/visualization/human-retina-wgbs-chipseq-chromhmmgene-fpkm-hg19,Human_hg19
     tex.Extralinks: https://platform.stjude.cloud/workflows/methylation-to-activity,STJUDE.CLOUD.workflow;https://github.com/chenlab-sj/M2A,Code
     tex.cofirst: 2
+    tex.highlight: none
   ```
 
-2. Step2: In Zotero, Select Items Export bibtex as .bib file
+2. Step2: In Zotero, Select Entries Export bibtex as .bib file
 
 3. Step3:
 ```bash
@@ -52,10 +60,15 @@ conda env create -f .condaenv.xml
 conda activate iobuild
 cd _bibliography
 python ../script/bibtex_organizer.py -f papers.bib -m abbr,fig
+mv *.png *.jpg *.git ../images/pubpic/
 ```
 
 Details:
 #### Used [bibtexparser](https://bibtexparser.readthedocs.io/en/master)
+
+#### Used [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
+- Highlight template in _layouts/bib_highlight.html
+- Full list template in _layouts/bib.html
 
 #### Only need get Abbreviations
 - Recommend export using [Zotero Plugin](https://github.com/retorquere/zotero-better-bibtex/releases/tag/v5.2.121) [zotero-better-bibtex](https://retorque.re/zotero-better-bibtex)
