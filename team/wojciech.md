@@ -32,4 +32,3 @@ Sep-Dec 2013   | Intern Student                     | Yutaka Suzuki             
 Jan-May 2011   | Intern Student                     | Vincent Daubin and Gergely J Szollosi | Université Claude Bernard Lyon 1, France  |
 Summer of 2010 | Intern Student                     | Marc Robinson-Rechavi                 | Universite de Lausanne, Switzerland       |
 Summer of 2009 | Intern Student                     | Heinrich Huber                        | Royal College of Surgeons in Ireland      |
-{:.custom-table}
