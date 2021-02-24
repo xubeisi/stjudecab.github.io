@@ -78,6 +78,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    true
+enable_google_analytics:    false
+enable_google_tagmanager:    true
 
 max_width: 1200px
