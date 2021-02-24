@@ -48,8 +48,6 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
-google_analytics: G-1H31G58P5J
-
 excerpt_separator: "<!--more-->"
 
 scholar:
@@ -78,7 +76,12 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
+devorprod: production
+
 enable_google_analytics:    false
 enable_google_tagmanager:    true
+
+google_analytics:     G-1H31G58P5J
+google_tagmanager:    GTM-KBQBM37
 
 max_width: 1200px
