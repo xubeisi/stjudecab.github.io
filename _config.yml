@@ -78,8 +78,8 @@ scholar:
 
 devorprod: production
 
-enable_google_analytics:    false
-enable_google_tagmanager:    true
+enable_google_analytics:    true
+enable_google_tagmanager:   false
 
 google_analytics:     G-1H31G58P5J
 google_tagmanager:    GTM-KBQBM37
