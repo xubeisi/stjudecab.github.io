@@ -1,3 +1,34 @@
+<!--
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" >
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
+
+$(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+    $dropdown.hover(
+      function() {
+        const $this = $(this);
+        $this.addClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "true");
+        $this.find($dropdownMenu).addClass(showClass);
+      },
+      function() {
+        const $this = $(this);
+        $this.removeClass(showClass);
+        $this.find($dropdownToggle).attr("aria-expanded", "false");
+        $this.find($dropdownMenu).removeClass(showClass);
+      }
+    );
+  } else {
+    $dropdown.off("mouseenter mouseleave");
+  }
+});
+</script>
+-->
+
 <div class="container">
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container-fluid">
@@ -24,7 +55,7 @@
                   {% if page.group %}
                     {% assign linkname = page.group %}
                   {% endif %}
-                  <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}" class="dropdown-toggle disabled" data-toggle="dropdown tooltip" data-html="true" title="Return to All CAB" aria-haspopup="true" aria-expanded="false">
+                  <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}" class="dropdown-toggle" data-toggle="dropdown tooltip" title="Return to All CAB" aria-haspopup="true" aria-expanded="false">
                     <p style="text-decoration:underline;text-decoration-color:{{ page.groupcolor }};">
                     {{ linkname }}
                     <span class="caret"></span>
@@ -49,7 +80,7 @@
                       {{ link.name }}
                     {% else %}
                       {% if page.group and page.groupcolor %}
-                        <a data-toggle="tooltip" title="Group Specific" href="{{ site.url }}{{ site.baseurl }}/{{page.group}}_{{ link.link | remove_first: "/" }}">
+                          <a data-toggle="tooltip" title="Group Specific" href="{{ site.url }}{{ site.baseurl }}/{{page.group}}_{{ link.link | remove_first: "/" }}">
                           <p style="text-decoration:underline;text-decoration-color:{{ page.groupcolor }};">
                           {{ link.name }}
                           </p>
