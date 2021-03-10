@@ -28,8 +28,8 @@ linkedin: djeknad
 
 ### Professional Experience
 
-Time           | Position                           | PI                                    | Institution                               |
+Time           | Position                           | PI/Supervisor                         | Institution                               |
 -----------    | :----------------------            | ---------------------------------     | ---------------------------------         |
-2020-          | Bioinformatics Research Scientist  | Beisi Xu                              | St. Jude Children's Research Hospital     |
+2020-          | Bioinformatics Research Scientist  | Gang Wu / Beisi Xu                    | St. Jude Children's Research Hospital     |
 2016-2020      | Postdoctoral Fellow                | Yi Zhang                              | Harvard Medical School/BCH, USA           |
 {:.custom-table}

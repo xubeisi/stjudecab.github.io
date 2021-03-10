@@ -38,13 +38,14 @@ NGS Data Beisi knows how to analyze:
 
 ### Professional Experience
 
-Time        | Position                   | PI               | Institution                                   |
+Time        | Position                   | PI/Supervisor    | Institution                                   |
 ----------- | :-----------               | -----------      | -----------                                   |
-2019-       | Goup Lead-Epigenetics      | Gang Wu          | St. Jude Children's Research Hospital         |
-2017-2019   | Sr. Bioinformatics         | Jinghui Zhang    | St. Jude                                      |
-            | Research Scientist         |                  |                                               |
-2014-2017   | Bioinformatics             | Jinghui Zhang    | St. Jude                                      |
-            | Research Scientist         |                  |                                               |
+2019-       | Goup Lead-Epigenetics      | Gang Wu /        | St. Jude Children's Research Hospital         |
+            |                            | Yiping Fan       |                                               |
+2017-2019   | Sr. Bioinformatics         | Jinghui Zhang /  | St. Jude                                      |
+            | Research Scientist         | Yiping Fan       |                                               |
+2014-2017   | Bioinformatics             | Jinghui Zhang /  | St. Jude                                      |
+            | Research Scientist         | Yiping Fan       |                                               |
 2011-2014   | Postdoctoral Fellow        | Dustin E.Schones | City of Hope                                  |
 2009-2011   | Postdoctoral Fellow        | Guohui Li        | Dalian Institute of Chemical Physics          |
 2009-2009   | Postdoctoral Fellow(Joint) | Yan Cui          | University of Tennessee Health Science Center |

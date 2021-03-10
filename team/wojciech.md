@@ -23,9 +23,9 @@ In my work I am a scientist, computational biologist. I use bioinformatics appro
 
 ### Professional Experience
 
-Time           | Position                           | PI                                    | Institution                               |
+Time           | Position                           | PI/Supervisor                         | Institution                               |
 -----------    | :----------------------            | ---------------------------------     | ---------------------------------         |
-2020-          | Bioinformatics Research Scientist  | Beisi Xu                              | St. Jude Children's Research Hospital     |
+2020-          | Bioinformatics Research Scientist  | Gang Wu / Beisi Xu                    | St. Jude Children's Research Hospital     |
 2017-2019      | Postdoctoral Fellow                | Sheng Li                              | The Jackson Laboratory, USA               |
 2013-2016      | Co-founder and bioinformatician    | N/A                                   | ideas4biology Sp. z o.o., Poland          |
 Oct-Dec 2014   | Intern Student                     | Yutaka Suzuki                         | University of Tokyo, Japan                |
