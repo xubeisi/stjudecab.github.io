@@ -5,10 +5,10 @@ excerpt: "- Research"
 sitemap: false
 permalink: /Epigenetics_research/
 group: Epigenetics
-groupcolor: "#D2B48C"
+groupcolor: "#8D0034"
 ---
 
-## Research Highlights
+## Research Highlights for {{ page.group }}
 
 ---
 

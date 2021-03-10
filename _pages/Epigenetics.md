@@ -5,7 +5,7 @@ excerpt: "at St. Jude."
 sitemap: false
 permalink: /Epigenetics/
 group: Epigenetics
-groupcolor: "#D2B48C"
+groupcolor: "#8D0034"
 ---
 
 ## Welcome to SJCAB Epigenetics St. Jude

@@ -5,13 +5,13 @@ excerpt: "- Team members"
 sitemap: false
 permalink: /Epigenetics_team/
 group: Epigenetics
-groupcolor: "#D2B48C"
+groupcolor: "#8D0034"
 ---
 
 
 {% assign teamurlbase = site.url | append: site.baseurl | append: "/team/" %}
 
-## Team Members
+## Team Members of {{ page.group }}
 (Please click the name below for the lab memeber's profile)
 
 

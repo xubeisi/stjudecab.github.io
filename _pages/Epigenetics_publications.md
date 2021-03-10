@@ -6,12 +6,12 @@ sitemap: false
 permalink: /Epigenetics_publications/
 years: [2021, 2020, 2019, 2018, 2017, 2016, 2015]
 group: Epigenetics
-groupcolor: "#D2B48C"
+groupcolor: "#8D0034"
 ---
 
 {% assign bibfile = page.group | append: ".clean.bib" %}
 
-## Publications
+## Publications from {{ page.group }}
 
 For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list), also [Google Scholar](https://scholar.google.com/citations?user=PIPGxWoAAAAJ){:target="_blank"}, [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/1zofdYmKS0FQg/bibliography/public/){:target="_blank"}
 
