@@ -8,28 +8,28 @@ group: Epigenetics
 groupcolor: "#8D0034"
 ---
 
-
 {% assign teamurlbase = site.url | append: site.baseurl | append: "/team/" %}
 
 ## Team Members of {{ page.group }}
-(Please click the name below for the lab memeber's profile)
 
-
+{% assign grpmember = site.data.team_members | where: "group", page.group %}
 ---
 
 ### Group Lead
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in grpmember %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 0 %}
+{% if member.posgroup == 0 %}
 
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  <a href="{{ teamurlbase }}{{ member.url }}" class="off">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  </a>
   <h4><a href="{{ teamurlbase }}{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 </div>
@@ -52,17 +52,19 @@ groupcolor: "#8D0034"
 
 ### Scientist
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in grpmember %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if member.group == 1 %}
+{% if member.posgroup == 1 %}
 
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
 
 <div class="col-sm-6 clearfix">
+  <a href="{{ teamurlbase }}{{ member.url }}" class="off">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  </a>
   <h4><a href="{{ teamurlbase }}{{ member.url }}" class="off">{{ member.name }}</a></h4>
   <i>{{ member.info }}</i>
 </div>
@@ -80,17 +82,8 @@ groupcolor: "#8D0034"
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
 ---
 
 ### Contact
 Please contact our group lead, <a href="mailto:beisi.xu#stjude.org">Beisi Xu</a>.
-
-
-
-
-
-
-
-
 

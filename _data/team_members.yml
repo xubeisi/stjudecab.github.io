@@ -1,18 +1,21 @@
 - name: Beisi Xu
   photo: tm_beisi.png
-  info: Group Lead(Epigentics)
+  info: Group Lead(Epigenetics)
   url: beisi
-  group: 0
+  posgroup: 0
+  group: Epigenetics
   
 - name: Wojciech Rosikiewicz
   photo: tm_wojciech.png
   info: Bioinformatics Research Scientist
   url: wojciech
-  group: 1
+  posgroup: 1
+  group: Epigenetics
   
 - name: Mohamed Nadhir Djekidel
   photo: tm_nadhir.png
   info: Bioinformatics Research Scientist
   url: nadhir
-  group: 1
+  posgroup: 1
+  group: Epigenetics
   
