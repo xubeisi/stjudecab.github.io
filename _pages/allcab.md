@@ -3,7 +3,7 @@ title: "Home"
 layout: homelay
 excerpt: "at St. Jude."
 sitemap: false
-permalink: /
+permalink: /allcab
 ---
 
 ## Welcome to SJCAB St. Jude

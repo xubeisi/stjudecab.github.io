@@ -1,5 +1,16 @@
-- link: /
-  name: Home
+- link: /allcab/
+  name: Groups
+  sublinks:
+    - name: Transcriptomics
+      link: /Transcriptomics/
+    - name: Epigenetics
+      link: /Epigenetics/
+    - name: Genomics
+      link: /Genomics/
+    - name: Genetics
+      link: /Genetics/
+    - name: DevOps
+      link: /DevOps/
 - link: /team/
   name: Team
 - link: /research/
@@ -8,7 +19,10 @@
   name: Publications
 - link: /code/
   name: Code
+  iscommon: yes
 - link: /covidexpress/
   name: CovidExpress
+  iscommon: yes
 - link: /contact/
   name: Contact
+  iscommon: yes
