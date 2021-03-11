@@ -495,6 +495,6 @@ $navbar-default-link-active-color: var(--global-highlight-color);
 
 /* ============ smaller view ============ */
 @media all and (max-width: 992px) {
-	.navbar .nav-item .dropdown-menu { display: block; title: Group; left:auto; right:0; margin-right: -10px; margin-top:0; }
+	.navbar .nav-item .dropdown-menu { display: block; title: Group; left:auto; right:0; margin-left:40px; margin-right: -10px; margin-top:0; }
 }	
 /* ============ smaller view .end// ============ */
