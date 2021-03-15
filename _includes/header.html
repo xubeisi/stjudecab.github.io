@@ -78,19 +78,20 @@ $(window).on("load resize", function() {
                   {% if link.iscommon %}
                     <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}">
                       {{ link.name }}
+                  {% else %}
+                    {% assign thislink = link.link | remove_first: "/" %}
+                    {% if page.group and page.groupcolor and page.groupspec contains thislink %}
+                        <a data-toggle="tooltip" title="Group Specific" href="{{ site.url }}{{ site.baseurl }}/{{page.group}}_{{ link.link | remove_first: "/" }}">
+                        <p style="text-decoration:underline;text-decoration-color:{{ page.groupcolor }};">
+                        {{ link.name }}
+                        </p>
+                      </a>
                     {% else %}
-                      {% if page.group and page.groupcolor %}
-                          <a data-toggle="tooltip" title="Group Specific" href="{{ site.url }}{{ site.baseurl }}/{{page.group}}_{{ link.link | remove_first: "/" }}">
-                          <p style="text-decoration:underline;text-decoration-color:{{ page.groupcolor }};">
-                          {{ link.name }}
-                          </p>
-                        </a>
-                      {% else %}
-                        <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}">
-                          {{ link.name }}
-                        </a>
-                      {% endif %}
+                      <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}">
+                        {{ link.name }}
+                      </a>
                     {% endif %}
+                  {% endif %}
                 </li>
               {% endif %}
             {% endfor %}

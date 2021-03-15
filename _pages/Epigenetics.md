@@ -6,6 +6,7 @@ sitemap: false
 permalink: /Epigenetics/
 group: Epigenetics
 groupcolor: "#8D0034"
+groupspec: [ "team/", "research/", "publications/" ]
 ---
 
 ## Welcome to SJCAB Epigenetics St. Jude

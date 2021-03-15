@@ -5,6 +5,7 @@ excerpt: "at St. Jude."
 sitemap: false
 permalink: /DevOps/
 group: DevOps
+groupcolor: "#008CCF"
 ---
 
 ## Welcome to SJCAB DevOps St. Jude
