@@ -79,9 +79,19 @@ $(window).on("load resize", function() {
                     <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}">
                       {{ link.name }}
                   {% else %}
+                    {% assign ifgroupspec = nil %}
                     {% assign thislink = link.link | remove_first: "/" %}
-                    {% if page.group and page.groupcolor and page.groupspec contains thislink %}
-                        <a data-toggle="tooltip" title="Group Specific" href="{{ site.url }}{{ site.baseurl }}/{{page.group}}_{{ link.link | remove_first: "/" }}">
+                    {% if page.groupspec %}
+                      {% if page.group and page.groupcolor and page.groupspec contains thislink %}
+                        {% assign ifgroupspec = 1 %}
+                      {% endif %}
+                    {% else %}
+                      {% if page.group and page.groupcolor %}
+                        {% assign ifgroupspec = 1 %}
+                      {% endif %}
+                    {% endif %}
+                    {% if ifgroupspec %}
+                      <a data-toggle="tooltip" title="Group Specific" href="{{ site.url }}{{ site.baseurl }}/{{page.group}}_{{ link.link | remove_first: "/" }}">
                         <p style="text-decoration:underline;text-decoration-color:{{ page.groupcolor }};">
                         {{ link.name }}
                         </p>
