@@ -19,7 +19,7 @@ Infection with Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
 #### [CovidExpress Expression Data Download(.h5)](https://covidexpress.herokuapp.com){:target="_blank"}
 
 
-<table border="1" class="dataframe">
+<table style="border-spacing: 10px;" border="1" class="dataframe">
 <thead>
 <tr style="text-align: center;">
 <th>Score</th>

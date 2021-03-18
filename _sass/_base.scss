@@ -485,16 +485,31 @@ progress::-moz-progress-bar {
 ul.nav a:hover { color: var(--global-highlight-color) !important; }
 $navbar-default-link-active-color: var(--global-highlight-color);
 
-/* ============ desktop view ============ */
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu { display: none; }
-	.navbar .nav-item:hover .dropdown-menu { display: block; }
-	.navbar .nav-item .dropdown-menu { margin-top:0; }
-}	
-/* ============ desktop view .end// ============ */
+.dataframe th, td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+.dataframe tbody tr:nth-child(odd) {
+    background: #eee;
+}
 
-/* ============ smaller view ============ */
-@media all and (max-width: 992px) {
-	.navbar .nav-item .dropdown-menu { display: block; title: Group; left:auto; right:0; margin-left:40px; margin-right: -10px; margin-top:0; }
-}	
-/* ============ smaller view .end// ============ */
+body {
+  background: #f2f2f2;
+}
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}

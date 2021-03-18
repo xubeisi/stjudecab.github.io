@@ -1,33 +1,3 @@
-<!--
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script type="text/javascript" >
-const $dropdown = $(".dropdown");
-const $dropdownToggle = $(".dropdown-toggle");
-const $dropdownMenu = $(".dropdown-menu");
-const showClass = "show";
-
-$(window).on("load resize", function() {
-  if (this.matchMedia("(min-width: 768px)").matches) {
-    $dropdown.hover(
-      function() {
-        const $this = $(this);
-        $this.addClass(showClass);
-        $this.find($dropdownToggle).attr("aria-expanded", "true");
-        $this.find($dropdownMenu).addClass(showClass);
-      },
-      function() {
-        const $this = $(this);
-        $this.removeClass(showClass);
-        $this.find($dropdownToggle).attr("aria-expanded", "false");
-        $this.find($dropdownMenu).removeClass(showClass);
-      }
-    );
-  } else {
-    $dropdown.off("mouseenter mouseleave");
-  }
-});
-</script>
--->
 
 <div class="container">
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -35,9 +5,7 @@ $(window).on("load resize", function() {
       <div>
         <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_nav" aria-expanded="false">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="glyphicon glyphicon-menu-hamburger"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="main_nav">
@@ -55,13 +23,13 @@ $(window).on("load resize", function() {
                   {% if page.group %}
                     {% assign linkname = page.group %}
                   {% endif %}
-                  <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}" class="dropdown-toggle" data-toggle="dropdown tooltip" title="Return to All CAB" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownGroup" role="button" data-toggle="dropdown" title="Click to toggle dropmenu" aria-haspopup="true" aria-expanded="false">
                     <p style="text-decoration:underline;text-decoration-color:{{ page.groupcolor }};">
                     {{ linkname }}
                     <span class="caret"></span>
                     </p>
                   </a>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownGroup">
                     {% for sublink in link.sublinks %}
                       {% if sublink.name == 'separator' %}
                         <li role="separator" class="divider"></li>
@@ -74,35 +42,44 @@ $(window).on("load resize", function() {
                   </ul>
                 </li>
               {% else %}
-                <li class="{{ class }}">
-                  {% if link.iscommon %}
+                {% if link.iscommon %}
+                  <li class="{{ class }}">
                     <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}">
                       {{ link.name }}
-                  {% else %}
-                    {% assign ifgroupspec = nil %}
-                    {% assign thislink = link.link | remove_first: "/" %}
-                    {% if page.groupspec %}
-                      {% if page.group and page.groupcolor and page.groupspec contains thislink %}
-                        {% assign ifgroupspec = 1 %}
-                      {% endif %}
-                    {% else %}
-                      {% if page.group and page.groupcolor %}
-                        {% assign ifgroupspec = 1 %}
-                      {% endif %}
+                    </a>
+                  </li>
+                {% else %}
+                  {% assign ifgroupspec = nil %}
+                  {% assign thislink = link.link | remove_first: "/" %}
+                  {% assign thisgrouplink = page.group | prepend: "/" | append: "_" | append: thislink %}
+                  {% if page.groupspec %}
+                    {% if page.group and page.groupcolor and page.groupspec contains thislink %}
+                      {% assign ifgroupspec = 1 %}
                     {% endif %}
-                    {% if ifgroupspec %}
-                      <a data-toggle="tooltip" title="Group Specific" href="{{ site.url }}{{ site.baseurl }}/{{page.group}}_{{ link.link | remove_first: "/" }}">
-                        <p style="text-decoration:underline;text-decoration-color:{{ page.groupcolor }};">
-                        {{ link.name }}
-                        </p>
-                      </a>
-                    {% else %}
-                      <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}">
-                        {{ link.name }}
-                      </a>
+                  {% else %}
+                    {% if page.group and page.groupcolor %}
+                      {% assign ifgroupspec = 1 %}
                     {% endif %}
                   {% endif %}
-                </li>
+                  {% if page.url == thisgrouplink %}
+                    {% assign class = 'active' %}
+                  {% endif %}
+                  {% if ifgroupspec %}
+                    <li class="{{ class }}">
+                    <a data-toggle="tooltip" title="Group Specific" href="{{ site.url }}{{ site.baseurl }}/{{page.group}}_{{ link.link | remove_first: "/" }}">
+                      <p style="text-decoration:underline;text-decoration-color:{{ page.groupcolor }};">
+                      {{ link.name }}
+                      </p>
+                    </a>
+                    </li>
+                  {% else %}
+                    <li class="{{ class }}">
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ link.link }}">
+                      {{ link.name }}
+                    </a>
+                    </li>
+                  {% endif %}
+                {% endif %}
               {% endif %}
             {% endfor %}
             <li align="center" style="padding-top: 14px;padding-bottom: 14px;">
@@ -117,3 +94,32 @@ $(window).on("load resize", function() {
     </div>
   </div>
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script id="rendered-js">
+const $dropdown = $(".dropdown");
+const $dropdownToggle = $(".dropdown-toggle");
+const $dropdownMenu = $(".dropdown-menu");
+const showClass = "show";
+
+$(window).on("load resize", function () {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+    $dropdown.hover(
+    function () {
+      const $this = $(this);
+      $this.addClass(showClass);
+      $this.find($dropdownToggle).attr("aria-expanded", "true");
+      $this.find($dropdownMenu).addClass(showClass);
+    },
+    function () {
+      const $this = $(this);
+      $this.removeClass(showClass);
+      $this.find($dropdownToggle).attr("aria-expanded", "false");
+      $this.find($dropdownMenu).removeClass(showClass);
+    });
+
+  } else {
+    $dropdown.off("mouseenter mouseleave");
+  }
+});
+</script>
