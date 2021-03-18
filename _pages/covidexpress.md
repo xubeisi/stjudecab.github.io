@@ -156,7 +156,7 @@ Clustering using expression value Fragments Per Kilobase Million([FPKM](https://
 <tr>
 <th>Data:COV.Significant</th>
 <td>
-ssGSEA score were using genesets from pre-computed differential analysis([Using Voom](https://doi.org/10.1186/gb-2014-15-2-r29){:target="_blank"}), only genes significant(fold change > 2, False Discovery Rate corrected p-value < 0.05) were considerred for each differential analysis.
+ssGSEA score were using genesets from pre-computed differential analysis([Using Voom](https://doi.org/10.1186/gb-2014-15-2-r29){:target="_blank"}), only genes significant(fold change > 2, False Discovery Rate corrected p-value < 0.05) were considered for each differential analysis.
 </td>
 </tr>
 
@@ -164,7 +164,7 @@ ssGSEA score were using genesets from pre-computed differential analysis([Using 
 <tr>
 <th>Data:COV.All.Signature</th>
 <td>
-ssGSEA score were using genesets from pre-computed differential analysis([Using Voom](https://doi.org/10.1186/gb-2014-15-2-r29){:target="_blank"}), genes passed different levels of cutoff or top regulated genes were all considerred for each differential analysis.
+ssGSEA score were using genesets from pre-computed differential analysis([Using Voom](https://doi.org/10.1186/gb-2014-15-2-r29){:target="_blank"}), genes passed different levels of cutoff or top regulated genes were all considered for each differential analysis.
 </td>
 </tr>
 
