@@ -131,6 +131,7 @@ Infection with Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
 </tbody>
 </table>
 <br>
+
 <table style="border-spacing: 10px;" border="1" class="dataframe table-bordered">
 <thead>
 <tr style="text-align: center;">
@@ -142,104 +143,94 @@ Infection with Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
 <tbody>
 <tr>
 <th>Score:ssGSEA</th>
-<td>
-Clustering using single-sample Gene Set Enrichment Analysis Score ([ssGSEA](https://www.genepattern.org/modules/docs/ssGSEAProjection){:target="_blank"})
-</td>
+<td>Clustering using single-sample Gene Set Enrichment Analysis Score (<a target="_blank" href="https://www.genepattern.org/modules/docs/ssGSEAProjection">ssGSEA</a>)</td>
 </tr>
 <tr>
 <th>Score:FPKM</th>
-<td>
-Clustering using expression value Fragments Per Kilobase Million([FPKM](https://www.rna-seqblog.com/rpkm-fpkm-and-tpm-clearly-explained/){:target="_blank"})
-</td>
+<td>Clustering using expression value Fragments Per Kilobase Million(<a target="_blank" href="https://www.rna-seqblog.com/rpkm-fpkm-and-tpm-clearly-explained/">FPKM</a>)</td>
 </tr>
 
 <tr>
 <th>Data:COV.Significant</th>
-<td>
-ssGSEA score were using genesets from pre-computed differential analysis([Using Voom](https://doi.org/10.1186/gb-2014-15-2-r29){:target="_blank"}), only genes significant(fold change > 2, False Discovery Rate corrected p-value < 0.05) were considered for each differential analysis.
-</td>
+<td>ssGSEA score were using genesets from pre-computed differential analysis(<a target="_blank" href="https://doi.org/10.1186/gb-2014-15-2-r29">Using Voom</a>), only genes significant(fold change &gt; 2, False Discovery Rate corrected p-value &lt; 0.05) were considered for each differential analysis.</td>
 </tr>
 
 
 <tr>
 <th>Data:COV.All.Signature</th>
-<td>
-ssGSEA score were using genesets from pre-computed differential analysis([Using Voom](https://doi.org/10.1186/gb-2014-15-2-r29){:target="_blank"}), genes passed different levels of cutoff or top regulated genes were all considered for each differential analysis.
-</td>
+<td>ssGSEA score were using genesets from pre-computed differential analysis(<a target="_blank" href="https://doi.org/10.1186/gb-2014-15-2-r29">Using Voom</a>), genes passed different levels of cutoff or top regulated genes were all considered for each differential analysis.</td>
 </tr>
 
 <tr>
 <th>Data:MSigDB</th>
-<td>
-ssGSEA score were using genesets from Molecular Signatures Database([MSigDB](http://www.gsea-msigdb.org/gsea/index.jsp){:target="_blank"})
-</td>
+<td>ssGSEA score were using genesets from Molecular Signatures Database(<a target="_blank" href="http://www.gsea-msigdb.org/gsea/index.jsp">MSigDB</a>)</td>
 </tr>
 
 <tr>
 <th>Data:BatchCorrected</th>
-<td>
-FPKM values were corrected for batch effect using Combat([From SVA R package](https://bioconductor.org/packages/release/bioc/html/sva.html){:target="_blank"}, [Johnson et al,2007,Biostatistics](https://doi.org/10.1093/biostatistics/kxj037){:target="_blank"})
-</td>
+<td>FPKM values were corrected for batch effect using Combat(<a target="_blank" href="https://bioconductor.org/packages/release/bioc/html/sva.html">From SVA R package</a>, <a target="_blank" href="https://doi.org/10.1093/biostatistics/kxj037">Johnson et al,2007,Biostatistics</a>)</td>
 </tr>
 
 <tr>
 <th>Data:Original</th>
-<td>
-FPKM values from RSEM method([Li and Dewey,2011,BMC Bioinformatics](https://doi.org/10.1186/1471-2105-12-323){:target="_blank"}) using STAR([Dobin et al,2013,Bioinformatics](https://doi.org/10.1093/bioinformatics/bts635){:target="_blank"})
-</td>
+<td>FPKM values from RSEM method(<a target="_blank" href="https://doi.org/10.1186/1471-2105-12-323">Li and Dewey,2011,BMC Bioinformatics</a>) using STAR(<a target="_blank" href="https://doi.org/10.1093/bioinformatics/bts635">Dobin et al,2013,Bioinformatics</a>)</td>
 </tr>
 
 <tr>
-<td>--</td>
+<td>–</td>
 </tr>
 
 <tr>
 <th>PCA.3D</th>
-<td>Three dimensions plot(PC1 vs PC2 vs PC3) from [Principal component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis){:target="_blank"}</td>
+<td>Three dimensions plot(PC1 vs PC2 vs PC3) from <a target="_blank" href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal component analysis</a>
+</td>
 </tr>
 <tr>
 <th>PCA.2PCs</th>
-<td>Two dimensions plot(PC1 vs PC2) from [Principal component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis){:target="_blank"}</td>
+<td>Two dimensions plot(PC1 vs PC2) from <a target="_blank" href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal component analysis</a>
+</td>
 </tr>
 <tr>
 <th>PCA.grid</th>
-<td>Two dimensions plots(Many vs Many) from [Principal component analysis](https://en.wikipedia.org/wiki/Principal_component_analysis){:target="_blank"}</td>
+<td>Two dimensions plots(Many vs Many) from <a target="_blank" href="https://en.wikipedia.org/wiki/Principal_component_analysis">Principal component analysis</a>
+</td>
 </tr>
 <tr>
 <th>PCA.components_matrix</th>
-<td>Each sample's projection to top principal components</td>
+<td>Each sample’s projection to top principal components</td>
 </tr>
 <tr>
 <th>PCA.loadings</th>
-<td>PCA [loading](https://scentellegher.github.io/machine-learning/2020/01/27/pca-loadings-sklearn.html){:target="_blank"} as each geneset or gene's loading to top principal components</td>
+<td>PCA <a target="_blank" href="https://scentellegher.github.io/machine-learning/2020/01/27/pca-loadings-sklearn.html">loading</a> as each geneset or gene’s loading to top principal components</td>
 </tr>
 <tr>
 <th>PCA.loadings_matrix</th>
-<td>PCA [loading matrix](https://scentellegher.github.io/machine-learning/2020/01/27/pca-loadings-sklearn.html){:target="_blank"} as each geneset or gene's correlations to top principal components</td>
+<td>PCA <a target="_blank" href="https://scentellegher.github.io/machine-learning/2020/01/27/pca-loadings-sklearn.html">loading matrix</a> as each geneset or gene’s correlations to top principal components</td>
 </tr>
 <tr>
 <th>tSNE.3D</th>
-<td>Three dimensions plot from [tSNE analysis](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding){:target="_blank"}</td>
+<td>Three dimensions plot from <a target="_blank" href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">tSNE analysis</a>
+</td>
 </tr>
 <tr>
 <th>tSNE.2D</th>
-<td>Two dimensions plot from [tSNE analysis](https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding){:target="_blank"}</td>
+<td>Two dimensions plot from <a target="_blank" href="https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding">tSNE analysis</a>
+</td>
 </tr>
 <tr>
 <th>UMAP.3D.n_neighbors_20</th>
-<td>Three dimensions plot from [UMAP analysis](https://umap-learn.readthedocs.io/en/latest){:target="_blank"} using parameter n_neighbors = 20</td>
+<td>Three dimensions plot from <a target="_blank" href="https://umap-learn.readthedocs.io/en/latest">UMAP analysis</a> using parameter n_neighbors = 20</td>
 </tr>
 <tr>
 <th>UMAP.3D.n_neighbors_10</th>
-<td>Three dimensions plot from [UMAP analysis](https://umap-learn.readthedocs.io/en/latest){:target="_blank"} using parameter n_neighbors = 10</td>
+<td>Three dimensions plot from <a target="_blank" href="https://umap-learn.readthedocs.io/en/latest">UMAP analysis</a> using parameter n_neighbors = 10</td>
 </tr>
 <tr>
 <th>UMAP.3D.n_neighbors_5</th>
-<td>Three dimensions plot from [UMAP analysis](https://umap-learn.readthedocs.io/en/latest){:target="_blank"} using parameter n_neighbors = 5</td>
+<td>Three dimensions plot from <a target="_blank" href="https://umap-learn.readthedocs.io/en/latest">UMAP analysis</a> using parameter n_neighbors = 5</td>
 </tr>
 
 
 </tbody>
 </table>
 <br>
-
