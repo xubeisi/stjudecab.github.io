@@ -10,7 +10,7 @@ permalink: /about/
 Our website is based on [jekyll](https://jekyllrb.com)
 - The open source templates were forked from [Dr. Stephan Sanders](https://github.com/sanderslab/sanderslab.github.io),
 - Earlier version designed and shared by the labs of [Dr. Allan Drummond](http://www.allanlab.org/aboutwebsite.html) and [Trevor Bedford](http://bedford.io/misc/about/)
-- [Full Publication list](https://alshedivat.github.io/al-folio/publications/) using al-folio adapt from [Maruan Al-Shedivat](https://github.com/alshedivat/al-folio)
+- [Full Publication list](https://alshedivat.github.io/al-folio/publications/) using al-folio adapt from [Maruan Al-Shedivat](https://github.com/alshedivat/al-folio) based on jekyll plugin [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)
 - We greatful thank them for sharing code and knowledge.
 - We added plugin [jekyll-spaceship](https://github.com/jeffreytse/jekyll-spaceship) to improve table shown by markdown.
 - Check **[script/README.md](https://github.com/stjudecab/stjudecab.github.io/tree/master/script)** for more customization
