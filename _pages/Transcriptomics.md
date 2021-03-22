@@ -6,7 +6,7 @@ sitemap: false
 permalink: /Transcriptomics/
 group: Transcriptomics
 groupcolor: "#FDB71A"
-groupspec: [ "team/" ]
+groupspec: [ "team/", "research/", "publications/" ]
 ---
 
 ## Welcome to SJCAB Transcriptomics St. Jude

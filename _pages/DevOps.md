@@ -6,6 +6,7 @@ sitemap: false
 permalink: /DevOps/
 group: DevOps
 groupcolor: "#008CCF"
+groupspec: [ "team/", "research/", "publications/" ]
 ---
 
 ## Welcome to SJCAB DevOps St. Jude

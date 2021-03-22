@@ -6,6 +6,7 @@ sitemap: false
 permalink: /Genetics/
 group: Genetics
 groupcolor: "#6CA544"
+groupspec: [ "team/", "research/", "publications/" ]
 ---
 
 ## Welcome to SJCAB Genetics St. Jude

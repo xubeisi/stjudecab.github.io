@@ -6,6 +6,7 @@ sitemap: false
 permalink: /Genomics/
 group: Genomics
 groupcolor: "#712D91"
+groupspec: [ "team/", "research/", "publications/" ]
 ---
 
 ## Welcome to SJCAB Genomics St. Jude
