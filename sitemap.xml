@@ -3,7 +3,7 @@ layout: null
 sitemap:
   lastmod: 2020-03-23
   priority: 0.7
-  changefreq: 'weekly'
+  changefreq: 'hourly'
   exclude: 'yes'
 ---
 <?xml version="1.0" encoding="UTF-8"?>
