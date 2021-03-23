@@ -68,12 +68,12 @@
         {% endif %}
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
-          {% if page.scholar_first_name_bold contains author.first%}
-              {% assign author_is_self = true %}
+          {% if author.first contains page.scholar_first_name_bold %}
+            {% assign author_is_self = true %}
           {% endif %}
           {% assign author_is_team = false %}
           {% for author_team in authors_team %}
-            {% if author_team contains author.first %}
+            {% if author.first contains author_team %}
               {% assign author_is_team = true %}
             {% endif %}
           {% endfor %}
