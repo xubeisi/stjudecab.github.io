@@ -11,12 +11,17 @@ titleshort: SJCAB
 email: xubeisi#gmail.com
 description: 
 baseurl: ""
-url: ""
+url: "https://stjudecab.github.io"
 
 plugins:
   - jekyll-spaceship
   - jekyll-scholar
   - jemoji
+
+sitemap:
+  lastmod: 2021-01-01
+  priority: 0.7
+  changefreq: 'weekly'
 
 jekyll-spaceship:
   processors:
