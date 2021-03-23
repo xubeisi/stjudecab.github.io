@@ -33,11 +33,7 @@ The SJCAB Epigenetics is primarily a bioinformatic group that uses a wide range 
 - HiC/HiCHIP/PLAC-Seq/CaptureC
 
 #### Collaborators
-We work with closely with numerous collaborators, mostly from St. Jude, including:
-- the [Dyer Lab](https://www.stjude.org/directory/d/michael-dyer.html) at St. Jude
-- the [Peng Lab](https://www.stjude.org/directory/p/jamy-peng.html) at St. Jude
-- the [Li Lab](https://www.stjude.org/directory/l/chunliang-li.html) at St. Jude
-- the [Feng Lab](https://www.stjude.org/directory/f/yongqiang-feng.html) at St. Jude
+We work with closely with numerous collaborators from St. Jude.
 
 #### Joining St. Jude
 If you are interested in joining please go to the [recruitment](/recruitment) page.
