@@ -1,0 +1,77 @@
+---
+layout: member
+title: Xun Zhu
+position: Research Scientist (DevOps)
+handle: xun
+email: xun.zhu@stjude.org
+twitter:
+github: stjudecab
+googlescholar: iMHMSRsAAAAJ
+photo: tm_xun.png
+stjude: x/xun-zhu
+orcid: 0000-0001-9097-7824
+linkedin: xun-zhu-b6487918
+bibfile: tm_xun
+years: [2021, 2020, 2019, 2018, 2017, 2016, 2015]
+scholar_first_names_underline: Xun
+scholar_first_name_bold: Xun
+---
+
+### Overview
+Dr. Xun Zhu is a Bioinformatics Research Scientist in the Center for Applied Bioinformatics at St Jude Children's Research Hospital. His work focuses on the design and development of a next-generation bioinformatics workflow platform that would enable streamlined, collaborative, and reproducible biological data analysis.
+
+### Education
+- PhD, Molecular Biosciences and Bioengineering, University of Hawaii at Manoa
+- MS, Applied Mathematics, University of Southern California
+- BS, Mathematics and Applied Mathematics, Tianjin Polytechnic University
+
+### Professional Experience
+
+Time        | Position                   | PI/Supervisor    | Institution                                   |
+----------- | :-----------               | -----------      | -----------                                   |
+2019 - Current | Research Scientist         | Gang Wu          | St. Jude Children's Research Hospital, Memphis, TN         |
+2019        | Postdoctoral Researcher    | John Shepherd    | University of Hawaii Cancer Center, Honolulu, HI |
+{:.custom-table}
+
+<!--more-->
+
+# Publications
+
+For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list)
+{%if page.googlesholar %}, also [Google Scholar](https://scholar.google.com/citations?user={{page.googlesholar}}){:target="_blank"}
+{% endif %}
+{%if page.myncbi %}
+, [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/{{page.myncbi}}/bibliography/public/){:target="_blank"}
+{% endif %}
+
+
+<div class="row">
+  {% capture npaper %}
+    {% bibliography_count -f {{ page.bibfile }} -q @*[highlight] %}
+  {% endcapture %}
+  {% assign npaper = npaper | plus: 0 %}
+  {% if npaper > 0 %}
+## Featured
+
+<div class="publications_highlight">
+  {% bibliography -f {{ page.bibfile }} --template bib_highlight -q @*[highlight] %}
+</div>
+{% endif %}
+
+</div>
+
+## Full List
+
+<nobr><em>*</em>denotes equal contribution</nobr>
+<div class="publications">
+{% for y in page.years %}
+  {% capture npaper %}
+    {% bibliography_count -f {{ page.bibfile }} -q @*[year={{y}}]* %}
+  {% endcapture %}
+  {% assign npaper = npaper | plus: 0 %}
+  {% if npaper > 0 %}
+  <h2 class="year">{{y}}:{{npaper}}</h2>
+  {% bibliography -f {{ page.bibfile }} -q @*[year={{y}}]* %}
+  {% endif %}
+{% endfor %}
+</div>

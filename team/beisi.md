@@ -11,8 +11,10 @@ photo: tm_beisi.png
 stjude: x/beisi-xu
 orcid: 0000-0003-0099-858X
 linkedin: beisixu
-bibfile: beisi
+bibfile: tm_beisi
 years: [2021, 2020, 2019, 2018, 2017, 2016, 2015]
+scholar_first_names_underline: Beisi
+scholar_first_name_bold: Beisi
 ---
 
 ### Overview
@@ -58,25 +60,41 @@ Time        | Position                   | PI/Supervisor    | Institution       
 
 # Publications
 
-For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list), also [Google Scholar](https://scholar.google.com/citations?user={{page.googlesholar}}), [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/1zofdYmKS0FQg/bibliography/public/)
+For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list)
+{%if page.googlesholar %}, also [Google Scholar](https://scholar.google.com/citations?user={{page.googlesholar}}){:target="_blank"}
+{% endif %}
+{%if page.myncbi %}
+, [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/{{page.myncbi}}/bibliography/public/){:target="_blank"}
+{% endif %}
+
 
 <div class="row">
+  {% capture npaper %}
+    {% bibliography_count -f {{ page.bibfile }} -q @*[highlight] %}
+  {% endcapture %}
+  {% assign npaper = npaper | plus: 0 %}
+  {% if npaper > 0 %}
 ## Featured
 
 <div class="publications_highlight">
   {% bibliography -f {{ page.bibfile }} --template bib_highlight -q @*[highlight] %}
 </div>
+{% endif %}
+
 </div>
 
 ## Full List
 
 <nobr><em>*</em>denotes equal contribution</nobr>
-
 <div class="publications">
-
 {% for y in page.years %}
-  <h2 class="year">{{y}}:{% bibliography_count -f {{ page.bibfile }} -q @*[year={{y}}]* %}</h2>
+  {% capture npaper %}
+    {% bibliography_count -f {{ page.bibfile }} -q @*[year={{y}}]* %}
+  {% endcapture %}
+  {% assign npaper = npaper | plus: 0 %}
+  {% if npaper > 0 %}
+  <h2 class="year">{{y}}:{{npaper}}</h2>
   {% bibliography -f {{ page.bibfile }} -q @*[year={{y}}]* %}
+  {% endif %}
 {% endfor %}
-
 </div>

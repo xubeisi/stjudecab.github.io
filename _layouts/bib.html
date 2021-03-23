@@ -4,8 +4,12 @@
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
     <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.abbr }}</a></abbr>
+  {% else %}
+    {% if entry.booktitle %}
+      <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">BookChapter</a></abbr>
     {% else %}
-    <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.journal }}</a></abbr>
+      <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.journal | slice: 0, 20 }}</a></abbr>
+    {% endif %}
   {% endif %}
   </div>
 
@@ -17,7 +21,7 @@
       <div id="{{entry_id}}" class="col p-0">
       <div class="title">{{entry.title}}</div>
       <div class="author">
-        {% assign authors_team = site.scholar.first_names_team | split: ";" %}
+        {% assign authors_team = page.scholar_first_names_underline | split: ";" %}
         {% if entry.cofirst %}
           {% assign tmp = entry.cofirst | split: ";" %}
             {% if tmp.size == 2 %}
@@ -64,14 +68,12 @@
         {% endif %}
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
-          {% if author.last == site.scholar.last_name%}
-            {% if site.scholar.first_name contains author.first%}
+          {% if page.scholar_first_name_bold contains author.first%}
               {% assign author_is_self = true %}
-            {% endif %}
           {% endif %}
           {% assign author_is_team = false %}
           {% for author_team in authors_team %}
-            {% if authors_team contains author.first %}
+            {% if author_team contains author.first %}
               {% assign author_is_team = true %}
             {% endif %}
           {% endfor %}

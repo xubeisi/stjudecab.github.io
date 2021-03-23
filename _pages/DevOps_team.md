@@ -6,6 +6,7 @@ sitemap: false
 permalink: /DevOps_team/
 group: DevOps
 groupcolor: "#008CCF"
+groupspec: [ "team/" ]
 ---
 
 {% assign teamurlbase = site.url | append: site.baseurl | append: "/team/" %}
@@ -85,5 +86,5 @@ groupcolor: "#008CCF"
 ---
 
 ### Contact
-Please contact our group lead, <a href="mailto:beisi.xu#stjude.org">Beisi Xu</a>.
+Please contact our group lead, <a href="mailto:yawei.hui#stjude.org">Yawei Hui</a>.
 

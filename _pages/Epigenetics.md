@@ -40,7 +40,7 @@ We work with closely with numerous collaborators, mostly from St. Jude, includin
 - the [Feng Lab](https://www.stjude.org/directory/f/yongqiang-feng.html) at St. Jude
 
 #### Joining St. Jude
-If you are interested in joining please go to the [recruitment](recruitment) page.
+If you are interested in joining please go to the [recruitment](/recruitment) page.
 
 #### Funding
 We are grateful for funding from the [National Cancer Institute at National Institute of Health](https://www.cancer.gov/)

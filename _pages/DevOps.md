@@ -6,45 +6,114 @@ sitemap: false
 permalink: /DevOps/
 group: DevOps
 groupcolor: "#008CCF"
-groupspec: [ "team/", "research/", "publications/" ]
+groupspec: [ "team/" ]
 ---
 
-## Welcome to SJCAB DevOps St. Jude
+## Welcome to SJCAB DevOps
+
+![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_devops_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_epi_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
-
-
-The SJCAB DevOps Group focuses on helping researchers answer biological questions related to regulation through epigenetic mechanisms using the best available tools. We are also interested in establishing new analytic pipelines to enhance researching practices of St. Jude investigators. We mainly expereinced on areas:
-- Cancer Biology
-- Developmental Biology
-- Innate Immunology
-
-We categorized DevOps Analyses briefly into three major topics:
-1. **Regulation discovery**: Discover and predict regulation relationship using NGS data such as ChIP-Seq and intergrative with other data.
-2. **Chromatin state**: Chromatin accessibility can be measure by method such as ATAC-seq, DNase-seq. Together with motif database, transcription factors (TFs) likely to associated with differential accessible regions can be identified.
-3. **3D Genome**: Thanks to [Chromosome conformation capture](https://en.wikipedia.org/wiki/Chromosome_conformation_capture)(3C) technologies or 3C-based methods, people are able to study the 3D structure of chromatin. [Topological association domains (TADs)](https://en.wikipedia.org/wiki/Topologically_associating_domain), [Compartments](https://en.wikipedia.org/wiki/Nuclear_organization#A/B_compartments), [Chromatin loops](https://en.wikipedia.org/wiki/Nuclear_organization#DNA_looping) were all found could regulated gene's functions.
+The DevOps team 
+- 
 
 #### Technologies and methods
-The SJCAB DevOps is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including:
+
+The DevOps team 
+- ATAC-Seq
 - ChIP-Seq
-- ATAC-Seq/scATAC
-- RNA-Seq/SLAM-Seq/scRNA
-- HiC/HiCHIP/PLAC-Seq/CaptureC
+- RNA-Seq
+- WES
+- WGS
 
 #### Collaborators
-We work with closely with numerous collaborators, mostly from St. Jude, including:
-- the [Dyer Lab](https://www.stjude.org/directory/d/michael-dyer.html) at St. Jude
-- the [Peng Lab](https://www.stjude.org/directory/p/jamy-peng.html) at St. Jude
-- the [Li Lab](https://www.stjude.org/directory/l/chunliang-li.html) at St. Jude
-- the [Feng Lab](https://www.stjude.org/directory/f/yongqiang-feng.html) at St. Jude
+The DevOps team is in broad collaboration with many departments at St Jude, including (and increasing constantly)
+
+##### Administration
+- [Dr. Terry Geiger](https://www.stjude.org/directory/g/terrence-geiger.html)
+- [Dr. James Morgan](https://www.stjude.org/directory/m/james-morgan.html)
+
+##### Cancer Center Administration
+- [Dr. Charles Roberts](https://www.stjude.org/directory/r/charles-roberts.html)
+
+##### Cell & Molecular Biology
+- [Dr. Hans-Martin Herz](https://www.stjude.org/directory/h/hans-martin-herz.html)
+- [Dr. Mondira Kundu](https://www.stjude.org/directory/k/mondira-kundu.html)
+- [Dr. Paul Taylor](https://www.stjude.org/directory/t/j-paul-taylor.html)
+
+##### Chemical Biology & Therapeutics
+- [Dr. Aseem Ansari](https://www.stjude.org/directory/a/aseem-ansari.html)
+
+##### Computational Biology
+- [Dr. Paul Geeleher](https://www.stjude.org/directory/g/paul-geeleher.html)
+
+##### Developmental Neurobiology
+- [Dr. Suzanne Baker](https://www.stjude.org/directory/b/suzanne-baker.html)
+- [Dr. Xinwei Cao](https://www.stjude.org/directory/c/xinwei-cao.html)
+- [Dr. Michael Dyer](https://www.stjude.org/directory/d/michael-dyer.html)
+- [Dr. Myriam Labelle](https://www.stjude.org/directory/l/myriam-labelle.html)
+- [Dr. Jamy Peng](https://www.stjude.org/directory/p/jamy-peng.html)
+- [Dr. Stanislav Zakharenko](https://www.stjude.org/directory/z/stanislav-zakharenko.html)
+
+##### Experimental Hematology
+- [Dr. John Crispino](https://www.stjude.org/directory/c/john-crispino.html)
+- [Dr. Marcin Wlodarski](https://www.stjude.org/directory/w/marcin-wlodarski.html)
+
+##### Genetics
+- [Dr. Gerard Grosveld](https://www.stjude.org/directory/g/gerard-grosveld.html)
+
+##### Hartwell Center
+- [Dr. Geoffrey Neale](https://www.stjude.org/directory/n/geoffrey-neale.html)
+
+##### Hematology
+- [Dr. Yong Cheng](https://www.stjude.org/directory/c/yong-cheng.html)
+
+##### Immunology
+- [Dr. Douglas Green](https://www.stjude.org/directory/g/douglas-green.html)
+- [Dr. Yongqiang Feng](https://www.stjude.org/directory/f/yongqiang-feng.html)
+- [Dr.Thirumala-Devi Kanneganti](https://www.stjude.org/directory/k/thirumala-devi-kanneganti.html)
+
+##### Infectious Diseases
+- [Dr. Julia Hurwitz](https://www.stjude.org/directory/h/julia-hurwitz.html)
+- [Dr. Richard Webby](https://www.stjude.org/directory/w/richard-webby.html)
+
+##### Molecular Oncology
+- [Dr. Mark Hatley](https://www.stjude.org/directory/h/mark-hatley.html)
+
+##### Oncology
+- [Dr. Sara Federico](https://www.stjude.org/directory/f/sara-federico.html)
+- [Dr. Kim Nichols](https://www.stjude.org/directory/n/kim-nichols.html)
+- [Dr. Esther Obeng](https://www.stjude.org/directory/o/esther-obeng.html)
+- [Dr. Janet Partridge](https://www.stjude.org/directory/p/janet-partridge.html)
+- [Dr. Giles Robinson](https://www.stjude.org/directory/r/giles-robinson.html)
+
+##### Pathology
+- [Dr. David Ellison](https://www.stjude.org/directory/e/david-ellison.html)
+- [Dr. Charles Mullighan](https://www.stjude.org/directory/m/charles-mullighan.html)
+- [Dr. Lu Wang](https://www.stjude.org/directory/w/lu-wang.html)
+
+##### Pediatric Medicine
+- [Dr. Amar Gajjar](https://www.stjude.org/directory/g/amar-gajjar.html)
+
+##### Pharmaceutical Sciences
+- [Dr. William Evans](https://www.stjude.org/directory/e/william-evans.html)
+- [Dr. Dave Rogers](https://www.stjude.org/directory/r/david-rogers.html)
+- [Dr. Jun J. Yang](https://www.stjude.org/directory/y/jun-yang.html)
+
+##### Structural Biology
+- [Dr. Madan Babu Mohan](https://www.stjude.org/directory/b/madan-babu.html)
+- [Dr. Mario Halic](https://www.stjude.org/directory/h/mario-halic.html)
+- [Dr. Junmin Peng](https://www.stjude.org/directory/p/junmin-peng.html)
+
+##### Surgery
+- [Dr. Jun Yang](https://www.stjude.org/directory/y/jun-yang2.html)
+
+##### Therapeutics Prod & Quality
+- [Dr. Mike Meagher](https://www.stjude.org/directory/m/michael-meagher.html)
+
+##### Tumor Cell Biology
+- [Dr. Liang Li](https://www.stjude.org/directory/l/chunliang-li.html)
+- [Dr. Martine Roussel](https://www.stjude.org/directory/r/martine-roussel.html)
 
 #### Joining St. Jude
-If you are interested in joining please go to the [recruitment](recruitment) page.
-
-#### Funding
-We are grateful for funding from the [National Cancer Institute at National Institute of Health](https://www.cancer.gov/)
-
-<figure class="third">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.png" style="width: 200px">
-</figure>
+If you are interested in joining please go to the [recruitment](/recruitment) page.

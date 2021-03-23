@@ -19,3 +19,17 @@
   posgroup: 1
   group: Epigenetics
   
+- name: Yawei Hui
+  photo: tm_yawei.png
+  info: Manager (DevOps)
+  url: yawei
+  posgroup: 0
+  group: DevOps
+  
+- name: Xun Zhu
+  photo: tm_xun.png
+  info: Bioinformatics Research Scientist
+  url: xun
+  posgroup: 1
+  group: DevOps
+  

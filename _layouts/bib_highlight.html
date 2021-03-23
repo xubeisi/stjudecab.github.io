@@ -24,7 +24,7 @@
     </p>
     </div>
     <div class="bib_highlight_author">
-      {% assign authors_team = site.scholar.first_names_team | split: ";" %}
+      {% assign authors_team = page.scholar_first_names_underline | split: ";" %}
       {% if entry.cofirst %}
         {% assign tmp = entry.cofirst | split: ";" %}
           {% if tmp.size == 2 %}
@@ -48,14 +48,12 @@
       {% endif %}
       {% for author in entry.author_array %}
         {% assign author_is_self = false %}
-        {% if author.last == site.scholar.last_name%}
-          {% if site.scholar.first_name contains author.first%}
+        {% if page.scholar_first_name_bold contains author.first%}
             {% assign author_is_self = true %}
-          {% endif %}
         {% endif %}
         {% assign author_is_team = false %}
         {% for author_team in authors_team %}
-          {% if authors_team contains author.first %}
+          {% if author_team contains author.first %}
             {% assign author_is_team = true %}
           {% endif %}
         {% endfor %}
