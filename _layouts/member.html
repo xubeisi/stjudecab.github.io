@@ -81,6 +81,18 @@ layout: default
               </div>
               <div class="bigspacer"></div>
               {% endif %}
+
+              {% if member.myncbi %}
+              <div class="smallhead">
+                  NCBI Bibliography
+              </div>
+              <div class="pad-left note">
+                  <div class="smallspacer"></div>
+                  <i class="ai ai-pubmed"></i>
+                  <a class="off" target="_blank" href="https://www.ncbi.nlm.nih.gov/myncbi/{{member.myncbi}}/bibliography/public/)">{{ member.title }}</a>
+              </div>
+              <div class="bigspacer"></div>
+              {% endif %}
   
               {% if member.linkedin %}
               <div class="smallhead">

@@ -8,7 +8,7 @@ twitter:
 github: stjudecab
 googlescholar: iMHMSRsAAAAJ
 photo: tm_xun.png
-stjude: x/xun-zhu
+stjude: z/xun-zhu
 orcid: 0000-0001-9097-7824
 linkedin: xun-zhu-b6487918
 bibfile: tm_xun
@@ -38,11 +38,8 @@ Time        | Position                   | PI/Supervisor    | Institution       
 # Publications
 
 For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list)
-{%if page.googlesholar %}, also [Google Scholar](https://scholar.google.com/citations?user={{page.googlesholar}}){:target="_blank"}
-{% endif %}
-{%if page.myncbi %}
-, [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/{{page.myncbi}}/bibliography/public/){:target="_blank"}
-{% endif %}
+{% if page.googlescholar %}, or [Google Scholar](https://scholar.google.com/citations?user={{page.googlescholar}}){:target="_blank"}
+{% endif %} {% if page.myncbi %}, or [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/{{page.myncbi}}/bibliography/public/){:target="_blank"}{% endif %}
 
 
 <div class="row">

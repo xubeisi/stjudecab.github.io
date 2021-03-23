@@ -7,6 +7,7 @@ email: beisi.xu@stjude.org
 twitter:
 github: stjudecab
 googlescholar: PIPGxWoAAAAJ
+myncbi: 1zofdYmKS0FQg
 photo: tm_beisi.png
 stjude: x/beisi-xu
 orcid: 0000-0003-0099-858X
@@ -61,11 +62,8 @@ Time        | Position                   | PI/Supervisor    | Institution       
 # Publications
 
 For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list)
-{%if page.googlesholar %}, also [Google Scholar](https://scholar.google.com/citations?user={{page.googlesholar}}){:target="_blank"}
-{% endif %}
-{%if page.myncbi %}
-, [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/{{page.myncbi}}/bibliography/public/){:target="_blank"}
-{% endif %}
+{% if page.googlescholar %}, or [Google Scholar](https://scholar.google.com/citations?user={{page.googlescholar}}){:target="_blank"}
+{% endif %} {% if page.myncbi %}, or [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/{{page.myncbi}}/bibliography/public/){:target="_blank"}{% endif %}
 
 
 <div class="row">

@@ -8,7 +8,7 @@ twitter:
 github: bh007
 googlescholar: uwON2rEAAAAJ&hl
 photo: tm_yawei.png
-stjude: x/yawei-hui
+stjude: h/yawei-hui
 orcid: 0000-0001-6397-3086
 linkedin: yaweihui
 bibfile: tm_yawei.bib
@@ -44,11 +44,8 @@ Time        | Position                   | PI/Supervisor   | Institution        
 # Publications
 
 For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list)
-{%if page.googlesholar %}, also [Google Scholar](https://scholar.google.com/citations?user={{page.googlesholar}}){:target="_blank"}
-{% endif %}
-{%if page.myncbi %}
-, [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/{{page.myncbi}}/bibliography/public/){:target="_blank"}
-{% endif %}
+{% if page.googlescholar %}, or [Google Scholar](https://scholar.google.com/citations?user={{page.googlescholar}}){:target="_blank"}
+{% endif %} {% if page.myncbi %}, or [Pubmed](https://www.ncbi.nlm.nih.gov/myncbi/{{page.myncbi}}/bibliography/public/){:target="_blank"}{% endif %}
 
 
 <div class="row">

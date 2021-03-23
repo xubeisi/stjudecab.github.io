@@ -1,6 +1,6 @@
 ff=$1
 
-if [ $(grep "\-\-more\-\-" | wc -l |awk '{printf $1}') -gt 0 ]
+if [ $(grep "\-\-more\-\-" $ff | wc -l |awk '{printf $1}') -gt 0 ]
 then
     nf=$(grep "\-\-more\-\-" $ff -n | sed "s/:.*//")
     cp $ff ${ff}.bk
