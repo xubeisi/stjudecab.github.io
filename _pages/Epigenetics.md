@@ -32,9 +32,6 @@ The SJCAB Epigenetics is primarily a bioinformatic group that uses a wide range 
 - RNA-Seq/SLAM-Seq/scRNA
 - HiC/HiCHIP/PLAC-Seq/CaptureC
 
-#### Collaborators
-We work with closely with numerous collaborators from St. Jude.
-
 #### Joining St. Jude
 If you are interested in joining please go to the [recruitment](/recruitment) page.
 
