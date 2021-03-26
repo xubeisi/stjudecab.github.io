@@ -33,3 +33,17 @@
   posgroup: 1
   group: DevOps
   
+- name: Evadnie Rampersaud
+  photo: tm_evadnie.png
+  info: Group Lead(Genetics)
+  url: evadnie
+  posgroup: 0
+  group: Genetics
+  
+- name: Jason Myers
+  photo: tm_jason.png
+  info: Lead Bioinformatics Analyst
+  url: jason
+  posgroup: 1
+  group: Genetics
+  

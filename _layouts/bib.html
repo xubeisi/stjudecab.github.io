@@ -8,7 +8,11 @@
     {% if entry.booktitle %}
       <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">BookChapter</a></abbr>
     {% else %}
-      <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.journal | slice: 0, 20 }}</a></abbr>
+      {% if entry.journal %}
+        <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">{{ entry.journal | slice: 0, 20 }}</a></abbr>
+      {% else %}
+        <abbr class="badge"><a href="https://doi.org/{{ entry.doi }}" target="_blank">Journal</a></abbr>
+      {% endif %}
     {% endif %}
   {% endif %}
   </div>
@@ -22,6 +26,9 @@
       <div class="title">{{entry.title}}</div>
       <div class="author">
         {% assign authors_team = page.scholar_first_names_underline | split: ";" %}
+        {% if page.scholar_last_names_underline %}
+          {% assign authors_team_last = page.scholar_last_names_underline | split: ";" %}
+        {% endif %}
         {% if entry.cofirst %}
           {% assign tmp = entry.cofirst | split: ";" %}
             {% if tmp.size == 2 %}
@@ -71,12 +78,27 @@
           {% if author.first contains page.scholar_first_name_bold %}
             {% assign author_is_self = true %}
           {% endif %}
+          {% if author_is_self and page.scholar_last_name_bold %}
+            {% if author.last contains page.scholar_last_name_bold %}
+              {% assign author_is_self = true %}
+            {% else %}
+              {% assign author_is_self = false %}
+            {% endif %}
+          {% endif %}
           {% assign author_is_team = false %}
           {% for author_team in authors_team %}
             {% if author.first contains author_team %}
               {% assign author_is_team = true %}
             {% endif %}
           {% endfor %}
+          {% if author_is_team and authors_team_last %}
+            {% assign author_is_team = false %}
+            {% for author_team in authors_team_last %}
+              {% if author.last contains author_team %}
+                {% assign author_is_team = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
           {% assign coauthor_url = nil %}
           {% if site.data.coauthors[author.first] %}
             {% assign coauthor_url = site.data.coauthors[author.first].url %}

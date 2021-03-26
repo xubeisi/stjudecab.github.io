@@ -13,13 +13,13 @@ groupspec: [ "team/" ]
 
 ![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_devops_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
+The SJCAB DevOps Group focused on creating and maintaining core bioinformatics services and infrastructure to best serve the research community at St. Jude Children's Research Hospital.
 
-The DevOps team 
-- 
 
+---
 #### Technologies and methods
 
-The DevOps team 
+The DevOps team developed automapper could handle data from:
 - ATAC-Seq
 - ChIP-Seq
 - RNA-Seq

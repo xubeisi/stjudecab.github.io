@@ -15,7 +15,10 @@ groupspec: [ "team/", "research/", "publications/" ]
 ![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_epi_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 
-The SJCAB Epigenetics Group focuses on helping researchers answer biological questions related to regulation through epigenetic mechanisms using the best available tools. We are also interested in establishing new analytic pipelines to enhance researching practices of St. Jude investigators. We mainly expereinced on areas:
+The SJCAB Epigenetics Group focuses on helping researchers answer biological questions related to regulation through epigenetic mechanisms using the best available tools. We are also interested in establishing new analytic pipelines to enhance researching practices of St. Jude investigators. 
+
+---
+We mainly expereinced on areas:
 - Cancer Biology
 - Developmental Biology
 - Innate Immunology
