@@ -16,7 +16,7 @@ permalink: /team/
 {% for member in site.data.team_members %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if member.posgroup == -1 %}
+{% if member.posgroup == -2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
