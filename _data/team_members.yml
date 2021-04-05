@@ -4,46 +4,80 @@
   url: beisi
   posgroup: 0
   group: Epigenetics
-  
+ 
 - name: Wojciech Rosikiewicz
   photo: tm_wojciech.png
   info: Bioinformatics Research Scientist
   url: wojciech
   posgroup: 1
   group: Epigenetics
-  
+ 
 - name: Mohamed Nadhir Djekidel
   photo: tm_nadhir.png
   info: Bioinformatics Research Scientist
   url: nadhir
   posgroup: 1
   group: Epigenetics
-  
+ 
 - name: Yawei Hui
   photo: tm_yawei.png
   info: Manager (DevOps)
   url: yawei
   posgroup: 0
   group: DevOps
-  
+ 
 - name: Xun Zhu
   photo: tm_xun.png
   info: Bioinformatics Research Scientist
   url: xun
   posgroup: 1
   group: DevOps
-  
+ 
 - name: Evadnie Rampersaud
   photo: tm_evadnie.png
   info: Group Lead(Genetics)
   url: evadnie
   posgroup: 0
   group: Genetics
-  
+ 
 - name: Jason Myers
   photo: tm_jason.png
   info: Lead Bioinformatics Analyst
   url: jason
   posgroup: 1
   group: Genetics
-  
+ 
+- name: Yiping Fan
+  photo: tm_yiping.png
+  info: Associate Director (Transcriptomics)
+  url: yiping
+  posgroup: -2
+  group: Transcriptomics
+ 
+- name: Dale Hedges
+  photo: tm_dale.png
+  info: Senoir Bioinformatics Research Scientist
+  url: dale
+  posgroup: 1
+  group: Transcriptomics
+ 
+- name: Hongjian Jin
+  photo: tm_hongjian.png
+  info: Senoir Bioinformatics Research Scientist
+  url: hongjian
+  posgroup: 1
+  group: Transcriptomics
+
+- name: Patrick Schreiner
+  photo: tm_patrick.png
+  info: Bioinformatics Research Scientist
+  url:  patrick
+  posgroup: 1
+  group: Transcriptomics
+
+- name: Shibiao Wan
+  photo: tm_shibiao.png
+  info: Bioinformatics Research Scientist
+  url: shibiao
+  posgroup: 1
+  group: Transcriptomics

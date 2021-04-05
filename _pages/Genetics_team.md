@@ -6,6 +6,7 @@ sitemap: false
 permalink: /Genetics_team/
 group: Genetics
 groupcolor: "#6CA544"
+groupspec: [ "team/" ]
 ---
 
 {% assign teamurlbase = site.url | append: site.baseurl | append: "/team/" %}

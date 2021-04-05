@@ -6,6 +6,7 @@ sitemap: false
 permalink: /Transcriptomics_team/
 group: Transcriptomics
 groupcolor: "#FDB71A"
+groupspec: [ "team/" ] 
 ---
 
 {% assign teamurlbase = site.url | append: site.baseurl | append: "/team/" %}
@@ -20,7 +21,7 @@ groupcolor: "#FDB71A"
 {% for member in grpmember %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if member.posgroup == 0 %}
+{% if member.posgroup == -2 %}
 
 {% if even_odd == 0 %}
 <div class="row">
@@ -85,5 +86,5 @@ groupcolor: "#FDB71A"
 ---
 
 ### Contact
-Please contact our group lead, <a href="mailto:beisi.xu#stjude.org">Beisi Xu</a>.
+Please contact our group lead, <a href="mailto:yiping.fan#stjude.org">Yiping Fan</a>.
 
