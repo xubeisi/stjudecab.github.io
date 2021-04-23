@@ -9,7 +9,7 @@ groupcolor: "#FDB71A"
 groupspec: [ "team/" ] 
 ---
 
-## Welcome to SJCAB Transcriptomics St. Jude
+## Welcome to CAB Transcriptomics St. Jude
 
 
 ![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
@@ -30,7 +30,7 @@ We categorized Transcriptomics Analyses into three major topics:
 
 
 #### Technologies and methods
-The SJCAB transcriptomics is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods to analyze biological data. The main platforms are:
+The CAB transcriptomics is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods to analyze biological data. The main platforms are:
 - RNA-Seq/SLAM-Seq/scRNA
 - ChIP-Seq 
 - ATAC-Seq/scATAC

@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-## Welcome to SJCAB St. Jude
+## Welcome to CAB St. Jude
 
 
 ![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}

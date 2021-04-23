@@ -9,13 +9,13 @@ groupcolor: "#712D91"
 groupspec: [ "team/", "research/", "publications/" ]
 ---
 
-## Welcome to SJCAB Genomics St. Jude
+## Welcome to CAB Genomics St. Jude
 
 
 ![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_epi_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 
-The SJCAB Genomics Group focuses on helping researchers answer biological questions related to regulation through epigenetic mechanisms using the best available tools. We are also interested in establishing new analytic pipelines to enhance researching practices of St. Jude investigators. We mainly expereinced on areas:
+The CAB Genomics Group focuses on helping researchers answer biological questions related to regulation through epigenetic mechanisms using the best available tools. We are also interested in establishing new analytic pipelines to enhance researching practices of St. Jude investigators. We mainly expereinced on areas:
 - Cancer Biology
 - Developmental Biology
 - Innate Immunology
@@ -26,7 +26,7 @@ We categorized Genomics Analyses briefly into three major topics:
 3. **3D Genome**: Thanks to [Chromosome conformation capture](https://en.wikipedia.org/wiki/Chromosome_conformation_capture)(3C) technologies or 3C-based methods, people are able to study the 3D structure of chromatin. [Topological association domains (TADs)](https://en.wikipedia.org/wiki/Topologically_associating_domain), [Compartments](https://en.wikipedia.org/wiki/Nuclear_organization#A/B_compartments), [Chromatin loops](https://en.wikipedia.org/wiki/Nuclear_organization#DNA_looping) were all found could regulated gene's functions.
 
 #### Technologies and methods
-The SJCAB Genomics is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including:
+The CAB Genomics is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including:
 - ChIP-Seq
 - ATAC-Seq/scATAC
 - RNA-Seq/SLAM-Seq/scRNA

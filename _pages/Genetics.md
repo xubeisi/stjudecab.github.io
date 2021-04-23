@@ -9,11 +9,11 @@ groupcolor: "#6CA544"
 groupspec: [ "team/" ]
 ---
 
-## Welcome to SJCAB Genetics St.Jude
+## Welcome to CAB Genetics St.Jude
 
 ![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
-The SJCAB Genetics Group focuses on the association of inherited or acquired genetic variations with clinical or phenotypic traits in humans. We are also interested in establishing new bioinformatic and statistical pipelines to enhance researching practices of St. Jude investigators. 
+The CAB Genetics Group focuses on the association of inherited or acquired genetic variations with clinical or phenotypic traits in humans. We are also interested in establishing new bioinformatic and statistical pipelines to enhance researching practices of St. Jude investigators. 
 
 ---
 We mainly focus on these areas:
@@ -30,7 +30,7 @@ We mainly focus on these areas:
 
 #### Technologies and methods
 
-The SJCAB Genetics Group is primarily a statistical genetics/bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including:
+The CAB Genetics Group is primarily a statistical genetics/bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including:
 
 - Amplicon sequencing
 - WES
