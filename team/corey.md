@@ -1,7 +1,7 @@
 ---
 layout: member
-title: Ke&nbsp;(Corey) Xu
-position: Sr. Bioinformatics Research Scientist (Genomics)
+title: Ke (Corey) Xu
+position: Senior Bioinformatics Research Scientist (Genomics)
 handle: coreyxu
 email: ke.xu@stjude.org
 github: stjudecab

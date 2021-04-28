@@ -1,8 +1,8 @@
 ---
 layout: member
-title: Nadhir Djekidel
+title: Mohamed Nadhir Djekidel
 position: Bioinformatics Research Scientist
-handle: mnd
+handle: nadhir
 email: nadhir.djekidel@stjude.org
 twitter:
 github: stjudecab

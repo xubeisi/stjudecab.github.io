@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Xun Zhu
-position: Research Scientist (DevOps)
+position: Bioinformatics Resch Scientist (DevOps)
 handle: xun
 email: xun.zhu@stjude.org
 twitter:

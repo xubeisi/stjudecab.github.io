@@ -2,7 +2,7 @@
 layout: member
 title: Ti-Cheng Chang
 position: Group lead (Genomics)
-handle: Ti-Cheng
+handle: ticheng
 email: ti-cheng.chang@stjude.org
 twitter:
 github: stjudecab
