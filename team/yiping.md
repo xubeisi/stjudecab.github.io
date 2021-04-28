@@ -6,7 +6,7 @@ handle: yiping
 email: yiping.fan@stjude.org
 github: stjudecab
 myncbi: 1ruegfsDfheQ8 
-photo: tm_yiping.png
+photo: tm_yiping.jpg
 stjude: y/yiping-fan
 linkedin: yipingfan 
 bibfile: tm_yiping 

@@ -12,7 +12,7 @@ groupspec: [ "team/", "research/", "publications/" ]
 ## Welcome to CAB Epigenetics St. Jude
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_epi_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_epi_v1.jpg){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 
 The CAB Epigenetics Group focuses on helping researchers answer biological questions related to regulation through epigenetic mechanisms using the best available tools. We are also interested in establishing new analytic pipelines to enhance researching practices of St. Jude investigators. 
@@ -42,5 +42,5 @@ If you are interested in joining please go to the [recruitment](/recruitment) pa
 We are grateful for funding from the [National Cancer Institute at National Institute of Health](https://www.cancer.gov/)
 
 <figure class="third">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.jpg" style="width: 200px">
 </figure>

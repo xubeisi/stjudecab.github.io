@@ -7,7 +7,7 @@ email: evadnie.rampersauds@stjude.org
 twitter:
 github: stjudecab
 googlescholar:
-photo: tm_evadnie.png
+photo: tm_evadnie.jpg
 stjude:
 orcid:
 linkedin:

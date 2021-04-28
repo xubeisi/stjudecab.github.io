@@ -85,5 +85,5 @@ groupcolor: "#712D91"
 ---
 
 ### Contact
-Please contact our group lead, <a href="mailto:beisi.xu#stjude.org">Beisi Xu</a>.
+Please contact our group lead, <a href="mailto:ti-cheng.chang#stjude.org">Ti-cheng Chang</a>.
 

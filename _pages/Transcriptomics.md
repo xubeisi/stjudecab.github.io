@@ -12,7 +12,7 @@ groupspec: [ "team/" ]
 ## Welcome to CAB Transcriptomics St. Jude
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.jpg){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 The Transcriptomics Group focuses on transcriptome-wide analysis of differential gene expression and differential splicing of mRNAs including bulk gene expression, single-cell gene expression, translation (the translatome). We also integrate RNA-seq data with other high throughput sequencing data such as epigenomics data to better understand the biology.  In addition, the group is interested in establishing analytic/visualization pipelines to support the work of St. Jude investigators.
 
@@ -43,5 +43,5 @@ If you are interested in joining please go to the [recruitment](/recruitment) pa
 We are grateful for funding from the [National Cancer Institute at National Institute of Health](https://www.cancer.gov/)
 
 <figure class="third">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.jpg" style="width: 200px">
 </figure>

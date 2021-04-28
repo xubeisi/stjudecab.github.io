@@ -11,7 +11,7 @@ groupspec: [ "team/" ]
 
 ## Welcome to CAB DevOps
 
-![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_devops_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_devops_v1.jpg){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 The CAB DevOps Group focused on creating and maintaining core bioinformatics services and infrastructure to best serve the research community at St. Jude Children's Research Hospital.
 

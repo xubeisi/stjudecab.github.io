@@ -6,45 +6,39 @@ sitemap: false
 permalink: /Genomics/
 group: Genomics
 groupcolor: "#712D91"
-groupspec: [ "team/", "research/", "publications/" ]
+groupspec: [ "team/" ]
 ---
 
 ## Welcome to CAB Genomics St. Jude
 
+![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_genomics_v1.jpg){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
-![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_epi_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
+The CAB Genomics Group focuses incorporate state-of-art analytic approaches to understand how the tumorigenesis and relevant biological processes shaped by genomic variations. The team is also of interests in establishing genomics analytic pipelines to support the work of St. Jude investigators.
 
+---
+We mainly focus on these areas:
 
-The CAB Genomics Group focuses on helping researchers answer biological questions related to regulation through epigenetic mechanisms using the best available tools. We are also interested in establishing new analytic pipelines to enhance researching practices of St. Jude investigators. We mainly expereinced on areas:
-- Cancer Biology
-- Developmental Biology
-- Innate Immunology
+- Cancer genomics
+- Germline genomics
+- Metagenomics
+- Comparative/Evolutionary genomics
+- Viral genomics
 
-We categorized Genomics Analyses briefly into three major topics:
-1. **Regulation discovery**: Discover and predict regulation relationship using NGS data such as ChIP-Seq and intergrative with other data.
-2. **Chromatin state**: Chromatin accessibility can be measure by method such as ATAC-seq, DNase-seq. Together with motif database, transcription factors (TFs) likely to associated with differential accessible regions can be identified.
-3. **3D Genome**: Thanks to [Chromosome conformation capture](https://en.wikipedia.org/wiki/Chromosome_conformation_capture)(3C) technologies or 3C-based methods, people are able to study the 3D structure of chromatin. [Topological association domains (TADs)](https://en.wikipedia.org/wiki/Topologically_associating_domain), [Compartments](https://en.wikipedia.org/wiki/Nuclear_organization#A/B_compartments), [Chromatin loops](https://en.wikipedia.org/wiki/Nuclear_organization#DNA_looping) were all found could regulated gene's functions.
+#### We categorized Genomics Analyses briefly into several major topics:
+
+- **Cancer Genomics**: Study of the totality of DNA sequence variations between tumor cells and normal cells
+- **Germline Genomics**: Different from acquired somatic mutations, occurs in reproductive cells (sperm, egg) and inherits to the offspring
+- **Meta-genomics**: 16S Operational Taxonomic Units(OTU) analysis
+- **Comparative/Evolutionary genomics**: Guided/de novo Genome assembly, gene annotation, evolution analysis
+- **Viral genomics**: Viral genome assembly, annotation, phylogenetic history reconstruction
 
 #### Technologies and methods
-The CAB Genomics is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including:
-- ChIP-Seq
-- ATAC-Seq/scATAC
-- RNA-Seq/SLAM-Seq/scRNA
-- HiC/HiCHIP/PLAC-Seq/CaptureC
 
-#### Collaborators
-We work with closely with numerous collaborators, mostly from St. Jude, including:
-- the [Dyer Lab](https://www.stjude.org/directory/d/michael-dyer.html) at St. Jude
-- the [Peng Lab](https://www.stjude.org/directory/p/jamy-peng.html) at St. Jude
-- the [Li Lab](https://www.stjude.org/directory/l/chunliang-li.html) at St. Jude
-- the [Feng Lab](https://www.stjude.org/directory/f/yongqiang-feng.html) at St. Jude
+The CAB Genomics Group is primarily a bioinformatic group that uses a wide range of genomic, bioinformatic, and statistical methods including:
+
+- Whole exome sequencing
+- Long read sequencing (Pacbio, 10X and Oxford Nanopore)
+- Amplicon sequencing (Customized Capture, 16S rRNA, CRISPR screening)
 
 #### Joining St. Jude
-If you are interested in joining please go to the [recruitment](recruitment) page.
-
-#### Funding
-We are grateful for funding from the [National Cancer Institute at National Institute of Health](https://www.cancer.gov/)
-
-<figure class="third">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.png" style="width: 200px">
-</figure>
+If you are interested in joining please go to the [recruitment](/recruitment) page.

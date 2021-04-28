@@ -16,7 +16,7 @@ permalink: /code/
 ### [cellxgene_gsea](https://github.com/stjudecab/cellxgene_gsea)
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.png" style="height: 300px"> 
+<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg" style="height: 300px"> 
 
 This containerized pipeline was developed for high-throughput parallel processing on the Amazon Web Services cloud platform. It was deployed to process whole-genome sequencing data from FASTQ to VCF for analysis of the human prefrontal cortex across development.
 
@@ -28,7 +28,7 @@ This containerized pipeline was developed for high-throughput parallel processin
 ### [my-bedtools2](https://my-bedtools2.readthedocs.io/en/latest)
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/my-bedtools2.png" style="height: 300px"> 
+<img src="{{ site.url }}{{ site.baseurl }}/images/codepic/my-bedtools2.jpg" style="height: 300px"> 
 
 
 my-bedtools2 is a bedtools2 variety with several customized additional options.

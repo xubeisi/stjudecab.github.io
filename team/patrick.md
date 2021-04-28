@@ -8,7 +8,7 @@ twitter: pschreins
 github: stjudecab
 googlescholar:
 myncbi: 1ZmoCXANKssI1v
-photo: tm_patrick.png
+photo: tm_patrick.jpg
 stjude: x/patrick-schreiner
 orcid: 0000-0001-5391-2642
 linkedin: patrick-schreiner-phd

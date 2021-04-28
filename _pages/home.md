@@ -9,7 +9,7 @@ permalink: /
 ## Welcome to CAB St. Jude
 
 
-![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.jpg){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 SJCRH Center for Applied Bioinformatics (CAB) is an institutional shared resource, with the mission to provide state-of-the-art bioinformatics services to St. Jude investigators. We maintain the highest level of scientific rigor by carefully vetting and documenting all bioinformatics methods and pipelines. All methods are shared with the international biomedical research community.
 
@@ -22,5 +22,5 @@ If you are interested in joining please go to the [recruitment](/recruitment) pa
 We are grateful for funding from the [National Cancer Institute at National Institute of Health](https://www.cancer.gov/)
 
 <figure class="third">
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.png" style="width: 200px">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NCI.jpg" style="width: 200px">
 </figure>

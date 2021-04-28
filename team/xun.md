@@ -7,7 +7,7 @@ email: xun.zhu@stjude.org
 twitter:
 github: stjudecab
 googlescholar: iMHMSRsAAAAJ
-photo: tm_xun.png
+photo: tm_xun.jpg
 stjude: z/xun-zhu
 orcid: 0000-0001-9097-7824
 linkedin: xun-zhu-b6487918

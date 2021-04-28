@@ -1,13 +1,13 @@
 ---
 layout: member
 title: Nadhir Djekidel
-position: Bioinformatics Research Scientist 
+position: Bioinformatics Research Scientist
 handle: mnd
 email: nadhir.djekidel@stjude.org
 twitter:
 github: stjudecab
 googlescholar: M2b_x_8AAAAJ
-photo: tm_nadhir.png
+photo: tm_nadhir.jpg
 stjude: d/nadhir-djekidel
 orcid: 0000-0001-5361-1858
 linkedin: djeknad

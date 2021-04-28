@@ -8,7 +8,7 @@ twitter:
 github: stjudecab
 googlescholar: PIPGxWoAAAAJ
 myncbi: 1zofdYmKS0FQg
-photo: tm_beisi.png
+photo: tm_beisi.jpg
 stjude: x/beisi-xu
 orcid: 0000-0003-0099-858X
 linkedin: beisixu

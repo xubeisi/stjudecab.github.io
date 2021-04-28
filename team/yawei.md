@@ -7,7 +7,7 @@ email: yawei.hui@stjude.org
 twitter:
 github: bh007
 googlescholar: uwON2rEAAAAJ&hl
-photo: tm_yawei.png
+photo: tm_yawei.jpg
 stjude: h/yawei-hui
 orcid: 0000-0001-6397-3086
 linkedin: yaweihui

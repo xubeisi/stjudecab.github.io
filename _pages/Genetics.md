@@ -11,7 +11,7 @@ groupspec: [ "team/" ]
 
 ## Welcome to CAB Genetics St.Jude
 
-![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.png){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_v1.jpg){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
 The CAB Genetics Group focuses on the association of inherited or acquired genetic variations with clinical or phenotypic traits in humans. We are also interested in establishing new bioinformatic and statistical pipelines to enhance researching practices of St. Jude investigators. 
 

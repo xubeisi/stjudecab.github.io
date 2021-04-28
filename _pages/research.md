@@ -10,9 +10,9 @@ permalink: /research/
 
 ---
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/retina.neuron.2017.png){: style="width: 250px; float: left;margin-left: 30px; margin-right: 30px; border: 10px"}
-![]({{ site.url }}{{ site.baseurl }}/images/respic/retinaipsc.cellrep.2018.png){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}
-![]({{ site.url }}{{ site.baseurl }}/images/respic/retina3.neuron.2019.png){: style="width: 250px; float: center;margin-left: 30px; margin-right: 30px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/retina.neuron.2017.jpg){: style="width: 250px; float: left;margin-left: 30px; margin-right: 30px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/retinaipsc.cellrep.2018.jpg){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/retina3.neuron.2019.jpg){: style="width: 250px; float: center;margin-left: 30px; margin-right: 30px; border: 10px"}
 
 ### Retina Epigenetic Landscape
 <div style="text-align: justify">
@@ -27,7 +27,7 @@ Their profiles could be access online at
 </div>
 ---- 
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/53bp1.natneuron.2019.png){: style="width: 300px; float: left;margin-left: 30px; margin-right: 30px; border: 10px"}
+![]({{ site.url }}{{ site.baseurl }}/images/respic/53bp1.natneuron.2019.jpg){: style="width: 300px; float: left;margin-left: 30px; margin-right: 30px; border: 10px"}
 
 ### Epigenetics Regulators
 <div style="text-align: justify">

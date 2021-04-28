@@ -7,7 +7,7 @@ email: jason.myers@stjude.org
 twitter:
 github: stjudecab
 googlescholar: 
-photo: tm_jason.png
+photo: tm_jason.jpg
 stjude: 
 orcid: 
 linkedin: 

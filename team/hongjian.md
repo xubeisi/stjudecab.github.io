@@ -8,7 +8,7 @@ twitter:
 github: stjudecab
 googlescholar: V_vuP6wAAAAJ
 myncbi: 1HSwfzta96x54
-photo: tm_hongjian.png
+photo: tm_hongjian.jpg
 stjude: j/hongjian-jin
 orcid: 0000-0003-3833-7170
 linkedin: hongjianjin

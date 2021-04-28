@@ -7,7 +7,7 @@ email: wojciech.rosikiewicz@stjude.org
 twitter:
 github: stjudecab
 googlescholar: -HuAS1EAAAAJ
-photo: tm_wojciech.png
+photo: tm_wojciech.jpg
 stjude: r/wojciech-rosikiewicz
 orcid: 0000-0001-7031-3430
 linkedin: rosikiewicz
