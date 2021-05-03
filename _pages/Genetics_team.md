@@ -86,5 +86,5 @@ groupspec: [ "team/" ]
 ---
 
 ### Contact
-Please contact our group lead, <a href="mailto:beisi.xu#stjude.org">Beisi Xu</a>.
+Please contact our group lead, <a href="mailto:evadnie.rampersauds#stjude.org">Dr. Evadnie Rampersaud</a>.
 

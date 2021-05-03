@@ -1,6 +1,6 @@
 ---
 layout: member
-title: Dr.Evadnie Rampersaud
+title: Dr. Evadnie Rampersaud
 position: Principal Bioinformatics Scientist
 handle: evadnie
 email: evadnie.rampersauds@stjude.org
