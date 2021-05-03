@@ -40,12 +40,12 @@ Human Genetic and Cancer Genomic Data zhongshan knows how to analyze:
 
 ### Professional Experience
 
-Time        | Position                   | PI/Supervisor    | Institution                                   |
------------ | :-----------               | -----------      | -----------                                   |
-2019-       | Bioinformatics Scientist   | Gang Wu /        | St. Jude Children's Research Hospital         |
-            |                            | Ti-Cheng Chang   |                                               |
-2017-2019   | Postdoctoral Associate     | Joel Gelernter   | Yale University, US                           |
-2015-2016   | Postdoctoral Associate     | Tomas Babak      | Queen's University, Canada                    |
-2010-2011   | Research Assistant         | Jie Zhou         | The University of Hong Kong, Hong Kong        |
+Time        | Position                          | PI/Supervisor  | Institution                            |
+----------- | :-----------                      | -----------    | -----------                            |
+2019-       | Bioinformatics Research Scientist | Gang Wu /      | St. Jude Children's Research Hospital  |
+            |                                   | Ti-Cheng Chang |                                        |
+2017-2019   | Postdoctoral Associate            | Joel Gelernter | Yale University, US                    |
+2015-2016   | Postdoctoral Associate            | Tomas Babak    | Queen's University, Canada             |
+2010-2011   | Research Assistant                | Jie Zhou       | The University of Hong Kong, Hong Kong |
 {:.custom-table}
 

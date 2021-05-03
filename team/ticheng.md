@@ -31,7 +31,7 @@ Ti-Cheng Chang is the Genomics Group Lead of the Center for Applied Bioinformati
 Time        | Position                              | PI/Supervisor          | Institution                               |
 ----------- | :-----------                          | -----------            | -----------                               |
 2019-present| Group lead - Genomics                 | Gang Wu                | St. Jude Children's Research Hospital, US |
-2015-2019   | Bioinformatics research scientist     | Gang Wu                | St. Jude Children's Research Hospital, US |
+2015-2019   | Bioinformatics Research Scientist     | Gang Wu                | St. Jude Children's Research Hospital, US |
 2013-2015   | Postdoctoral Associate                | Ioannis Stergiopoulos  | UC Davis, USA                             |
 {:.custom-table}
 

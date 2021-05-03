@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Xun Zhu
-position: Bioinformatics Resch Scientist (DevOps)
+position: Bioinformatics Resch Scientist
 handle: xun
 email: xun.zhu@stjude.org
 twitter:
@@ -27,10 +27,10 @@ Dr. Xun Zhu is a Bioinformatics Research Scientist in the Center for Applied Bio
 
 ### Professional Experience
 
-Time        | Position                   | PI/Supervisor    | Institution                                   |
------------ | :-----------               | -----------      | -----------                                   |
-2019 - Current | Research Scientist         | Gang Wu          | St. Jude Children's Research Hospital, Memphis, TN         |
-2019        | Postdoctoral Researcher    | John Shepherd    | University of Hawaii Cancer Center, Honolulu, HI |
+Time           | Position                          | PI/Supervisor | Institution                                        |
+-----------    | :-----------                      | -----------   | -----------                                        |
+2019 - Current | Bioinformatics Research Scientist | Gang Wu       | St. Jude Children's Research Hospital, Memphis, TN |
+2019           | Postdoctoral Researcher           | John Shepherd | University of Hawaii Cancer Center, Honolulu, HI   |
 {:.custom-table}
 
 <!--more-->

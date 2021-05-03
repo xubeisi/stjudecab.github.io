@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Patrick Schreiner
-position: Bioinoformatics Research Scientist(Transcriptomics)
+position: Bioinoformatics Research Scientist
 handle: patrick
 email: patrick.schreiner@stjude.org
 twitter: pschreins

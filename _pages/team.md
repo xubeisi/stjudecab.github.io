@@ -25,6 +25,7 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+  <h5><i><a href="/{{ member.group }}_team/" class="off">{{ member.group }} Group</a></i></h5>
   <i>{{ member.info }}</i>
 </div>
 
@@ -58,8 +59,8 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4><a href="/{{ member.group }}_team/" class="off">{{ member.group }}</a></h4>
-  <i>{{ member.name }}</i><br />
+  <h4><a href="/team/{{member.url}}" class="off">{{ member.name }}</a></h4>
+  <h5><i><a href="/{{ member.group }}_team/" class="off">{{ member.group }} Group</a></i></h5>
   <i>{{ member.info }}</i>
 </div>
 
@@ -93,6 +94,7 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4><a href="{{ member.url }}" class="off">{{ member.name }}</a></h4>
+  <h5><i><a href="/{{ member.group }}_team/" class="off">{{ member.group }} Group</a></i></h5>
   <i>{{ member.info }}</i>
 </div>
 

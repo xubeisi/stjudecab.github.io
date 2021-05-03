@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Jason Myers
-position: Lead Bioinformatics Analyst (Genetics)
+position: Lead Bioinformatics Analyst
 handle: jason
 email: jason.myers@stjude.org
 twitter:

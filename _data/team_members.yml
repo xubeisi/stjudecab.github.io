@@ -1,51 +1,16 @@
-- name: Beisi Xu
-  photo: tm_beisi.jpg
-  info: Group Lead(Epigenetics)
-  url: beisi
+- name: Ti-Cheng Chang
+  photo: tm_ticheng.jpg
+  info: Group lead(Genomics)
+  url: ticheng
   posgroup: 0
-  group: Epigenetics
- 
-- name: Wojciech Rosikiewicz
-  photo: tm_wojciech.jpg
-  info: Bioinformatics Research Scientist
-  url: wojciech
-  posgroup: 1
-  group: Epigenetics
- 
+  group: Genomics
+  
 - name: Mohamed Nadhir Djekidel
   photo: tm_nadhir.jpg
   info: Bioinformatics Research Scientist
   url: nadhir
   posgroup: 1
   group: Epigenetics
- 
-- name: Yawei Hui
-  photo: tm_yawei.jpg
-  info: Manager (DevOps)
-  url: yawei
-  posgroup: 0
-  group: DevOps
- 
-- name: Xun Zhu
-  photo: tm_xun.jpg
-  info: Bioinformatics Research Scientist
-  url: xun
-  posgroup: 1
-  group: DevOps
- 
-- name: Evadnie Rampersaud
-  photo: tm_evadnie.jpg
-  info: Group Lead(Genetics)
-  url: evadnie
-  posgroup: 0
-  group: Genetics
- 
-- name: Jason Myers
-  photo: tm_jason.jpg
-  info: Lead Bioinformatics Analyst
-  url: jason
-  posgroup: 1
-  group: Genetics
  
 - name: Yiping Fan
   photo: tm_yiping.jpg
@@ -56,18 +21,46 @@
  
 - name: Dale Hedges
   photo: tm_dale.jpg
-  info: Senoir Bioinformatics Research Scientist
+  info: Sr. Bioinformatics Research Scientist
   url: dale
   posgroup: 1
   group: Transcriptomics
  
+- name: Yawei Hui
+  photo: tm_yawei.jpg
+  info: Manager (DevOps)
+  url: yawei
+  posgroup: 0
+  group: DevOps
+ 
 - name: Hongjian Jin
   photo: tm_hongjian.jpg
-  info: Senoir Bioinformatics Research Scientist
+  info: Sr. Bioinformatics Research Scientist
   url: hongjian
   posgroup: 1
   group: Transcriptomics
 
+- name: Jason Myers
+  photo: tm_jason.jpg
+  info: Lead Bioinformatics Analyst
+  url: jason
+  posgroup: 1
+  group: Genetics
+ 
+- name: Evadnie Rampersaud
+  photo: tm_evadnie.jpg
+  info: Group Lead (Genetics)
+  url: evadnie
+  posgroup: 0
+  group: Genetics
+ 
+- name: Wojciech Rosikiewicz
+  photo: tm_wojciech.jpg
+  info: Bioinformatics Research Scientist
+  url: wojciech
+  posgroup: 1
+  group: Epigenetics
+ 
 - name: Patrick Schreiner
   photo: tm_patrick.jpg
   info: Bioinformatics Research Scientist
@@ -82,13 +75,13 @@
   posgroup: 1
   group: Transcriptomics
 
-- name: Ti-Cheng Chang
-  photo: tm_ticheng.jpg
-  info: Group lead(Genomics)
-  url: ticheng
+- name: Beisi Xu
+  photo: tm_beisi.jpg
+  info: Group Lead (Epigenetics)
+  url: beisi
   posgroup: 0
-  group: Genomics
-  
+  group: Epigenetics
+ 
 - name: Ke (Corey) Xu
   photo: tm_coreyxu.jpg
   info: Sr. Bioinformatics Research Scientist
@@ -102,3 +95,10 @@
   url: zhongshan
   posgroup: 1
   group: Genomics
+ 
+- name: Xun Zhu
+  photo: tm_xun.jpg
+  info: Bioinformatics Research Scientist
+  url: xun
+  posgroup: 1
+  group: DevOps
