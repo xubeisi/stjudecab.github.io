@@ -9,7 +9,7 @@ groupcolor: "#712D91"
 groupspec: [ "team/" ]
 ---
 
-## Welcome to CAB Genomics St. Jude
+## Welcome to CAB {{ site.group }} at St. Jude
 
 ![]({{ site.url }}{{ site.baseurl }}/images/cab_logo_genomics_v1.jpg){: style="width: 170px; float: left;margin-right: 20px; border: 10px"}
 
