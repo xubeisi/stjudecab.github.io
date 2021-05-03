@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Dr. Evadnie Rampersaud
-position: Principal Bioinformatics Scientist
+position: Principal Bioinformatics Research Scientist(Genetics)
 handle: evadnie
 email: evadnie.rampersauds@stjude.org
 twitter:
@@ -29,13 +29,13 @@ Dr. Evadnie Rampersaud is a genetic epidemiologist with expertise in applied sta
 
 ### Professional Experience
 
-Time           | Position                           | PI/Supervisor                        | Institution                                        |
------------    | :-----------                       | -----------                          | -----------                                        |
-2021 - current | Principal Bioinformatics Scientist | Gang Wu                              | St. Jude Children’s Research Hospital, Memphis, TN |
-2019 - 2021    | Group Lead in Genetics             | Gang Wu                              | St. Jude Children’s Research Hospital, Memphis, TN |
-2015 - 2019    | Bioinformatics Research Scientist  | Gang Wu                              | St. Jude Children’s Research Hospital, Memphis, TN |
-2007 - 2015    | Research Assistant Professor       | Leonard M. Miller School of Medicine | University of Miami, Miami, FL                     |
-2005 - 2007    | Postdoctoral Fellow                | Braxton Mitchell                     | University of Maryland, Baltimore, MD              |
+Time           | Position                                    | PI/Supervisor                        | Institution                                        |
+-----------    | :-----------                                | -----------                          | -----------                                        |
+2021 - current | Principal Bioinformatics Research Scientist | Gang Wu                              | St. Jude Children’s Research Hospital, Memphis, TN |
+2019 - 2021    | Group Lead in Genetics                      | Gang Wu                              | St. Jude Children’s Research Hospital, Memphis, TN |
+2015 - 2019    | Bioinformatics Research Scientist           | Gang Wu                              | St. Jude Children’s Research Hospital, Memphis, TN |
+2007 - 2015    | Research Assistant Professor                | Leonard M. Miller School of Medicine | University of Miami, Miami, FL                     |
+2005 - 2007    | Postdoctoral Fellow                         | Braxton Mitchell                     | University of Maryland, Baltimore, MD              |
 {:.custom-table}
 
 <!--more-->

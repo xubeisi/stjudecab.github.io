@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Beisi Xu
-position: Group Lead(Epigenetics)
+position: Principal Bioinformatics Research Scientist(Epigenetics)
 handle: beisi
 email: beisi.xu@stjude.org
 twitter:
@@ -41,20 +41,22 @@ NGS Data Beisi knows how to analyze:
 
 ### Professional Experience
 
-Time        | Position                   | PI/Supervisor    | Institution                                   |
------------ | :-----------               | -----------      | -----------                                   |
-2019-       | Goup Lead-Epigenetics      | Gang Wu /        | St. Jude Children's Research Hospital         |
-            |                            | Yiping Fan       |                                               |
-2017-2019   | Sr. Bioinformatics         | Jinghui Zhang /  | St. Jude                                      |
-            | Research Scientist         | Yiping Fan       |                                               |
-2014-2017   | Bioinformatics             | Jinghui Zhang /  | St. Jude                                      |
-            | Research Scientist         | Yiping Fan       |                                               |
-2011-2014   | Postdoctoral Fellow        | Dustin E.Schones | City of Hope                                  |
-2009-2011   | Postdoctoral Fellow        | Guohui Li        | Dalian Institute of Chemical Physics          |
-2009-2009   | Postdoctoral Fellow(Joint) | Yan Cui          | University of Tennessee Health Science Center |
-2009-2009   | Internship                 | BGI              | Beijing Genomics Institute, Shenzhen          |
-2007-2008   | Research Fellow            | Yaoqi Zhou       | IUPUI                                         |
-2003-2007   | Research Assistant         | Haojun Liang     | University of Science and Technology of China |
+Time        | Position                   | PI/Supervisor    | Institution                                                |
+----------- | :-----------               | -----------      | -----------                                                |
+2021-       | Principal Bioinformatics   | Gang Wu /        | St. Jude Children's Research Hospital, Memphis, TN         |
+            | Research Scientist         | Yiping Fan       |                                                            |
+2019-2021   | Group Lead in Epigenetics  | Gang Wu /        | St. Jude                                                   |
+            |                            | Yiping Fan       |                                                            |
+2017-2019   | Sr. Bioinformatics         | Jinghui Zhang /  | St. Jude                                                   |
+            | Research Scientist         | Yiping Fan       |                                                            |
+2014-2017   | Bioinformatics             | Jinghui Zhang /  | St. Jude                                                   |
+            | Research Scientist         | Yiping Fan       |                                                            |
+2011-2014   | Postdoctoral Fellow        | Dustin E.Schones | City of Hope, Duarte, CA                                   |
+2009-2011   | Postdoctoral Fellow        | Guohui Li        | Dalian Institute of Chemical Physics, Dalian               |
+2009-2009   | Postdoctoral Fellow(Joint) | Yan Cui          | University of Tennessee Health Science Center, Memphis, TN |
+2009-2009   | Internship                 | BGI              | Beijing Genomics Institute, Shenzhen                       |
+2007-2008   | Research Fellow            | Yaoqi Zhou       | IUPUI, Indianapolis, IN                                    |
+2003-2007   | Research Assistant         | Haojun Liang     | University of Science and Technology of China, Hefei       |
 {:.custom-table}
 
 <!--more-->
