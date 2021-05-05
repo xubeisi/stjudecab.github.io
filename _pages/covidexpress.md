@@ -13,7 +13,7 @@ permalink: /covidexpress/
 
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg)
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_wordcloud_pubtator.svg){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_wordcloud_pubtator.svg)
-#### CovidExpress: an integrative database and portal for processed RNA-seq data allow easy investigation for SARS-CoV-2 related research
+#### CovidExpress: an interactive portal for intuitive investigation on SARS-CoV-2 related transcriptomes
 
 #### Abstract
 <div style="text-align: justify">
