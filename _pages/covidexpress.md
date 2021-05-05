@@ -12,7 +12,7 @@ permalink: /covidexpress/
 ---
 
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg)
-[![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_wordcloud_pubtator.svg){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_wordcloud_pubtator.svg)
+[![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_wordcloud_pubtator.jpg){: style="width: 250px; float: right;margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_wordcloud_pubtator.svg)
 #### CovidExpress: an interactive portal for intuitive investigation on SARS-CoV-2 related transcriptomes
 
 #### Abstract
