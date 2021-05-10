@@ -6,8 +6,8 @@ sitemap: false
 permalink: /covidexpress/
 ---
 
-## [CovidExpress Server](https://covidexpress.herokuapp.com){:target="_blank"}
-(Server would sleep if no access within 30mins, please wait two mins)
+## [CovidExpress Server](https://stjudecab_epi.gitlab.io/covidexpressdata/){:target="_blank"} [Backup Server(no GSEA)](https://covidexpress.herokuapp.com){:target="_blank"}
+(Server would sleep if no access within 30mins, please wait and refresh)
 
 ---
 
