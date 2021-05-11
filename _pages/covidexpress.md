@@ -34,9 +34,9 @@ Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
             <th>ssGSEA</th>
             <th>ssGSEA</th>
             <th>ssGSEA</th>
-            <th>FPKM</th>
-            <th>FPKM</th>
-            <th>FPKM</th>
+            <th>TPM</th>
+            <th>TPM</th>
+            <th>TPM</th>
         </tr>
         <tr style="text-align: right;">
             <th>Data</th>
@@ -54,99 +54,99 @@ Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.PCA.3D.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.PCA.3D.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.PCA.3D.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.PCA.3D.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.PCA.3D.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.PCA.3D.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.PCA.3D.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.PCA.3D.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.PCA.3D.html" target="_blank">Open</a></td>
     </tr>
     <tr>
       <th>PCA.2PCs</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.PCA.2PCs.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.PCA.2PCs.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.PCA.2PCs.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.PCA.2PCs.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.PCA.2PCs.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.PCA.2PCs.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.PCA.2PCs.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.PCA.2PCs.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.PCA.2PCs.html" target="_blank">Open</a></td>
     </tr>
     <tr>
       <th>PCA.grid</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.PCA.grid.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.PCA.grid.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.PCA.grid.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.PCA.grid.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.PCA.grid.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.PCA.grid.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.PCA.grid.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.PCA.grid.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.PCA.grid.html" target="_blank">Open</a></td>
     </tr>
     <tr>
       <th>PCA.components_matrix</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.PCA.components_matrix.tsv" target="_blank">Download tsv</a></td>
     </tr>
     <tr>
       <th>PCA.loadings</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.PCA.loadings.tsv" target="_blank">Download tsv</a></td>
     </tr>
     <tr>
       <th>PCA.loadings_matrix</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.PCA.loadings_matrix.tsv" target="_blank">Download tsv</a></td>
     </tr>
     <tr>
       <th>tSNE.3D</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.tSNE.3D.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.tSNE.3D.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.tSNE.3D.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.tSNE.3D.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.tSNE.3D.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.tSNE.3D.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.tSNE.3D.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.tSNE.3D.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.tSNE.3D.html" target="_blank">Open</a></td>
     </tr>
     <tr>
       <th>tSNE.2nc</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.tSNE.2nc.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.tSNE.2nc.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.tSNE.2nc.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.tSNE.2nc.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.tSNE.2nc.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.tSNE.2nc.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.tSNE.2nc.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.tSNE.2nc.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.tSNE.2nc.html" target="_blank">Open</a></td>
     </tr>
     <tr>
       <th>UMAP.3D.n_neighbors_20</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.UMAP.3D.n_neighbors_20.html" target="_blank">Open</a></td>
     </tr>
     <tr>
       <th>UMAP.3D.n_neighbors_10</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.UMAP.3D.n_neighbors_10.html" target="_blank">Open</a></td>
     </tr>
     <tr>
       <th>UMAP.3D.n_neighbors_5</th>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.Significant.Signature.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.COV.All.Signature.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
       <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.ssGSEA.MSigDB.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.CombinedDiff.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Combat.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
-      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.FPKM.Original.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.CombinedDiff.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Combat.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
+      <td><a href="https://stjudecab_epi.gitlab.io/covidexpressdata/Cluster/GSEA.TPM.Original.UMAP.3D.n_neighbors_5.html" target="_blank">Open</a></td>
     </tr>
   </tbody>
 </table>
@@ -166,8 +166,8 @@ Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
 <td>Clustering using single-sample Gene Set Enrichment Analysis Score (<a target="_blank" href="https://www.genepattern.org/modules/docs/ssGSEAProjection">ssGSEA</a>)</td>
 </tr>
 <tr>
-<th>Score:FPKM</th>
-<td>Clustering using expression value Fragments Per Kilobase Million(<a target="_blank" href="https://www.rna-seqblog.com/rpkm-fpkm-and-tpm-clearly-explained/">FPKM</a>)</td>
+<th>Score:TPM</th>
+<td>Clustering using expression value Transcripts Per Million(<a target="_blank" href="https://www.rna-seqblog.com/rpkm-fpkm-and-tpm-clearly-explained/">TPM</a>)</td>
 </tr>
 
 <tr>
@@ -188,17 +188,17 @@ Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
 
 <tr>
 <th>Data:Original</th>
-<td>FPKM values from RSEM method(<a target="_blank" href="https://doi.org/10.1186/1471-2105-12-323">Li and Dewey,2011,BMC Bioinformatics</a>) using STAR(<a target="_blank" href="https://doi.org/10.1093/bioinformatics/bts635">Dobin et al,2013,Bioinformatics</a>)</td>
+<td>TPM values from RSEM method(<a target="_blank" href="https://doi.org/10.1186/1471-2105-12-323">Li and Dewey,2011,BMC Bioinformatics</a>) using STAR(<a target="_blank" href="https://doi.org/10.1093/bioinformatics/bts635">Dobin et al,2013,Bioinformatics</a>)</td>
 </tr>
 
 <tr>
 <th>Data:CombinedDiff</th>
-<td>Only used FPKM values for top1000 differential expressed genes from COV Signature(Union)</td>
+<td>Only used TPM values for top1000 differential expressed genes from COV Signature(Union)</td>
 </tr>
 
 <tr>
 <th>Data:BatchCorrected</th>
-<td>FPKM values were corrected for batch effect using Combat(<a target="_blank" href="https://bioconductor.org/packages/release/bioc/html/sva.html">From SVA R package</a>, <a target="_blank" href="https://doi.org/10.1093/biostatistics/kxj037">Johnson et al,2007,Biostatistics</a>)</td>
+<td>TPM values were corrected for batch effect using Combat(<a target="_blank" href="https://bioconductor.org/packages/release/bioc/html/sva.html">From SVA R package</a>, <a target="_blank" href="https://doi.org/10.1093/biostatistics/kxj037">Johnson et al,2007,Biostatistics</a>)</td>
 </tr>
 
 <tr>
