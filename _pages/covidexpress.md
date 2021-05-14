@@ -18,7 +18,7 @@ permalink: /covidexpress/
 {:toc}
 
 ---- 
-#### Overview
+#### **Overview**
 #### CovidExpress: an interactive portal for intuitive investigation on SARS-CoV-2 related transcriptomes
 {:.no_toc}
 
@@ -30,26 +30,26 @@ permalink: /covidexpress/
 Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in humans could cause coronavirus disease 2019 (COVID-19). Since its first discovery in Dec 2019, SARS-CoV-2 has become a global pandemic and caused 2.8 million direct/indirect deaths (2021 Apr). Amongst the scientific community’s response to COVID-19, data sharing has emerged as an essential aspect of the combat against SARS-CoV-2. Despite the ever-growing studies about SARS-CoV-2 and COVID-19, to date, only a few databases were curated to enable access to gene expression data. Furthermore, these databases curated only a small set of data and do not provide easy access for investigators without computational skills to perform analyses. To fill this gap and advance open-access to the growing gene expression data on this deadly virus, we collected about 1,500 bulk RNA-seq datasets from publicly available resources, developed a database and visualization tool, named CovidExpress (https://stjudecab.github.io/covidexpress).  This open access database will allow research investigators to examine the gene expression in various tissues, cell lines, and their response to SARS-CoV-2 under different experimental conditions, accelerating the understanding of the etiology of this disease in order to inform the drug and vaccine development. Our integrative analysis of this big dataset highlights a set of commonly regulated genes in SARS-CoV-2 infected lung and nasal tissues, including OASL that were under-studied in COVID-19 related reports. Our results also suggested a potential FURIN positive feedback loop that might explain the evolutional advantage of SARS-CoV-2.
 </div>
 ---- 
-#### Portal Usage
+#### **Portal Usage**
 - [Learn about cellxgene basical functions](https://chanzuckerberg.github.io/cellxgene/posts/gallery){:target="_blank"}
 
 - Below illustrated the functional plugins we developed to help visualzation and analysis.
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg)
 
 ---- 
-#### Suggested Analysis Steps
+#### **Suggested Analysis Steps**
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_analysis_route.png){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_analysis_route.png)
 
 ----
-#### [CovidExpress Metadata Explorer](https://stjudecab_epi.gitlab.io/covidexpressdata/CovidExpress_metadataExplorer.html){:target="_blank"}
-We used [jquery dataTable](https://datatables.net){:target="_blank"} so you could explore the meta data easily.
+#### **[CovidExpress Metadata Explorer](https://stjudecab_epi.gitlab.io/covidexpressdata/CovidExpress_metadataExplorer.html){:target="_blank"}**
+We used [jquery dataTable](https://datatables.net){:target="_blank"} so you could explore the meta data easily. Click above title to open explorer page. 
 
 ----
-#### [CovidExpress Expression Data Download(.h5ad)](https://stjudecab_epi.gitlab.io/covidexpressdata/hm.integrated_withMeta_all.h5ad){:target="_blank"}
-h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF5){:target="_blank"} format with annotation commonly used for single cell data. [Learn more about h5ad file](https://anndata.readthedocs.io/en/latest/fileformat-prose.html){:target="_blank"}
+#### **[CovidExpress Expression Data Download(.h5ad)](https://stjudecab_epi.gitlab.io/covidexpressdata/hm.integrated_withMeta_all.h5ad){:target="_blank"}**
+h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF5){:target="_blank"} format with annotation commonly used for single cell data. [Learn more about h5ad file](https://anndata.readthedocs.io/en/latest/fileformat-prose.html){:target="_blank"}. Click above title to download(~350Mb)
 
 ----
-#### Clustering Results for reviewing and Download
+#### **Clustering Results for reviewing and Download**
 (see below tables for details)
 <table style="border-spacing: 10px;" border="1" class="dataframe table-bordered">
     <thead>
@@ -285,7 +285,7 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 <br>
 
 ----
-#### FAQs
+#### **FAQs**
 
 ##### **Will the database been updated?**
 {:.no_toc}
