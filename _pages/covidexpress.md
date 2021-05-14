@@ -41,12 +41,14 @@ Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_analysis_route.png){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_analysis_route.png)
 
 ----
-#### **[CovidExpress Metadata Explorer](https://stjudecab_epi.gitlab.io/covidexpressdata/CovidExpress_metadataExplorer.html){:target="_blank"}**
-We used [jquery dataTable](https://datatables.net){:target="_blank"} so you could explore the meta data easily. Click above title to open explorer page. 
+#### **CovidExpress Metadata Explorer**
+We used [jquery dataTable](https://datatables.net){:target="_blank"} so you could explore the meta data easily. [Open explorer page](https://stjudecab_epi.gitlab.io/covidexpressdata/CovidExpress_metadataExplorer.html){:target="_blank"}
 
 ----
-#### **[CovidExpress Expression Data Download(.h5ad)](https://stjudecab_epi.gitlab.io/covidexpressdata/hm.integrated_withMeta_all.h5ad){:target="_blank"}**
-h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF5){:target="_blank"} format with annotation commonly used for single cell data. [Learn more about h5ad file](https://anndata.readthedocs.io/en/latest/fileformat-prose.html){:target="_blank"}. Click above title to download(~350Mb)
+#### **CovidExpress Expression Data Download**
+h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF5){:target="_blank"} format with annotation commonly used for single cell data. [Learn more about h5ad file](https://anndata.readthedocs.io/en/latest/fileformat-prose.html){:target="_blank"}
+[Download h5ad file for expression (~350Mb)](https://stjudecab_epi.gitlab.io/covidexpressdata/hm.integrated_withMeta_all.h5ad){:target="_blank"}
+[Download GMT file for genesets from our and others' analysis(~30Mb)](https://stjudecab_epi.gitlab.io/covidexpressdata/202103highQ1093.cumulative_DEG_signatures.plusPublicCOVID.gmt){:target="_blank"} so you could perform [GSEA analysis](http://www.gsea-msigdb.org/gsea/index.jsp){:target="_blank"} using your own data.
 
 ----
 #### **Clustering Results for reviewing and Download**
