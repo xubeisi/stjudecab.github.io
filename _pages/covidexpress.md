@@ -46,8 +46,10 @@ We used [jquery dataTable](https://datatables.net){:target="_blank"} so you coul
 
 ----
 #### **CovidExpress Expression Data Download**
-h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF5){:target="_blank"} format with annotation commonly used for single cell data. [Learn more about h5ad file](https://anndata.readthedocs.io/en/latest/fileformat-prose.html){:target="_blank"}
+h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF5){:target="_blank"} format with annotation commonly used for single cell data. [Learn more about h5ad file.](https://anndata.readthedocs.io/en/latest/fileformat-prose.html){:target="_blank"}
+
 [Download h5ad file for expression (~350Mb)](https://stjudecab_epi.gitlab.io/covidexpressdata/hm.integrated_withMeta_all.h5ad){:target="_blank"}
+
 [Download GMT file for genesets from our and others' analysis(~30Mb)](https://stjudecab_epi.gitlab.io/covidexpressdata/202103highQ1093.cumulative_DEG_signatures.plusPublicCOVID.gmt){:target="_blank"} so you could perform [GSEA analysis](http://www.gsea-msigdb.org/gsea/index.jsp){:target="_blank"} using your own data.
 
 ----
@@ -291,11 +293,11 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 
 ##### **Will the database been updated?**
 {:.no_toc}
-Yes, we plan to update the database either Quarterly or we found 10 new studies from public resources. Suggestion of new studies is welcome, simple <a href="mailto:beisi.xu#stjude.org?subject=[Covidexpress]">Email Us</a>.
+Yes, we plan to update the database either Quarterly or if we found 10 new studies from public resources. Suggestion of new studies is welcome and appreciated, simple <a href="mailto:beisi.xu#stjude.org?subject=[Covidexpress]">Email Us</a>.
 
 ##### **Can I compare samples from different studies?**
 {:.no_toc}
-We strongly recommend only compare samples from the same study. Our ssGSEA approach mainly aimed at help visual so investigator could find the samples easier, but not able to overcome the batch effect. We tried batch effect correction methods such as Combat, sva, Combat-seq, quantiles normalization, they indeed reduced the batch effect. However, for many published studies, we failed reproduce the top reported genes. Thus we decided provide original TPM values as log2(TPM+1). We are investigating more on this topic and might update later if we found better solution allow meta studies.
+We strongly recommend only compare samples from the same study. Our ssGSEA approach mainly aimed at help visual so investigator could find the samples easier, but not able to overcome the batch effect. We tried batch effect correction methods such as Combat, sva, Combat-seq, quantiles normalization, they indeed reduced the batch effect. However, for many published studies, we failed reproduce the top reported genes using the corrected expression values. Thus we decided provide original TPM values as log2(TPM+1). We are investigating more on this topic and might update later if we found better solution allow meta studies.
 
 ##### **How can I custimize my own groups for plots?**
 {:.no_toc}
@@ -304,4 +306,4 @@ Simple click "creat new category" on the left, select the samples and add to new
 
 ##### **Why I encountered "Unexpected HTTP error" or "Failure loading source"?**
 {:.no_toc}
-This usually happens when an user tried to plot his customized sample group annotation but didn't add samples to that group. We are still trying to find solution on that. As tempory solution, you could either [clean your browser cache](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en){:target="_blank"} or [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"}
+This usually happens when an user tried to plot his customized sample group annotation but didn't add samples to that group. We are still trying to find a better solution to avoid that. As tempory solution, you could either [clean your browser cache](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en){:target="_blank"} or [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"}
