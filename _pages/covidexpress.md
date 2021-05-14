@@ -283,3 +283,23 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 </tbody>
 </table>
 <br>
+
+----
+#### FAQs
+
+##### **Will the database been updated?**
+{:.no_toc}
+Yes, we plan to update the database either Quarterly or we found 10 new studies from public resources. Suggestion of new studies is welcome, simple <a href="mailto:beisi.xu#stjude.org?subject=[Covidexpress]">Email Us</a>.
+
+##### **Can I compare samples from different studies?**
+{:.no_toc}
+We strongly recommend only compare samples from the same study. Our ssGSEA approach mainly aimed at help visual so investigator could find the samples easier, but not able to overcome the batch effect. We tried batch effect correction methods such as Combat, sva, Combat-seq, quantiles normalization, they indeed reduced the batch effect. However, for many published studies, we failed reproduce the top reported genes. Thus we decided provide original TPM values as log2(TPM+1). We are investigating more on this topic and might update later if we found better solution allow meta studies.
+
+##### **How can I custimize my own groups for plots?**
+{:.no_toc}
+Simple click "creat new category" on the left, select the samples and add to new groups. see below. 
+[![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_add_group.jpg){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_add_group.jpg)
+
+##### **Why I encountered "Unexpected HTTP error" or "Failure loading source"?**
+{:.no_toc}
+This usually happens when an user tried to plot his customized sample group annotation but didn't add samples to that group. We are still trying to find solution on that. As tempory solution, you could either [clean your browser cache](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en){:target="_blank"} or [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"}
