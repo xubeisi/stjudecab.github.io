@@ -50,7 +50,7 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 
 [Download h5ad file for expression (~350Mb)](https://stjudecab_epi.gitlab.io/covidexpressdata/hm.integrated_withMeta_all.h5ad){:target="_blank"}
 
-[Download GMT file for genesets from our and others' analysis(~30Mb)](https://stjudecab_epi.gitlab.io/covidexpressdata/202103highQ1093.cumulative_DEG_signatures.plusPublicCOVID.gmt){:target="_blank"} so you could perform [GSEA analysis](http://www.gsea-msigdb.org/gsea/index.jsp){:target="_blank"} using your own data.
+[Download GMT file for genesets from our and others' analysis(~30Mb)](https://stjudecab_epi.gitlab.io/covidexpressdata/202103highQ1093.cumulative_DEG_signatures.plusPublicCOVID.gmt.gz){:target="_blank"} so you could perform [GSEA analysis](http://www.gsea-msigdb.org/gsea/index.jsp){:target="_blank"} using your own data.
 
 ----
 #### **Clustering Results for reviewing and Download**
@@ -290,6 +290,10 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 
 ----
 #### **FAQs**
+
+##### **Where can I find more details**
+{:.no_toc}
+More details could be found in our pre-print [BIORXIV/2021/444026]{https://www.biorxiv.org/content/10.1101/2021.05.14.444026v1}{:target="_blank"}
 
 ##### **Will the database been updated?**
 {:.no_toc}
