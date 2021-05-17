@@ -6,7 +6,7 @@ sitemap: false
 permalink: /covidexpress/
 ---
 
-## [CovidExpress Server](http://138.197.226.51/){:target="_blank"} 
+## [CovidExpress Server](http://157.230.203.161/){:target="_blank"} 
 {:.no_toc}
 <!-- [CovidExpress Server](https://stjudecab_epi.gitlab.io/covidexpressdata/){:target="_blank"} -->
 #### [Backup Server(no GSEA)](https://covidexpress.herokuapp.com){:target="_blank"}
