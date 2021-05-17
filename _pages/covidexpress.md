@@ -293,7 +293,7 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 
 ##### **Where can I find more details**
 {:.no_toc}
-More details could be found in our pre-print [BIORXIV/2021/444026]{https://www.biorxiv.org/content/10.1101/2021.05.14.444026v1}{:target="_blank"}
+More details could be found in our pre-print [BIORXIV/2021/444026](https://www.biorxiv.org/content/10.1101/2021.05.14.444026v1){:target="_blank"}
 
 ##### **Will the database been updated?**
 {:.no_toc}
