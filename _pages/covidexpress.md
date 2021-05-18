@@ -14,8 +14,16 @@ permalink: /covidexpress/
 (Server would sleep if no access within 30mins, please wait and refresh)
 
 ---
+<div class="row">
+<div class="col-sm-8">
 * TOC
 {:toc}
+</div>
+
+<div class="col-sm-3">
+<script type="text/javascript" src="http://rf.revolvermaps.com/0/0/1.js?i=54woy7d9mxl&amp;s=200&amp;m=7&amp;v=true&amp;r=false&amp;b=ffffff&amp;n=true&amp;c=ff0000" async="async"></script>
+</div>
+</div>
 
 ---- 
 #### **Overview**
@@ -292,15 +300,12 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 #### **FAQs**
 
 ##### **Where can I find more details**
-{:.no_toc}
 More details could be found in our pre-print [BIORXIV/2021/444026](https://www.biorxiv.org/content/10.1101/2021.05.14.444026v1){:target="_blank"}
 
 ##### **Will the database been updated?**
-{:.no_toc}
 Yes, we plan to update the database either Quarterly or if we found 10 new studies from public resources. Suggestion of new studies is welcome and appreciated, simple <a href="mailto:beisi.xu#stjude.org?subject=[Covidexpress]">Email Us</a>.
 
 ##### **Can I compare samples from different studies?**
-{:.no_toc}
 We strongly recommend only compare samples from the same study. Our ssGSEA approach mainly aimed at help visual so investigator could find the samples easier, but not able to overcome the batch effect. We tried batch effect correction methods such as Combat, sva, Combat-seq, quantiles normalization, they indeed reduced the batch effect. However, for many published studies, we failed reproduce the top reported genes using the corrected expression values. Thus we decided provide original TPM values as log2(TPM+1). We are investigating more on this topic and might update later if we found better solution allow meta studies.
 
 ##### **How can I custimize my own groups for plots?**
