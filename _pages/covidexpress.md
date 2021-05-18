@@ -21,7 +21,7 @@ permalink: /covidexpress/
 </div>
 
 <div class="col-sm-3">
-<script type="text/javascript" src="http://rf.revolvermaps.com/0/0/1.js?i=54woy7d9mxl&amp;s=200&amp;m=7&amp;v=true&amp;r=false&amp;b=ffffff&amp;n=true&amp;c=ff0000" async="async"></script>
+<script type="text/javascript" src="https://rf.revolvermaps.com/0/0/1.js?i=54woy7d9mxl&amp;s=200&amp;m=7&amp;v=true&amp;r=false&amp;b=ffffff&amp;n=true&amp;c=ff0000" async="async"></script>
 </div>
 </div>
 
@@ -307,6 +307,8 @@ Yes, we plan to update the database either Quarterly or if we found 10 new studi
 
 ##### **Can I compare samples from different studies?**
 We strongly recommend only compare samples from the same study. Our ssGSEA approach mainly aimed at help visual so investigator could find the samples easier, but not able to overcome the batch effect. We tried batch effect correction methods such as Combat, sva, Combat-seq, quantiles normalization, they indeed reduced the batch effect. However, for many published studies, we failed reproduce the top reported genes using the corrected expression values. Thus we decided provide original TPM values as log2(TPM+1). We are investigating more on this topic and might update later if we found better solution allow meta studies.
+
+##### ...
 
 ##### **How can I custimize my own groups for plots?**
 {:.no_toc}
