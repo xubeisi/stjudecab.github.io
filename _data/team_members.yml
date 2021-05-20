@@ -5,12 +5,26 @@
   posgroup: 0
   group: Genomics
   
+- name: Wenan Chen
+  photo: tm_wenan.jpg
+  info: Bioinformatics Research Scientist
+  url: wenan
+  posgroup: 1
+  group: R&D
+  
 - name: Mohamed Nadhir Djekidel
   photo: tm_nadhir.jpg
   info: Bioinformatics Research Scientist
   url: nadhir
   posgroup: 1
   group: Epigenetics
+ 
+- name: Gang Wu
+  photo: tm_gang.jpg
+  info: Director
+  url: gang
+  posgroup: -1
+  group: 
  
 - name: Yiping Fan
   photo: tm_yiping.jpg
