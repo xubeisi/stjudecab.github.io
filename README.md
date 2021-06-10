@@ -17,7 +17,8 @@ If you use conda, these will help you start build for your own
 git clone https://github.com/**yourid**/stjudecab.github.io
 #conda create -n iobuild python=3.8 ruby=2.6.3
 #conda activate iobuild
-conda env create -f .condaenv.xml
+conda env create -f .condaenv.yml -n iobuild
+export CONDA_BUILD=1
 conda activate iobuild
 gem install bundle
 bundle install
