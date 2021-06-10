@@ -23,7 +23,8 @@ conda activate iobuild
 gem install bundle
 bundle install
 #local debug, would rebuild automatically everytime you changed a file
-bundle exec jekyll serve --host **$yourip** --port 5050 --livereload
+yourip=$(hostname -I | awk '{printf $1}')
+bundle exec jekyll serve --host $yourip --port 5050 --livereload
 #after confirmation of the changes you want
 bundle exec jekyll build
 git commit "update" && git push
