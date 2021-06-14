@@ -84,6 +84,14 @@ a, table.table a {
   opacity: 0.95;
   background-color: var(--global-bg-color);
 }
+
+.navbar, .navbar-default, .navbar-fixed-top {
+    min-height: 10px;
+    max-height: 30px;
+    margin-bottom: 2px;
+    border: 1px solid transparent;
+}
+
 .navbar.navbar-light {
   // Remove link decoration
   a {

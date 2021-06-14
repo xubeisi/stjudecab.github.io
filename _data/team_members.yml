@@ -82,6 +82,13 @@
   posgroup: 1
   group: Transcriptomics
 
+- name: Chelsea Trotter
+  photo: tm_chelsea.jpg
+  info: Bioinformatics Software Engineer
+  url: chelsea
+  posgroup: 1
+  group: DevOps
+
 - name: Shibiao Wan
   photo: tm_shibiao.jpg
   info: Bioinformatics Research Scientist

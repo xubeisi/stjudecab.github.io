@@ -19,9 +19,7 @@ mode=$1
 if [[ $mode =~ rename ]]
 then
     mkdir -p ../tmp_backup
-    mv _pages/*ublic* ../tmp_backup
-    mv team ../tmp_backup
+    mv search.html ../tmp_backup
 else
-    mv ../tmp_backup/team ./
-    mv ../tmp_backup/*ublic* _pages
+    mv ../tmp_backup/search.html ./
 fi

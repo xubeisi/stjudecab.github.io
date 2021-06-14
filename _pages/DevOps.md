@@ -26,5 +26,23 @@ The DevOps team developed automapper could handle data from:
 - WES
 - WGS
 
+##### Data Management
+
+- Custom DB Design via Design and implementation of centralized relational DB (MySQL, PostgreSQL, etc.) and distributed NoSQL DB (MongoDB, Cassandra, etc.)
+- User-Friendly DB Access via Design and implementation of customized web portals, RESTful-compliant endpoints
+
+##### High-Performance Computing
+
+- Solutions with Supercomputer Architecture via Design and implementation of MPI/OpenMP-based algorithms
+- Solutions with GPU Architecture via Design and implementation of CUDA-enabled algorithms
+- Solutions with Cloud-based Architecture via Design and implementation of algorithms on distributed big-data stacks such as Spark/Hadoop
+
+##### Data visualization
+
+- Visualization Analysis via Optimization on data structure and rendering algorithms aiming at high-performance visual creation and smooth user experiences
+- Solutions on Traditional Visualization via Custom 2D and 3D static and interactive data visualization on small/medium-size data sets
+- Solutions on Remote/Web-embedded Visualization via Design and implementation of visualization portals enabling remote interaction with large/volumetric data sets
+
+
 #### Joining St. Jude
 If you are interested in joining please go to the [recruitment](/recruitment) page.
