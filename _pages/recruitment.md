@@ -2,7 +2,7 @@
 title: "Recruitment"
 layout: textlay
 excerpt: "- Openings"
-sitemap: false
+sitemap: true
 permalink: /recruitment/
 ---
 

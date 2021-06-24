@@ -2,7 +2,7 @@
 title: "Research"
 layout: textlay
 excerpt: "- Research"
-sitemap: false
+sitemap: true
 permalink: /research/
 ---
 

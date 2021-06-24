@@ -2,7 +2,7 @@
 title: "CovidExpress"
 layout: textlay
 excerpt: "CovidExpress, COVID-19, COVID, sars-cov-2, database, gene, expression, RNA-seq, OASL, FURIN, IL6, TNF, RIG-I, Immune, ACE2, Virus, TMPRSS2, CRP, IL1A, PPARGC1A, CXCL10, STAT1, DDX58, CSF3, SERPINE1, SPRR2A, CCL3, CD79A, TLR3, CSF2"
-sitemap: false
+sitemap: true
 permalink: /covidexpress/
 ---
 

@@ -2,7 +2,7 @@
 title: "Home"
 layout: homelay
 excerpt: "at St. Jude."
-sitemap: false
+sitemap: true
 permalink: /Genomics/
 group: Genomics
 groupcolor: "#712D91"

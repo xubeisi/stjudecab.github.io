@@ -2,7 +2,7 @@
 title: "Contact"
 layout: textlay
 excerpt: "Contact."
-sitemap: false
+sitemap: true
 permalink: /contact/
 ---
 

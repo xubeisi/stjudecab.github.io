@@ -2,7 +2,7 @@
 title: "Publications"
 layout: gridlay
 excerpt: "- Publications"
-sitemap: false
+sitemap: true
 permalink: /publications/
 years: [2021, 2020, 2019, 2018, 2017, 2016, 2015]
 scholar_first_names_underline: Beisi;Corey;Evadnie;Hongjian;Jason;Patrick;Ti-Cheng;Xun;Yawei;Yiping;Zhongshan;Wojciech;Nadhir;Gang

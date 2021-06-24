@@ -2,7 +2,7 @@
 title: "Code"
 layout: textlay
 excerpt: "- Code."
-sitemap: false
+sitemap: true
 permalink: /code/
 ---
 

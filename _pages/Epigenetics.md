@@ -2,7 +2,7 @@
 title: "Home"
 layout: homelay
 excerpt: "at St. Jude."
-sitemap: false
+sitemap: true
 permalink: /Epigenetics/
 group: Epigenetics
 groupcolor: "#8D0034"

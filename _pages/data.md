@@ -2,7 +2,7 @@
 title: "Data"
 layout: textlay
 excerpt: "- Data."
-sitemap: false
+sitemap: true
 permalink: /data/
 ---
 

@@ -2,7 +2,7 @@
 title: "Team"
 layout: gridlay
 excerpt: "- Team members"
-sitemap: false
+sitemap: true
 permalink: /Epigenetics_team/
 group: Epigenetics
 groupcolor: "#8D0034"

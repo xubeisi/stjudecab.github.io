@@ -2,7 +2,7 @@
 title: "Team"
 layout: gridlay
 excerpt: "- Team members"
-sitemap: false
+sitemap: true
 permalink: /Genomics_team/
 group: Genomics
 groupcolor: "#712D91"

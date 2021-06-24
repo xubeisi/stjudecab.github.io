@@ -2,7 +2,7 @@
 title: "About"
 layout: textlay
 excerpt: "- About"
-sitemap: false
+sitemap: true
 permalink: /about/
 ---
 # St. Jude Center for Applied Bioinformatics(CAB)

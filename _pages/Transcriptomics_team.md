@@ -2,7 +2,7 @@
 title: "Team"
 layout: gridlay
 excerpt: "- Team members"
-sitemap: false
+sitemap: true
 permalink: /Transcriptomics_team/
 group: Transcriptomics
 groupcolor: "#FDB71A"

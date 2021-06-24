@@ -2,7 +2,7 @@
 title: "Research"
 layout: textlay
 excerpt: "- Research"
-sitemap: false
+sitemap: true
 permalink: /Epigenetics_research/
 group: Epigenetics
 groupcolor: "#8D0034"
