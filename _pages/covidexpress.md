@@ -25,6 +25,26 @@ permalink: /covidexpress/
 </div>
 </div>
 
+**What's New**
+ - 2021-08-04 Added protocol information to meta data. Add "Split by", "Group by" function to heatmap
+ - 2021-07-07 Poster presented at CSHL conference "COVID/SARS CoV2 Rapid Research Reports #6"
+ - 2021-06-12 > 300 Vistors
+ - 2021-05-26 Update biorxiv version for figures
+ - 2021-05-18 Added DEG volcano plot, improved memory usage
+ - 2021-05-16 biorxiv submission accepted
+ - 2021-05-12 Start running at digitalocean
+ - 2021-05-08 Deposit app to heroku and digitalocean
+ - 2021-05-02 Improved GSEA run time by numba, add GSEA volcano plot
+ - 2021-04-29 Finalized GSEA results, improved GSEA results storage usage
+ - 2021-04-25 GSEA module ready
+ - 2021-03-17 Visualization module Ready
+ - 2021-03-12 Extracted gene clouds
+ - 2021-03-10 Landing page framework finalized at github.io
+ - 2021-02-24 Test idea PCA/tSNE/UMAP using ssGSEA score
+ - 2021-02-12 Finalized QC criterion
+ - 2021-01-20 Expand data to ~1500 samples
+ - 2020-11-17 Started data download and processing ~700 samples
+
 ---- 
 #### **Overview**
 #### CovidExpress: an interactive portal for intuitive investigation on SARS-CoV-2 related transcriptomes
@@ -308,12 +328,23 @@ Yes, we plan to update the database either Quarterly or if we found 10 new studi
 ##### **Can I compare samples from different studies?**
 We strongly recommend only compare samples from the same study. Our ssGSEA approach mainly aimed at help visual so investigator could find the samples easier, but not able to overcome the batch effect. We tried batch effect correction methods such as Combat, sva, Combat-seq, quantiles normalization, they indeed reduced the batch effect. However, for many published studies, we failed reproduce the top reported genes using the corrected expression values. Thus we decided provide original TPM values as log2(TPM+1). We are investigating more on this topic and might update later if we found better solution allow meta studies.
 
-##### ...
+##### **How can I plot heatmap compare within group**
+You could select the samples by checkbox on the left, then choose which meta data to split by and which meta data to group by. see below for example:
+[![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_heatmap.jpg){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_heatmap.jpg)
 
 ##### **How can I custimize my own groups for plots?**
-{:.no_toc}
 Simple click "creat new category" on the left, select the samples and add to new groups. see below. 
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_add_group.jpg){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_add_group.jpg)
+
+##### More...
+
+##### **What does "Diff. groups" mean in "Split by" or "Group by" meta data**
+{:.no_toc}
+Those were the samples you selected either checkbox or lasso function after you click "1:" or "2:" for differential expression analysis. For details, check "Compare expression of multiple genes" part of [Learn about cellxgene basical functions](https://chanzuckerberg.github.io/cellxgene/posts/gallery){:target="_blank"}
+
+##### **Why I encountered "Unexpected HTTP response 400, BAD REQUEST" when plot heatmap by "Plot top 10 DE genes" function**
+{:.no_toc}
+This happens because the samples you selected doesn't contain all "Group by" you want compare for each "Split by" group. You could confirm using the "Diff. groups" buttons.
 
 ##### **Why I encountered "Unexpected HTTP error" or "Failure loading source"?**
 {:.no_toc}
