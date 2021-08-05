@@ -336,6 +336,11 @@ You could select the samples by checkbox on the left, then choose which meta dat
 Simple click "creat new category" on the left, select the samples and add to new groups. see below. 
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_add_group.jpg){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_add_group.jpg)
 
+##### **How can I get differential expressed genes(DEG) results and Volcano plot?**
+You could select the samples by checkbox on the left or lasso and put them into either group 1 or group2, and then compare, see below for steps.
+[![]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_DEG_volcano.jpg){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/covidexpress_DEG_volcano.jpg)
+
+
 ##### More...
 
 ##### **What does "Diff. groups" mean in "Split by" or "Group by" meta data**
