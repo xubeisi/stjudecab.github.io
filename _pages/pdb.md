@@ -14,74 +14,91 @@ var pdblist=[];
 var myJmols=[];
 
 const JmolInfo = {
-width:'100%',
-height:'100%',
-color:'#E2F4F5',
-j2sPath:'/assets/jmol/jsmol/j2s',
-serverURL:'/assets/jmol/jsmol/php/jsmol.php',
-use:'html5'
+    width:'100%',
+    height:'100%',
+    color:'#E2F4F5',
+    j2sPath:'/assets/jmol/jsmol/j2s',
+    serverURL:'/assets/jmol/jsmol/php/jsmol.php',
+    use:'html5'
 };
 
 fetch(pdblistfile)
-.then(response => response.text())
-.then(data => {
-	var lines = data.trim().split('\n');
-	for(var line = 0; line < lines.length; line++){
-		if (lines[line].length > 0){
-			pdblist.push(lines[line].trim().split(/\s+/));
-			myJmols.push('myJmol' + line.toString());
-		}
-	}
-	$(document).ready(function(){
-		createTable([["row 1, cell 1", "row 1, cell 2"], ["row 2, cell 1", "row 2, cell 2"]]);
-		for(var line = 0; line < pdblist.length; line++){
-		var myJmol = myJmols[line];
-		var cmds=[];
-		var x=pdblist[line][0],
-		    y=pdblist[line][1],
-		    pdbname=pdblist[line][2],
-		    onepdbfile=pdblist[line][3];
-		cmds.push(`$('#JmolDiv${x}_${y}').html( Jmol.getAppletHtml('${myJmol}', JmolInfo) );`)
-		cmds.push(`Jmol.jmolCheckbox(${myJmol}, "spin on", "spin off", "spin");`)
-		cmds.push(`Jmol.script(${myJmol}, 'load ${onepdbfile}; cartoon only; color cartoon structure; set echo top left; echo "${pdbname}"');`)
-		cmd = cmds.join("\n")
-		console.log(cmd);
-		eval(cmd);
-		}
-	});
-});
+    .then(response => response.text())
+    .then(data => {
+        var lines = data.trim().split('\n');
+        for(var line = 0; line < lines.length; line++){
+            if (lines[line].length > 0){
+                pdblist.push(lines[line].trim().split(/\s+/));
+                myJmols.push('myJmol' + line.toString());
+            }
+        }
 
-function createTable(tableData) {
-  var table = document.createElement('table');
-  var tableBody = document.createElement('tbody');
-  var iline = 0, ix = 1, iy = 1;
-  tableData.forEach(function(rowData) {
-    var row = document.createElement('tr');
+        maxx = Math.max.apply(Math, pdblist.map(function(o) { return o[0]; }))
+        maxy = Math.max.apply(Math, pdblist.map(function(o) { return o[1]; }))
+        var tab2d = [];
+        for(var j = 0; j < maxy; j++){
+            var tabtmp = [];
+            for(var i = 0; i < maxx; i++){
+                tabtmp.push("");
+            }
+            tab2d.push(tabtmp);
+        }
+        for(var line = 0; line < pdblist.length; line++){
+            var x=pdblist[line][0]-1,
+                y=pdblist[line][1]-1;
+            tab2d[y][x] = "Yes";
+        }
 
-    rowData.forEach(function(cellData) {
-      var cell = document.createElement('td');
-      var celldiv = document.createElement('div');
-	  if (cellData.length > 0){
-        var cellDatadiv = `<span id="span_jmolCheckbox${iline}"><input type="checkbox" name="jmolCheckbox${iline}" id="jmolCheckbox${iline}" onclick="Jmol.controls._cbClick(this)" onmouseover="Jmol.controls._cbOver(this);return true" onmouseout="Jmol.controls._mouseOut()"><label for="jmolCheckbox${iline}">Spin</label></span>\n`
-        cellDatadiv += `<div id="JmolDiv${ix}_${iy}" style="width:70vmin; height:70vmin;"></div>`
-        celldiv.innerHTML = cellDatadiv;
-        iline += 1;
-	  } else {
-        celldiv.innerHTML = ""
-	  }
-	  cell.appendChild(celldiv);
-      row.appendChild(cell);
-      ix += 1;
+        $(document).ready(function(){
+            createTable(tab2d);
+            for(var line = 0; line < pdblist.length; line++){
+                var myJmol = myJmols[line];
+                var cmds=[];
+                var x=pdblist[line][0],
+                    y=pdblist[line][1],
+                    pdbname=pdblist[line][2],
+                    onepdbfile=pdblist[line][3];
+                cmds.push(`$('#JmolDiv${x}_${y}').html( Jmol.getAppletHtml('${myJmol}', JmolInfo) );`)
+                cmds.push(`Jmol.jmolCheckbox(${myJmol}, "spin on", "spin off", "spin");`)
+                cmds.push(`Jmol.script(${myJmol}, 'load ${onepdbfile}; cartoon only; color cartoon structure; set echo top left; echo "${pdbname}"');`)
+                cmd = cmds.join("\n")
+                console.log(cmd);
+                eval(cmd);
+            }
+        });
     });
 
-    tableBody.appendChild(row);
-    iy += 1;
-  });
+function createTable(tableData) {
+    var table = document.createElement('table');
+    var tableBody = document.createElement('tbody');
+    var iline = 0, ix = 1, iy = 1;
+    tableData.forEach(function(rowData) {
+        var row = document.createElement('tr');
 
-  table.appendChild(tableBody);
-  const currentDiv = document.getElementById("AllPDBs");
-  currentDiv.appendChild(table);
-  
+        ix = 1;
+        rowData.forEach(function(cellData) {
+            var cell = document.createElement('td');
+            var celldiv = document.createElement('div');
+            if (cellData.length > 0){
+                var cellDatadiv = `<span id="span_jmolCheckbox${iline}"><input type="checkbox" name="jmolCheckbox${iline}" id="jmolCheckbox${iline}" onclick="Jmol.controls._cbClick(this)" onmouseover="Jmol.controls._cbOver(this);return true" onmouseout="Jmol.controls._mouseOut()"><label for="jmolCheckbox${iline}">Spin</label></span>\n`
+                cellDatadiv += `<div id="JmolDiv${ix}_${iy}" style="width:70vmin; height:70vmin;"></div>`
+                celldiv.innerHTML = cellDatadiv;
+                iline += 1;
+            } else {
+                celldiv.innerHTML = ""
+            }
+            cell.appendChild(celldiv);
+            row.appendChild(cell);
+            ix += 1;
+        });
+
+        tableBody.appendChild(row);
+        iy += 1;
+    });
+
+    table.appendChild(tableBody);
+    const currentDiv = document.getElementById("AllPDBs");
+    currentDiv.appendChild(table);
 }
 </script>
 
