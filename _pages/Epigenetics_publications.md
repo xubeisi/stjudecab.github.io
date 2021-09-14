@@ -29,7 +29,7 @@ For a [full list (GEO\|SRA\|Browser\|Code) see below](#full-list)
 
 ### Full List
 
-<nobr><em>*</em>denotes equal contribution</nobr>
+<nobr><em>*</em>denotes equal contribution, <em>#</em>denotes corresponding</nobr>
 
 <div class="publications">
 

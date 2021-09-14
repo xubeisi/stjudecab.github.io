@@ -24,71 +24,116 @@
     </p>
     </div>
     <div class="bib_highlight_author">
-      {% assign authors_team = page.scholar_first_names_underline | split: ";" %}
-      {% if entry.cofirst %}
-        {% assign tmp = entry.cofirst | split: ";" %}
-          {% if tmp.size == 2 %}
-            {% assign corresponding = tmp[1] %}
-          {% endif %}
-          {% assign cofirst = tmp[0] %}
-        {% assign tmp = cofirst | split: "," %}
-          {% assign cofirst_array = "" | split: ',' %}
-          {% if tmp.size > 1 %}
-            {% for one in tmp %}
-              {% assign cofirst_array = cofirst_array | push: one %}
-            {% endfor %}
-          {% else %}
-            {% for one in (1..tmp[0]) %}
-              {% capture onetmp %}{{one}}{% endcapture %}
-              {% assign cofirst_array = cofirst_array | push: onetmp %}
-            {% endfor %}
-          {% endif %}
-      {% else %}
-        {% assign cofirst_array = "" | split: ',' %}
-      {% endif %}
-      {% for author in entry.author_array %}
-        {% assign author_is_self = false %}
-        {% if page.scholar_first_name_bold contains author.first%}
-            {% assign author_is_self = true %}
+        {% assign authors_team = page.scholar_first_names_underline | split: ";" %}
+        {% if page.scholar_last_names_underline %}
+          {% assign authors_team_last = page.scholar_last_names_underline | split: ";" %}
         {% endif %}
-        {% assign author_is_team = false %}
-        {% for author_team in authors_team %}
-          {% if author_team contains author.first %}
-            {% assign author_is_team = true %}
-          {% endif %}
-        {% endfor %}
-        {% assign coauthor_url = nil %}
-        {% if site.data.coauthors[author.first] %}
-          {% assign coauthor_url = site.data.coauthors[author.first].url %}
+        {% if entry.cofirst %}
+          {% assign tmp = entry.cofirst | split: ";" %}
+            {% if tmp.size == 2 %}
+              {% assign corresponding = tmp[1] %}
+              {% assign tmp2 = corresponding | split: "," %}
+              {% assign corresponding_array = "" | split: ',' %}
+              {% for one in tmp2 %}
+                {% capture onetmp2 %}{{one}}{% endcapture %}
+                {% if one == "-1" %}
+                  {% capture onetmp2 %}{{entry.author_array.size }}{% endcapture %}
+                {% endif %}
+                {% if one == "-2" %}
+                  {% capture onetmp2 %}{{entry.author_array.size | minus: 1}}{% endcapture %}
+                {% endif %}
+                {% if one == "-3" %}
+                  {% capture onetmp2 %}{{entry.author_array.size | minus: 2}}{% endcapture %}
+                {% endif %}
+                {% if one == "-4" %}
+                  {% capture onetmp2 %}{{entry.author_array.size | minus: 3}}{% endcapture %}
+                {% endif %}
+                {% if one == "-5" %}
+                  {% capture onetmp2 %}{{entry.author_array.size | minus: 4}}{% endcapture %}
+                {% endif %}
+                {% assign corresponding_array = corresponding_array | push: onetmp2 %}
+              {% endfor %}
+            {% else %}
+              {% assign corresponding_array = "" | split: ',' %}
+            {% endif %}
+            {% assign cofirst = tmp[0] %}
+            {% assign tmp = cofirst | split: "," %}
+            {% assign cofirst_array = "" | split: ',' %}
+            {% if tmp.size > 1 %}
+              {% for one in tmp %}
+                {% assign cofirst_array = cofirst_array | push: one %}
+              {% endfor %}
+            {% else %}
+              {% for one in (1..tmp[0]) %}
+                {% capture onetmp %}{{one}}{% endcapture %}
+                {% assign cofirst_array = cofirst_array | push: onetmp %}
+              {% endfor %}
+            {% endif %}
         {% else %}
-          {% for coauthor in site.data.coauthors %}
-            {% if coauthor contains author.first %}
-              {% assign coauthor_url = coauthor.url %}
-              {% break %}
+          {% assign cofirst_array = "" | split: ',' %}
+          {% assign corresponding_array = "" | split: ',' %}
+        {% endif %}
+        {% for author in entry.author_array %}
+          {% assign author_is_self = false %}
+          {% if author.first contains page.scholar_first_name_bold %}
+            {% assign author_is_self = true %}
+          {% endif %}
+          {% if author_is_self and page.scholar_last_name_bold %}
+            {% if author.last contains page.scholar_last_name_bold %}
+              {% assign author_is_self = true %}
+            {% else %}
+              {% assign author_is_self = false %}
+            {% endif %}
+          {% endif %}
+          {% assign author_is_team = false %}
+          {% for author_team in authors_team %}
+            {% if author.first contains author_team %}
+              {% assign author_is_team = true %}
             {% endif %}
           {% endfor %}
-        {% endif %}
-        
-        {% assign styleauthor = {{author.last}} | append: ' ' | append: {{author.first}} %}
-        {% if author_is_self %}
-            {% assign styleauthor = {{styleauthor}} | prepend: '<strong>' | append: '</strong>' %}
-        {% endif %}
-        {% if author_is_team %}
-            {% assign styleauthor = {{styleauthor}} | prepend: '<em>' | append: '</em>' %}
-        {% endif %}
-        {% if coauthor_url %}
-            {% assign styleauthor = {{styleauthor}} | prepend: '<a href="{{coauthor_url}}" target="_blank">' | append: '</a>' %}
-        {% endif %}
-        {% capture authorindex_str %}{{forloop.index}}{% endcapture %}
-        {% if cofirst_array contains authorindex_str %}
-           {% assign styleauthor = {{styleauthor}} | append: '<nobr><em>*</em></nobr>' %}
-        {% endif %}
-        {% if forloop.last == false %}
-           {% assign styleauthor = {{styleauthor}} | append: ',' %}
-        {% endif %}
-        {{ styleauthor }}
-      {% endfor %}
-    </div>
+          {% if author_is_team and authors_team_last %}
+            {% assign author_is_team = false %}
+            {% for author_team in authors_team_last %}
+              {% if author.last contains author_team %}
+                {% assign author_is_team = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          {% assign coauthor_url = nil %}
+          {% if site.data.coauthors[author.first] %}
+            {% assign coauthor_url = site.data.coauthors[author.first].url %}
+          {% else %}
+            {% for coauthor in site.data.coauthors %}
+              {% if coauthor contains author.first %}
+                {% assign coauthor_url = coauthor.url %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+
+          {% assign styleauthor = {{author.last}} | append: ' ' | append: {{author.first}} %}
+          {% if author_is_self %}
+              {% assign styleauthor = {{styleauthor}} | prepend: '<strong>' | append: '</strong>' %}
+          {% endif %}
+          {% if author_is_team %}
+              {% assign styleauthor = {{styleauthor}} | prepend: '<em>' | append: '</em>' %}
+          {% endif %}
+          {% if coauthor_url %}
+              {% assign styleauthor = {{styleauthor}} | prepend: '<a href="{{coauthor_url}}" target="_blank">' | append: '</a>' %}
+          {% endif %}
+          {% capture authorindex_str %}{{forloop.index}}{% endcapture %}
+          {% if cofirst_array contains authorindex_str %}
+             {% assign styleauthor = {{styleauthor}} | append: '<nobr><em>*</em></nobr>' %}
+          {% endif %}
+          {% if corresponding_array contains authorindex_str %}
+             {% assign styleauthor = {{styleauthor}} | append: '<nobr><em>#</em></nobr>' %}
+          {% endif %}
+          {% if forloop.last == false %}
+             {% assign styleauthor = {{styleauthor}} | append: ',' %}
+          {% endif %}
+          {{ styleauthor }}
+          {% endfor %}
+      </div>
   <div>
       <strong>
           {% if entry.doi %}

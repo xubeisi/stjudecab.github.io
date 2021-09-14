@@ -72,6 +72,7 @@
             {% endif %}
         {% else %}
           {% assign cofirst_array = "" | split: ',' %}
+          {% assign corresponding_array = "" | split: ',' %}
         {% endif %}
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
