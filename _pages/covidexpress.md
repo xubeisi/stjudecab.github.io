@@ -26,6 +26,8 @@ permalink: /covidexpress/
 </div>
 
 **What's New**
+ - 2021-10-08 Put up [Video Tutorials](https://www.youtube.com/playlist?list=PL6mTMza0yJjaqDJSoemg6qWhgUTjh9jua){:target="_blank"}
+ - 2021-10-06 Setup [Gitter Channel](https://gitter.im/covidexpress/community){:target="_blank"} for bug report, new study suggestion, et.al
  - 2021-08-04 Added protocol information to meta data. Add "Split by", "Group by" function to heatmap
  - 2021-07-07 Poster presented at CSHL conference "COVID/SARS CoV2 Rapid Research Reports #6"
  - 2021-06-12 > 300 Vistors
@@ -60,6 +62,8 @@ Infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in h
 ---- 
 #### **Portal Usage**
 - [Learn about cellxgene basical functions](https://chanzuckerberg.github.io/cellxgene/posts/gallery){:target="_blank"}
+- [Video Tutorial: CovidExpress Differential Expressed Gene(DEG) analysis feature](https://www.youtube.com/watch?v=NYHAFQs8PDM&list=PL6mTMza0yJjaqDJSoemg6qWhgUTjh9jua&index=3){:target="_blank"}
+- [Video Tutorial: CovidExpress Gene Set Enrichment Analysis(GSEA) feature](https://www.youtube.com/watch?v=--7KuPGOxgA&list=PL6mTMza0yJjaqDJSoemg6qWhgUTjh9jua&index=1){:target="_blank"}
 
 - Below illustrated the functional plugins we developed to help visualzation and analysis.
 [![]({{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg){: style="width: 100%; margin-left: 30px; margin-right: 30px; border: 10px"}]({{ site.url }}{{ site.baseurl }}/images/codepic/cellxgene_gsea.jpg)
@@ -323,7 +327,7 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 More details could be found in our pre-print [BIORXIV/2021/444026](https://www.biorxiv.org/content/10.1101/2021.05.14.444026v1){:target="_blank"}
 
 ##### **Will the database been updated?**
-Yes, we plan to update the database either Quarterly or if we found 10 new studies from public resources. Suggestion of new studies is welcome and appreciated, simple <a href="mailto:beisi.xu#stjude.org?subject=[Covidexpress]">Email Us</a>.
+Yes, we plan to update the database either Quarterly or if we found 10 new studies from public resources. Suggestion of new studies is welcome and appreciated, simple <a href="mailto:beisi.xu#stjude.org?subject=[Covidexpress]">Email Us</a> or let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community)
 
 ##### **Can I compare samples from different studies?**
 We strongly recommend only compare samples from the same study. Our ssGSEA approach mainly aimed at help visual so investigator could find the samples easier, but not able to overcome the batch effect. We tried batch effect correction methods such as Combat, sva, Combat-seq, quantiles normalization, they indeed reduced the batch effect. However, for many published studies, we failed reproduce the top reported genes using the corrected expression values. Thus we decided provide original TPM values as log2(TPM+1). We are investigating more on this topic and might update later if we found better solution allow meta studies.
@@ -347,10 +351,22 @@ You could select the samples by checkbox on the left or lasso and put them into 
 {:.no_toc}
 Those were the samples you selected either checkbox or lasso function after you click "1:" or "2:" for differential expression analysis. For details, check "Compare expression of multiple genes" part of [Learn about cellxgene basical functions](https://chanzuckerberg.github.io/cellxgene/posts/gallery){:target="_blank"}
 
-##### **Why I encountered "Unexpected HTTP response 400, BAD REQUEST" when plot heatmap by "Plot top 10 DE genes" function**
+##### **Why the GSEA results different when I re-run**
 {:.no_toc}
-This happens because the samples you selected doesn't contain all "Group by" you want compare for each "Split by" group. You could confirm using the "Diff. groups" buttons.
+To reduce the time use, our GSEA run permutation 100 times, this increased variation of enrichment score calculation. In our tests, the exactly value might be different but the stable signal remains the same. We suggest use the GSEA plot as evidence. We will also implement the feature to allow user select permutation times later.
+
+##### **Why I encountered "Unexpected HTTP response 400, BAD REQUEST"**
+{:.no_toc}
+This usually happens because the group you tried to plot doesn't contain samples. We went through many tests and tried to avoid this. You could also try [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"} and let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community)
 
 ##### **Why I encountered "Unexpected HTTP error" or "Failure loading source"?**
 {:.no_toc}
-This usually happens when an user tried to plot his customized sample group annotation but didn't add samples to that group. We are still trying to find a better solution to avoid that. As tempory solution, you could either [clean your browser cache](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en){:target="_blank"} or [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"}
+This usually happens when an user tried to plot his customized sample group annotation but didn't add samples to that group. As tempory solution, please [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"} and let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community)
+
+##### **Why the download button for figures didn't work**
+{:.no_toc}
+There are some technical difficulties to allow that feature due to the javascript plugin used. You could still download the high resolution svg figure using right-click -> "save image as".
+
+##### **How do report bugs**
+{:.no_toc}
+Please let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community)
