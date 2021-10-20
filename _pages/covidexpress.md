@@ -327,7 +327,7 @@ h5ad file is a [HDF5](https://en.wikipedia.org/wiki/Hierarchical_Data_Format#HDF
 More details could be found in our pre-print [BIORXIV/2021/444026](https://www.biorxiv.org/content/10.1101/2021.05.14.444026v1){:target="_blank"}
 
 ##### **Will the database been updated?**
-Yes, we plan to update the database either Quarterly or if we found 10 new studies from public resources. Suggestion of new studies is welcome and appreciated, simple <a href="mailto:beisi.xu#stjude.org?subject=[Covidexpress]">Email Us</a> or let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community)
+Yes, we plan to update the database either Quarterly or if we found 10 new studies from public resources. Suggestion of new studies is welcome and appreciated, simple <a href="mailto:beisi.xu#stjude.org?subject=[Covidexpress]">Email Us</a> or let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community){:target="_blank"}
 
 ##### **Can I compare samples from different studies?**
 We strongly recommend only compare samples from the same study. Our ssGSEA approach mainly aimed at help visual so investigator could find the samples easier, but not able to overcome the batch effect. We tried batch effect correction methods such as Combat, sva, Combat-seq, quantiles normalization, they indeed reduced the batch effect. However, for many published studies, we failed reproduce the top reported genes using the corrected expression values. Thus we decided provide original TPM values as log2(TPM+1). We are investigating more on this topic and might update later if we found better solution allow meta studies.
@@ -357,11 +357,11 @@ To reduce the time use, our GSEA run permutation 100 times, this increased varia
 
 ##### **Why I encountered "Unexpected HTTP response 400, BAD REQUEST"**
 {:.no_toc}
-This usually happens because the group you tried to plot doesn't contain samples. We went through many tests and tried to avoid this. You could also try [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"} and let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community)
+This usually happens because the group you tried to plot doesn't contain samples. We went through many tests and tried to avoid this. You could also try [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"} and let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community){:target="_blank"}
 
 ##### **Why I encountered "Unexpected HTTP error" or "Failure loading source"?**
 {:.no_toc}
-This usually happens when an user tried to plot his customized sample group annotation but didn't add samples to that group. As tempory solution, please [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"} and let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community)
+This usually happens when an user tried to plot his customized sample group annotation but didn't add samples to that group. As tempory solution, please [open a browser using in private/incognito mode](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DAndroid&hl=en){:target="_blank"} and let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community){:target="_blank"}
 
 ##### **Why the download button for figures didn't work**
 {:.no_toc}
@@ -369,4 +369,4 @@ There are some technical difficulties to allow that feature due to the javascrip
 
 ##### **How do report bugs**
 {:.no_toc}
-Please let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community)
+Please let us know in [Our Gitter Channel](https://gitter.im/covidexpress/community){:target="_blank"}

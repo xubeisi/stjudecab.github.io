@@ -13,7 +13,7 @@ stjude: x/patrick-schreiner
 orcid: 0000-0001-5391-2642
 linkedin: patrick-schreiner-phd
 bibfile: tm_patrick
-years: [2021, 2020, 2019, 2018, 2017]
+years: [2022, 2021, 2020, 2019, 2018, 2017]
 scholar_first_names_underline: Patrick
 scholar_first_name_bold: Patrick
 ---
