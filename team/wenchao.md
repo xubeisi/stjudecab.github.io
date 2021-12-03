@@ -13,10 +13,12 @@ orcid: 0000-0003-4478-8410
 linkedin: wenchao-zhang-5095044a
 bibfile: tm_wenchao.bib
 years: [2021, 2020, 2019, 2018, 2016, 2015, 2014, 2012, 2011, 2008]
+scholar_first_names_underline: Wenchao
+scholar_first_name_bold: Wenchao
 ---
 
 ### Overview
-Dr. Wenchao Zhang is a bioinformatics software engineer in the Center for Applied Bioinformatics (CAB) in the St Jude Children’s Research Hospital (SJCRH). He worked as an electronics engineer in his early career time and later on switched to Bioinformatics. He has since been accumulated knowledge and skills in bioinformatics software/pipeline development, inlcuding computational mass-spectrometry for proteomics and metabolomics, statistical genomics with a focus on polygenic varaint analysis, eppistatic GWAS mapping, NGS and HiC data analysis. He is particularly interested in utilizing HPC skills (task driven CPU parallel computing such as MPI, and data driven parallel computing such as CUDA GPU) to accelearte the bioinformatcis analysis.          
+Dr. Wenchao Zhang is a bioinformatics software engineer in the Center for Applied Bioinformatics (CAB) in the St Jude Children’s Research Hospital (SJCRH). He worked as an electronics engineer in his early career time and later on switched to Bioinformatics. He has since been accumulated knowledge and skills in bioinformatics software/pipeline development, inlcuding computational mass-spectrometry for proteomics and metabolomics, statistical genomics with a focus on polygenic variant analysis, epistatic GWAS mapping, NGS and HiC data analysis. He is particularly interested in utilizing HPC skills (task driven CPU parallel computing such as MPI, and data driven parallel computing such as CUDA GPU) to accelearte the bioinformatcis analysis.          
 
 ### Education
 - PhD, Communication & Information System, Institute of Electronics, Chinese Academy of Science, Beijing, China (2008)
