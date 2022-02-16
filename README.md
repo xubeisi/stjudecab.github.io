@@ -1,5 +1,3 @@
-TESTEST
-
 # St. Jude Center for Applied Bioinformatics(CAB)
 
 Our website is based on [jekyll](https://jekyllrb.com)
