@@ -1,7 +1,9 @@
 ---
 layout: member
+permalink: /cv/
+sitemap: true
 title: Beisi Xu
-position: Principal Bioinformatics Research Scientist(Epigenetics)
+position: Principal Bioinformatics Research Scientist
 handle: beisi
 email: beisi.xu@stjude.org
 twitter:

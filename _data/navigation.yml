@@ -1,18 +1,5 @@
-- link: /
-  name: Groups
-  sublinks:
-    - name: Transcriptomics
-      link: /Transcriptomics/
-    - name: Epigenetics
-      link: /Epigenetics/
-    - name: Genomics
-      link: /Genomics/
-    - name: Genetics
-      link: /Genetics/
-    - name: DevOps
-      link: /DevOps/
-- link: /team/
-  name: Team
+- link: /cv/
+  name: CV
 - link: /research/
   name: Research
 - link: /publications/
@@ -22,6 +9,9 @@
   iscommon: yes
 - link: /covidexpress/
   name: CovidExpress
+  iscommon: yes
+- link: /pdb/
+  name: PDB
   iscommon: yes
 - link: /contact/
   name: Contact

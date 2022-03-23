@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: CAB @ St. Jude
-titleshort: CAB
+title: Beisi @ St. Jude
+titleshort: Beisi
 email: xubeisi#gmail.com
 description: 
 baseurl: ""
-url: "https://stjudecab.github.io"
+url: "https://xubeisi.github.io"
 
 plugins:
   - jekyll-spaceship
@@ -58,13 +58,13 @@ excerpt_separator: "<!--more-->"
 scholar:
   last_name: Xu
   first_name: Beisi # bold for Group Lead
-  first_names_team: Beisi;Wojciech;Nadhir # match team member for publications
+  first_names_team: Beisi
   style: apa
   locale: en
   sort_by: year,month
   order: descending,descending
   source: /_bibliography/
-  bibliography: papers.clean.bib
+  bibliography: tm_beisi.bib
   bibliography_template: bib
   reference_tagname: div
 
@@ -86,7 +86,7 @@ devorprod: production
 enable_google_analytics:    true
 enable_google_tagmanager:   false
 
-google_analytics:     G-1H31G58P5J
+google_analytics:     G-7VM1P89105
 google_tagmanager:    GTM-KBQBM37
 
 max_width: 1200px
