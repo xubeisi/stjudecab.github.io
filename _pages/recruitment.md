@@ -10,12 +10,13 @@ Thank you for your interest in joining the St. Jude.
 
 ### Open positions
 
-- [44690 : Structural Biology : Principal/Senior Bioinformatics Research Scientist – Visualization Engineer, Web Developer & Designer](https://careers-stjude.icims.com/jobs/7786/principal-bioinformatics-research-scientist/job?in_iframe=1){:target="_blank"}
+- [46617 : Structural Biology : Senior Bioinformatics Analyst - Cancer Genetics](https://careers-stjude.icims.com/jobs/8764/sr-bioinformatics-analyst/job){:target="_blank"}
 - [45020 : Structural Biology : Senior Bioinformatics Analyst- Computational Human Geneticist](https://careers-stjude.icims.com/jobs/8135/sr-bioinformatics-analyst/job){:target="_blank"}
-- [43770 : CAB : Bioinformatics Software Engineer](https://careers-stjude.icims.com/jobs/6825/bioinformatics-software-engineer/job){:target="_blank"}
 - [46522 : CAB : Bioinformatics Research Scientist Transcriptomics](http://myjob.io/csfwh){:target="_blank"}
 
-Please search at [St. Jude Career Page](https://jobs-stjude.icims.com/jobs/search?ss=1&searchKeyword=Bioinformatics&searchCategory=&searchZip=&searchRadius=20){:target="_blank"} for more opening. 
+<iframe src="https://jobs-stjude.icims.com/jobs/search?mode=redo&pr=0&schemaId=%24T%7BJob%7D.%24T%7BJobContent2013%7D.%24F%7BTitle%7D&o=D&searchRadius=20&searchCategory=50638" title="St. Jude Bioinformatics Jobs" width="100%" height="800"></iframe>
+
+Or search at [St. Jude Career Page](https://jobs-stjude.icims.com/jobs/search?ss=1&searchKeyword=Bioinformatics&searchCategory=&searchZip=&searchRadius=20){:target="_blank"} for more opening. 
 
 ---
 
