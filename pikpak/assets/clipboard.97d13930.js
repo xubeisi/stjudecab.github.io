@@ -1,4 +1,4 @@
-import{T as Y,U as G}from"./index.0af2115c.js";var O={exports:{}};/*!
+import{T as Y,U as G}from"./index.227ee509.js";var O={exports:{}};/*!
  * clipboard.js v2.0.8
  * https://clipboardjs.com/
  *
